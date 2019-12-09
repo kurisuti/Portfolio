@@ -5,86 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Christie Chang - UX Designer </title>
     <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/solid.css" integrity="sha384-VUnOJnDrNS0aVOhF6puq5SPJOP5oOvIO6n54m14E2/OHv6DU1gklJ4EImoD382c5" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/regular.css" integrity="sha384-gr19od0wAxe2+mYHEXvS7Y1ppn+ESoAQzTYGPauVJYyAYYl0NBQaKveeQnzez2Rm" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/brands.css" integrity="sha384-+B+cmd37r9agFUqHw5ABups/+o97SqA/Y6S5b3ly2q0ABacloQs0HZOQAX1NpJhF" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/fontawesome.css" integrity="sha384-jUGOH+gYMCfz2jbO6DW8vojES/a323h7dcoT6qI7Bvod9mew/wwTZryjccmaMOkf" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/solid.css" integrity="sha384-VUnOJnDrNS0aVOhF6puq5SPJOP5oOvIO6n54m14E2/OHv6DU1gklJ4EImoD382c5" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/regular.css" integrity="sha384-gr19od0wAxe2+mYHEXvS7Y1ppn+ESoAQzTYGPauVJYyAYYl0NBQaKveeQnzez2Rm" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/brands.css" integrity="sha384-+B+cmd37r9agFUqHw5ABups/+o97SqA/Y6S5b3ly2q0ABacloQs0HZOQAX1NpJhF" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/fontawesome.css" integrity="sha384-jUGOH+gYMCfz2jbO6DW8vojES/a323h7dcoT6qI7Bvod9mew/wwTZryjccmaMOkf" crossorigin="anonymous">
   </head>
   <body>
-    <div class= "navbar-menu">
-        <div class= "logo navbar-left">
+    <!--navbar menu-->
+    <nav>
+        <div class= "logo-navbar-left">
           <img src="Images/Logo.png" alt="Christie Logo" width=5%>
         </div>
-        <nav class= "standard navbar-right">
+        <div class= "xnavbar-right">
           <ul>
             <li><a href="default.asp">Home</a></li>
             <li><a href="default.asp">Work</a></li>
             <li><a href="default.asp">About</a></li>
-            <li><a href="default.asp">Contact</a></li>
+            <li><button type="button">Contact</button></li>
           </ul>
-        </nav>
-    </div>
+        </div>
+    </nav>
+    <!--header-->
     <header>
       <h3>Nice to meet you.</h3>
-      <h1>My name is Christie, I'm a UX Designer from Los Angeles.</h1>
-      <h4>I enjoy creating thoughtful human experiences.</h4>
+      <h1>My name is <font color="E07B63">Christie</font>, I'm a UX Designer from Los Angeles.</h1>
+      <h3>I enjoy creating thoughtful human experiences.</h3>
+      <button type="button">Get to know me</button>
     </header>
-    <div class= "design-process-section">
-      <h3>This is my Design Process.</h3>
-      <div class= "profile-image-1">
-        <img src="Images/Christie-ProfilePicture.jpg" alt="Profile Picture-1" width=100%>
-      </div>
-      <div class= "strategy">
-        <h5>Strategy</h5>
-        <p>I ask a lot of questions, but I'm not trying to be annoying. I ask questions to make sure I am aligned with your expectations for a project. This stage includes doing market research and competitive analysis.</p>
-      </div>
-      <div class= "structure">
-        <h5>Structure</h5>
-        <p>Who doesn't like a great foundation? At this stage, I analyze data received from my research to prioritize user stories that would determine the information hierarchy of the project. Here is where the MVP is created.</p>
-      </div>
-      <div class= "visual-design">
-        <h5>Visual Design</h5>
-        <p>The best designs are the ones that evoke feelings. I convert wireframes into their final design look. In order to provide teh best experience of the product, I create a dynamic prototype that displays the final results before having it sent to development.</p>
-      </div>
-    </div>
+    <!--recent work-->
     <div class="recent-work-section">
-        <ul class="recent-work-projects">
-          <li class="project">
-            <h5>ClearBox</h5>
+      <h2>Recent Work</h2>
+        <div class="featured-project">
+          <div class="featured-project-name">
+            <h4>ClearBox</h4>
+            <p>A workspace for remote working professionals</p>
             <p>View Case Study <i class="fas fa-arrow-right"></i></p>
-            <img src="Images/ClearBox-Thumbnail.png" width=100%>
-          </li>
-          <li class="project">
-            <h5>JobFlare</h5>
+          </div>
+          <div class="project-one-image">
+            <img src="Images/ClearBox-Thumbnail.png" width=50%>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-name">
+            <h4>BusyBus</h4>
+            <p>A local transit app that helps commuters get to their destination.</p>
             <p>View Case Study <i class="fas fa-arrow-right"></i></p>
-            <img src="Images/JobFlare_Screen_Thumbnail.jpg" width=100%>
-          </li>
-          <li class="project">
-            <h5>BusyBus</h5>
+          </div>
+          <div class="project-image">
+            <img src="Images/BusyBus-Thumbnail.jpg" width=50%>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-name">
+            <h4>JobFlare</h4>
+            <p>A mobile app that connects users to jobs based on their game scores.</p>
             <p>View Case Study <i class="fas fa-arrow-right"></i></p>
-            <img src="Images/BusyBus-Thumbnail.jpg" width=100%>
-          </li>
-          <li class="project">
-            <h5>Criteria</h5>
-            <p>View Case Study <i class="fas fa-arrow-right"></i></p>
-            <img src="Images/Criteria-Thumbnail.png" width=100%>
-          </li>
-          <li class="project">
-            <h5>Furniture USA</h5>
-            <p>View Case Study <i class="fas fa-arrow-right"></i></p>
-            <img src="Images/FurnitureUSA-Thumbnail.jpg" width=100%>
-          </li>
-          <li class="project">
-            <h5>Profile Design</h5>
-            <p>View Case Study <i class="fas fa-arrow-right"></i></p>
-            <img src="Images/ProfileDesign-Thumbnail.png" width=100%>
-          </li>
-        </ul>
+          </div>
+          <div class="project-image">
+            <img src="Images/JobFlare_Screen_Thumbnail.jpg" width=50%>
+          </div>
+        </div>
     </div>
+    <hr color="DEDADA">
+    <!--about me-->
+    <div class="about-me-wrapper">
+      <div class="about-me">
+        <div class="profile-image">
+          <img src="Images/Christie-ProfilePicture.jpg" width=35%>
+        </div>
+        <h2>Me in a Nutshell.</h2>
+        <p>Hey there, my name is Christie and I am a designer. Art has always been a part of my life. I have a bachelors in Fine Arts and a minor in Digital Arts. After graduating, I was a graphic designer for six years. Despite the experience gained in my workplaces, I’ve always encouraged myself to continue learning. I enrolled myself in a Designer Track program with Bloc, where I spent over 800 hours learning best design practices by applying UX Research, Visual Design, and Front-end Development to my projects.<br>When I’m not working, you can find me at Disneyland eating a corndog.</br></p>
+        <button type="button">Get my full bio</button>
+      </div>
+    </div>
+    <!--design process-->
+    <div class= "design-process-wrapper">
+      <h2>My Design Process.</h2>
+      <div class= "design-chart-image">
+        <img src="Images/design-process-chart.png" alt="design-chart" width=50%>
+      </div>
+      <div class="design-copy">
+        <div class= "strategy">
+          <h5>Strategy</h5>
+          <p>I ask a lot of questions, but I’m not trying to be annoying. I ask questions to make sure that I am aligned with your expectations for a project. This stage includes doing market research and competitive analysis.</p>
+        </div>
+        <div class= "structure">
+          <h5>Structure</h5>
+          <p>Who doesn’t like a great foundation? At this stage, I analyze data received from my research to prioritize user stories that would determine the information heirarchy of the project. Here is where the MVP is created.</p>
+        </div>
+        <div class= "visual-design">
+          <h5>Visual Design</h5>
+          <p>The best designs are the ones that evoke feelings. I convert wireframes into their final design look. In order to provide the best experience of  the product, I create a dynamic prototype that displays the final results before having it sent to development.</p>
+        </div>
+      </div>
+    </div>
+    <!--testimonial-->
+    <div class= "testimonial">
+      <h2>What people think of me.</h2>
+      <p>“I have had the pleasure of working with Christie at Bloc. She exhibits great attention to detail and it is reflected in the work she produces. She is easy to work with and her communication skills help in identifying challenges early. Christie has exhibited working habits that would benefit any company. I enjoy how motivated she is in continually learning, as it is truly an asset to be consciously aware and the enhancement of skills in this ever-changing landscape in design and technology.”</p>
+      <h6>Grace Cupat | Lead UX/UI Engineer at Q-Centric</h6>
+      <ul>
+        <li><i class="fas fa-circle"></i></li>
+        <li><i class="far fa-circle"></i></li>
+        <li><i class="far fa-circle"></i></li>
+      </ul>
+    </div>
+    <!--footer-->
     <footer class="footer">
       <h3>Let's Connect</h3>
-      <p>Feel free to reach out to me if you think I'd be a great addition to your team.<br><a href="kurisuti.cc@gmail.com">kurisuti.cc@gmail.com</a></p>
+      <p>Feel free to reach out to me if you think I’d be a great addition to your team.<br><button type="button">Message Me</button></p>
       <ul>
         <li><i class="fab fa-linkedin"></i></li>
         <li><i class="fab fa-instagram"></i></li>
