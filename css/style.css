@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #3031cf;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-family: "halant",Times,serif;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "halant",Times,serif;
+  font-weight:500;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-family: "roboto",arial,sans-serif;
+  font-weight:bold;
+  margin-top: 1.3rem;
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto;/*going to appear in the middle */
+  width: 90%;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "roboto",Arial,sans-serif;
+  margin-top: 1rem;
+  line-height: 1.6rem;
+}
+
+section {
+  background-color: pink;
+  margin-top: 1rem;
+  padding: 10rem 2rem;
+}
+
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+  .container {
+    width: 70rem;
+  }
+}
+
+/*desktop*/
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 98rem;
+  }
+}
