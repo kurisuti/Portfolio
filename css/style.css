@@ -20,6 +20,7 @@ p {
 
 h1 {
   font-size: 3.5rem;
+  line-height: 1.3em;
   margin: 2rem 0;
 }
 
@@ -27,6 +28,7 @@ h2 {
   font-size: 1.8rem;
   font-family: "halant",Times,serif;
   font-weight:400;
+  line-height: 1.3em;
   margin-top:3rem;
 }
 
@@ -34,7 +36,7 @@ h3 {
   font-size: 1.5rem;
   font-family: "halant",Times,serif;
   font-weight:400;
-  margin-top:3rem;
+  margin-top:2rem;
 }
 
 h4 {
@@ -100,11 +102,12 @@ a {
   text-decoration: none;
 }
 
-img{
+img {
   width:100%;
-  height:400px;
-  object-fit:cover;
+  height:350px;
+  object-fit: cover;
 }
+
 
 .container {
   background-color: white;
@@ -122,7 +125,7 @@ img{
     "footer";
   margin: 0 auto;/*going to appear in the middle */
   overflow: hidden;
-  width:80%;
+  width:90%;
 }
 
 section {
@@ -141,13 +144,49 @@ section {
   grid-area: hero;
   text-align:center;
 }
-
-.recent{
-  background-color: rgb(30, 230, 110);
+/*recent work*/
+.recent {
+  /* background-color: rgb(30, 230, 110); */
   grid-area: recent;
   /* width:100%; */
 }
 
+.featured-project {
+  margin-top:1.5rem;
+}
+
+.featured-project-copy {
+  background-color:#FAF8F0;
+  position: relative;
+  padding: 20px 0px 20px 20px;
+
+}
+
+
+.project-copy {
+  text-align: center;
+  background-color:white;
+  color:black;
+  display:block;
+  padding: 5px 20px 5px 20px;
+  position:absolute;
+  width:200px;
+  z-index: 1000;
+  left: 50%;
+  margin-left:-100px;
+  top: 57%;
+  margin-top:-100px;
+
+}
+
+.project-container{
+  margin-top: 2rem;
+  position:relative;
+}
+
+
+
+/*about*/
 .about{
   /* background-color: rgb(87, 228, 224); */
   grid-area: about;
@@ -158,8 +197,13 @@ section {
   grid-area: design;
 }
 
+
 .design-chart-image{
   margin-top:4rem;
+}
+
+.design-image {
+  object-fit: contain;
 }
 
 .testimonial{
@@ -170,7 +214,7 @@ section {
 
 footer{
   /* width:100%; */
-  background-color: green;
+  /* background-color: green; */
   grid-area:footer;
   padding: 5em;
   text-align:center;
