@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: #3031cf;
+  background-color: blue;
 }
 
 p {
@@ -98,7 +98,8 @@ h6 {
 }
 
 a {
-  color: #F06F54;
+  color: black;
+  font-family: "roboto",arial,sans-serif;
   text-decoration: none;
 }
 
@@ -129,16 +130,48 @@ img {
 }
 
 section {
-  background-color: pink;
+  /* background-color: pink; */
   padding: 5em;
 }
 
-.nav{
-  /* width: 100%; */
-  background-color: brown
-  grid-area: nav;
+/*nav*/
+
+header {
+  background-color: white;
+	width: 100%;
+	top: 0;
+	left: 0;
+  position: fixed;
+	z-index: 100;
 }
 
+#logo {
+	margin: 20px 20px 20px 35px;
+	float: left;
+	width: 150px;
+	height: 40px;
+	background:url("../Images/Logo.png") no-repeat;
+  background-size: contain;
+	display: block;
+}
+
+nav {
+	float: right;
+	margin: 30px 55px 30px 30px;
+}
+
+#menu-icon {
+  width: 25px;
+  height: 25px;
+  background:url("../Images/hamburger-icon.png") no-repeat;
+  position: absolute;
+}
+
+ul {
+  display:none;
+}
+
+/*hero*/
 .hero{
   /* width: 100%; */
   grid-area: hero;
@@ -220,6 +253,10 @@ footer{
   text-align:center;
 }
 
+
+/*media queries*/
+
+
 /*tablet*/
 @media screen and (min-width: 768px) {
   .container {
@@ -236,6 +273,25 @@ footer{
     margin: 0 auto;
     width: 80%;
   }
+
+  #menu-icon {
+    display: none;
+  }
+
+  nav {
+    float: right;
+  }
+
+  ul {
+    display: block;
+  }
+
+  li {
+    float: left;
+    font-size: 1.3em;
+    padding: 10px;
+  }
+
 }
 
 /*desktop*/
