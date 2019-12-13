@@ -55,7 +55,6 @@ h2 {
   font-family: "halant",Times,serif;
   font-weight:400;
   line-height: 1.3em;
-  margin-top:3rem;
 }
 
 h3 {
@@ -107,7 +106,7 @@ h6 {
 }
 
 .button-outline {
-  border: 3px solid #F5896C;
+  border: 2px solid #F5896C;
   border-radius: 10px;
   color: #F5896C;
   display:inline-block;
@@ -128,7 +127,7 @@ h6 {
 }
 
 a {
-  color: black;
+  color: #F5896C;
   font-family: "roboto",arial,sans-serif;
   text-decoration: none;
 }
@@ -136,40 +135,50 @@ a {
 
 
 /*nav*/
-header {
+/* .nav-bar-container {
   background-color: pink;
-  height: 50px;
+  height: 60px;
 	width: 100%;
 	top: 0;
 	left: 0;
   position: fixed;
 	z-index: 100;
+} */
+
+
+#logo {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  /* margin: 12px 12px 12px 38px; */
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+
+
 }
 
 
-.logo {
-	margin: 20px 20px 20px 60px;
-	float: left;
-	width: 150px;
-	height: 40px;
-	background:url("../Images/Logo.png") no-repeat;
-  background-size: contain;
+.logo-navbar-left {
+  float: left;
+  display:inline-block;
+}
+
+.logo-navbar-right {
+  float: right;
   display: inline-block;
+
 }
 
-
-.menu-icon {
-  background:url("../Images/hamburger-icon.png") no-repeat;
-  width 150px;
-  height: 40px;
-  float:left;
+#hamburger-icon {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  padding: 2rem;
+  margin-right: 1.3rem;
+  margin-top: 1rem;
 }
 
-.topnav {
-  display: flex;
-  overflow: hidden;
-  position: relative;
-}
 
 
 
@@ -184,6 +193,11 @@ img {
 
 
 /*hero*/
+
+section.hero {
+  padding: 100px 30px 20px;
+}
+
 .hero{
   /* width: 100%; */
   grid-area: hero;
@@ -226,6 +240,14 @@ img {
   position:relative;
 }
 
+.profile-image {
+  margin-bottom: 2rem;
+}
+
+.hr {
+  border-top: .1rem solid #DEDADA;
+  width: 90%;
+}
 
 /*about*/
 .about {
@@ -238,6 +260,7 @@ img {
 .design {
   /* background-color: rgba(246, 123, 10, 0.83); */
   grid-area: design;
+  margin-top: 0px;
 }
 
 
@@ -255,6 +278,7 @@ img {
 
 /*footer*/
 footer {
+  margin-top: 2rem;
   text-align: center;
 }
 
