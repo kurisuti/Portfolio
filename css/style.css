@@ -12,20 +12,20 @@ body {
 
 .container {
   background-color: white;
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: 1fr;
-  grid-auto-rows: minmax(100px,auto);
-  grid-template-areas:
+  /* display: grid; */
+  /* grid-gap: 1rem; */
+  /* grid-template-columns: 1fr; */
+  /* grid-auto-rows: minmax(100px,auto); */
+  /* grid-template-areas:
     "nav"
     "hero"
     "recent"
     "about"
     "design"
     "testimonial"
-    "footer";
+    "footer"; */
   margin: 0 auto; /*going to appear in the middle*/
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 90%;
 }
 
@@ -137,7 +137,8 @@ a {
 
 /*nav*/
 header {
-  background-color: white;
+  background-color: pink;
+  height: 50px;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -145,31 +146,31 @@ header {
 	z-index: 100;
 }
 
-#logo {
-	margin: 20px 20px 20px 35px;
+
+.logo {
+	margin: 20px 20px 20px 60px;
 	float: left;
 	width: 150px;
 	height: 40px;
 	background:url("../Images/Logo.png") no-repeat;
   background-size: contain;
-	display: block;
+  display: inline-block;
 }
 
-nav {
-	float: right;
-	margin: 30px 55px 30px 30px;
-}
 
-#menu-icon {
-  width: 25px;
-  height: 25px;
+.menu-icon {
   background:url("../Images/hamburger-icon.png") no-repeat;
-  position: absolute;
+  width 150px;
+  height: 40px;
+  float:left;
 }
 
-ul {
-  display:none;
+.topnav {
+  display: flex;
+  overflow: hidden;
+  position: relative;
 }
+
 
 
 
@@ -254,10 +255,22 @@ img {
 
 /*footer*/
 footer {
-  /* background-color: green; */
-  grid-area:footer;
-  padding: 5em;
+  text-align: center;
+}
+
+.footer-icon {
   text-align:center;
+}
+
+.footer-icon a{
+  width: 10%;
+  display: inline-block;
+  padding-bottom:3rem;
+}
+
+.fab {
+  font-size: 2rem;
+  color: black;
 }
 
 
@@ -268,7 +281,7 @@ footer {
 @media screen and (min-width: 768px) {
   .container {
     background-color: yellow;
-    grid-template-columns: 6fr 6fr;
+    /* grid-template-columns: 6fr 6fr;
     grid-template-areas:
     "nav  nav"
     "hero hero"
@@ -276,7 +289,7 @@ footer {
     "design design"
     "about about"
     "testimonial testimonial"
-    "footer footer";
+    "footer footer"; */
     margin: 0 auto;
     width: 80%;
   }
@@ -295,17 +308,18 @@ footer {
 
   li {
     float: left;
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 10px;
   }
 
 }
 
+
 /*desktop*/
 @media screen and (min-width: 1025px) {
   .container {
     background-color: red;
-    grid-template-columns: 4fr 4fr 4fr;
+    /* grid-template-columns: 4fr 4fr 4fr;
     grid-template-areas:
     "nav  nav  nav"
     "hero hero hero"
@@ -313,9 +327,10 @@ footer {
     "design design design"
     "about about about"
     "testimonial testimonial testimonial"
-    "footer footer footer";
+    "footer footer footer"; */
     margin: 0 auto;
     padding-bottom: 100px
-    width: 100rem;
+    width:100rem;
+
   }
 }
