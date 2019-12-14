@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: pink;
   /* display: grid; */
   /* grid-gap: 1rem; */
   /* grid-template-columns: 1fr; */
@@ -26,7 +26,7 @@ body {
     "footer"; */
   margin: 0 auto; /*going to appear in the middle*/
   /* overflow: hidden; */
-  width: 90%;
+  width: 40%;
 }
 
 section {
@@ -340,7 +340,7 @@ footer {
 
 
 /*desktop*/
-@media screen and (min-width: 1025px) {
+@media screen and (max-width: 1025px) {
   .container {
     background-color: red;
     /* grid-template-columns: 4fr 4fr 4fr;
@@ -354,7 +354,7 @@ footer {
     "footer footer footer"; */
     margin: 0 auto;
     padding-bottom: 100px
-    width:100rem;
+    width:80%;
 
   }
 }
