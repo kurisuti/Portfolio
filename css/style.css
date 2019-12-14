@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  background-color: pink;
+  background-color: white;
   /* display: grid; */
   /* grid-gap: 1rem; */
   /* grid-template-columns: 1fr; */
@@ -26,7 +26,7 @@ body {
     "footer"; */
   margin: 0 auto; /*going to appear in the middle*/
   /* overflow: hidden; */
-  width: 40%;
+  width: 100%;
 }
 
 section {
@@ -127,7 +127,9 @@ h6 {
 }
 
 a {
-  color: #F5896C;
+  color: black;
+  font-size: 1.3rem;
+  padding: 1.3rem;
   font-family: "roboto",arial,sans-serif;
   text-decoration: none;
 }
@@ -135,15 +137,15 @@ a {
 
 
 /*nav*/
-/* .nav-bar-container {
-  background-color: pink;
+.nav-bar-container {
+  background-color: white;
   height: 60px;
 	width: 100%;
 	top: 0;
 	left: 0;
   position: fixed;
 	z-index: 100;
-} */
+}
 
 
 #logo {
@@ -152,7 +154,6 @@ a {
   object-fit: cover;
   /* margin: 12px 12px 12px 38px; */
   padding: 1rem;
-  margin-top: 1rem;
   margin-left: 2rem;
 
 
@@ -165,8 +166,10 @@ a {
 }
 
 .logo-navbar-right {
+  /* background-color: orange; */
   float: right;
-  display: inline-block;
+  height: 60px;
+  flex-direction: row;
 
 }
 
@@ -175,12 +178,16 @@ a {
   width: 60px;
   object-fit: cover;
   padding: 2rem;
-  margin-right: 1.3rem;
-  margin-top: 1rem;
 }
 
-
-
+#mylinks {
+  /* background-color: purple; */
+  float:right;
+  height: 60px;
+  display: inline-block;
+  padding: 2.5rem;
+  display: none;
+}
 
 
 /*image styling*/
@@ -228,7 +235,6 @@ section.hero {
   padding: 5px 20px 5px 20px;
   position:absolute;
   width:200px;
-  z-index: 1000;
   left: 50%;
   margin-left:-100px;
   top: 57%;
@@ -315,25 +321,19 @@ footer {
     "testimonial testimonial"
     "footer footer"; */
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
   }
 
-  #menu-icon {
+  #hamburger-icon {
     display: none;
   }
 
-  nav {
-    float: right;
-  }
-
-  ul {
-    display: block;
-  }
-
-  li {
-    float: left;
-    font-size: 1.2em;
-    padding: 10px;
+  #mylinks {
+    /* background-color: purple; */
+    float:right;
+    height: 60px;
+    display: inline-block;
+    padding: 2.5rem;
   }
 
 }
@@ -354,7 +354,7 @@ footer {
     "footer footer footer"; */
     margin: 0 auto;
     padding-bottom: 100px
-    width:80%;
+    width: 100%;
 
   }
 }
