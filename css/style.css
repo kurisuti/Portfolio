@@ -12,20 +12,7 @@ body {
 
 .container {
   background-color: white;
-  /* display: grid; */
-  /* grid-gap: 1rem; */
-  /* grid-template-columns: 1fr; */
-  /* grid-auto-rows: minmax(100px,auto); */
-  /* grid-template-areas:
-    "nav"
-    "hero"
-    "recent"
-    "about"
-    "design"
-    "testimonial"
-    "footer"; */
   margin: 0 auto; /*going to appear in the middle*/
-  /* overflow: hidden; */
   width: 100%;
 }
 
@@ -59,8 +46,8 @@ h2 {
 h3 {
   font-family: "halant",Times,serif;
   font-size: 1.5rem;
-  font-weight:400;
-  margin-top:2rem;
+  font-weight: 400;
+  margin-top: 2rem;
 }
 
 h4 {
@@ -109,7 +96,7 @@ h6 {
   border-radius: .5rem;
   color: white;
   display: inline;
-  padding: .8rem 1rem;
+  padding: .8rem 2rem;
 }
 
 .button-outline {
@@ -197,7 +184,7 @@ a {
   /* background-color: purple; */
   display: inline-block;
   display: none;
-  float:right;
+  float: right;
   height: 60px;
   padding: 2.5rem;
 }
@@ -205,9 +192,9 @@ a {
 
 /*image styling*/
 img {
-  height:350px;
+  height: 350px;
   object-fit: cover;
-  width:100%;
+  width: 100%;
 }
 
 
@@ -235,17 +222,17 @@ section.hero {
 }
 
 .project-copy {
-  background-color:white;
-  color:black;
+  background-color: white;
+  color: black;
   display:block;
   left: 50%;
-  margin-left:-100px;
-  margin-top:-100px;
+  margin-left: -100px;
+  margin-top: -100px;
   padding: 5px 20px 5px 20px;
-  position:absolute;
+  position: absolute;
   text-align: center;
   top: 57%;
-  width:200px;
+  width: 200px;
 }
 
 .project-container-1 {
@@ -268,7 +255,10 @@ section.hero {
 .about {
   /* background-color: rgb(87, 228, 224); */
   grid-area: about;
-  padding-bottom:0;
+}
+
+.about-me-copy {
+  padding-top: 3rem;
 }
 
 /*my design process*/
@@ -278,7 +268,6 @@ section.hero {
 }
 
 #design-chart-image {
-  margin-top: 3rem;
   object-fit: contain;
 }
 
@@ -321,43 +310,51 @@ footer {
 @media screen and (min-width: 768px) {
   .container {
     background-color: yellow;
-    /* grid-template-columns: 6fr 6fr;
-    grid-template-areas:
-    "nav  nav"
-    "hero hero"
-    "recent ."
-    "design design"
-    "about about"
-    "testimonial testimonial"
-    "footer footer"; */
     margin: 0 auto;
     width: 100%;
+  }
+
+  .about {
+    /* background-color: rgb(87, 228, 224); */
+    display: flex;
+    margin-top: 3rem;
+    padding-bottom: 0rem;
+  }
+
+  .about-me-copy {
+    padding-top: 0rem;
+    width: 80%;
+    padding-left: 3rem;
+  }
+
+  .design {
+    display: flex;
+  }
+
+  .design-copy {
+    margin-right: 3rem;
+    width: 100%;
+  }
+
+  #design-chart-image {
+    height: 40rem;
+    object-fit: contain;
+    width: 50%;
   }
 
   #hamburger-icon {
     display: none;
   }
 
+  .hr {
+    width: 75%;
+  }
+
   #mylinks {
-    /* background-color: purple; */
     display: inline-block;
     float: right;
     height: 60px;
     padding: 2.5rem;
-  }
-
-  .other-projects {
-    display: flex;
-  }
-
-  .project-container-1 {
-    width: 100%;
-    padding-right: 1rem;
-  }
-
-  .project-container-2 {
-    width: 100%;
-    padding-left: 1rem;
   }
 
   section {
@@ -368,38 +365,36 @@ footer {
     padding: 10rem 12rem 2rem 12rem;
   }
 
-.about {
-    /* background-color: rgb(87, 228, 224); */
+  .other-projects {
     display: flex;
+  }
+
+  .project-container-1 {
+    padding-right: 1rem;
+    width: 100%;
+  }
+
+  .project-container-2 {
+    padding-left: 1rem;
+    width: 100%;
   }
 
   .profile-image {
     object-fit: cover;
+    width: 50%;
+    height: 40rem;
   }
 
-  .about-me-copy {
-    width: 80%;
-    padding-left: 3rem;
+  section.testimonial {
+    padding: 5rem 10rem;
   }
-
 }
-
 
 
 
 /*desktop*/
 @media screen and (max-width: 1025px) {
   .container {
-    background-color: red;
-    /* grid-template-columns: 4fr 4fr 4fr;
-    grid-template-areas:
-    "nav  nav  nav"
-    "hero hero hero"
-    "recent "
-    "design design design"
-    "about about about"
-    "testimonial testimonial testimonial"
-    "footer footer footer"; */
     margin: 0 auto;
     padding-bottom: 100px
     width: 100%;
