@@ -259,10 +259,6 @@ section.hero {
 }
 
 
-.profile-image {
-  margin-bottom: 2rem;
-}
-
 .hr {
   border-top: .1rem solid #DEDADA;
   width: 90%;
@@ -274,7 +270,6 @@ section.hero {
   grid-area: about;
   padding-bottom:0;
 }
-
 
 /*my design process*/
 .design {
@@ -372,7 +367,24 @@ footer {
   section.hero {
     padding: 10rem 12rem 2rem 12rem;
   }
+
+.about {
+    /* background-color: rgb(87, 228, 224); */
+    display: flex;
+  }
+
+  .profile-image {
+    object-fit: cover;
+  }
+
+  .about-me-copy {
+    width: 80%;
+    padding-left: 3rem;
+  }
+
 }
+
+
 
 
 /*desktop*/
