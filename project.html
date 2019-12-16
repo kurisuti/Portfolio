@@ -1,39 +1,40 @@
 <!DOCTYPE>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Christie Chang - UX Designer </title>
-    <link rel="stylesheet" href="css/reset.css">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Christie Chang - UX Designer </title>
+  <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/solid.css" integrity="sha384-VUnOJnDrNS0aVOhF6puq5SPJOP5oOvIO6n54m14E2/OHv6DU1gklJ4EImoD382c5" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/regular.css" integrity="sha384-gr19od0wAxe2+mYHEXvS7Y1ppn+ESoAQzTYGPauVJYyAYYl0NBQaKveeQnzez2Rm" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/brands.css" integrity="sha384-+B+cmd37r9agFUqHw5ABups/+o97SqA/Y6S5b3ly2q0ABacloQs0HZOQAX1NpJhF" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/fontawesome.css" integrity="sha384-jUGOH+gYMCfz2jbO6DW8vojES/a323h7dcoT6qI7Bvod9mew/wwTZryjccmaMOkf" crossorigin="anonymous">
-  </head>
-  <body>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/regular.css" integrity="sha384-gr19od0wAxe2+mYHEXvS7Y1ppn+ESoAQzTYGPauVJYyAYYl0NBQaKveeQnzez2Rm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/brands.css" integrity="sha384-+B+cmd37r9agFUqHw5ABups/+o97SqA/Y6S5b3ly2q0ABacloQs0HZOQAX1NpJhF" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/fontawesome.css" integrity="sha384-jUGOH+gYMCfz2jbO6DW8vojES/a323h7dcoT6qI7Bvod9mew/wwTZryjccmaMOkf" crossorigin="anonymous">
+</head>
+<body>
     <div class="container">
-    <section class="nav">
+      <div class="nav-bar-container">
           <div class="logo-navbar-left">
-            <img src="Images/Logo.png" alt="Christie Logo">
+            <img id="logo" src="Images/Logo.png">
           </div>
-          <div class="navbar-right">
-            <ul>
-              <li><a href="default.asp">Home</a></li>
-              <li><a href="default.asp">Work</a></li>
-              <li><a href="default.asp">About</a></li>
-              <li><a href="default.asp">Contact</a></li>
-            </ul>
+          <div class="logo-navbar-right">
+            <img id="hamburger-icon" src="Images/hamburger-icon.png">
+            <class id="mylinks">
+              <a href="#" class="newanchor">Home</a>
+              <a href="#" class="newanchor">Work</a>
+              <a href="#" class="newanchor">About</a>
+              <a href="#" class="button-header">Contact</a>
           </div>
-    </section>
+      </div>
+    </div>
     <!--header-->
-    <section class="hero">
+    <section class="clearbox-container">
         <div class="clearbox-wrapper">
-          <img src="Images/ClearBox_Hero-image.png" alt="ClearBox-HeroImage">
+          <img id="clearbox-hero" src="Images/ClearBox_Hero-image.png">
           <div class="clearbox-copy">
             <h2>ClearBox</h2>
             <p>ClearBox serves as a platform for remote working professionals to have better working experiences.</p>
-            <a href="default.asp">View ClearBox Prototype</a>
+            <a href="default.asp" class="button">View ClearBox Prototype</a>
           </div>
         </div>
     </section>
@@ -184,16 +185,16 @@
     </section>
     <!--footer-->
     <footer>
-      <h3>Let's Connect</h3>
+      <h2>Let's Connect</h2>
       <p>Feel free to reach out to me if you think I’d be a great addition to your team.
-      <a href="default.asp">Message Me</a></p>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/christie-chang-52a082117/">Linkedin</a></li>
-        <li><a href="https://www.instagram.com/kurisutichang/">Instagram</a></li>
-        <li><a href="https://github.com/kurisuti/Portfolio">Github</a></li>
-        <li><a href="https://www.facebook.com/christie.chang.399">Facebook</a></li>
-      </ul>
+      <br><a href="default.asp" class="button">Message Me</a>
+      <br>
+      <div class="footer-icon">
+          <a href="https://www.linkedin.com/in/christie-chang-52a082117/" class="f"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/kurisutichang/"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/kurisuti/Portfolio"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/christie.chang.399"><i class="fab fa-facebook-square"></i></a>
+      </div>
     </footer>
-    </div>
   </body>
 </html>

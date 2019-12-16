@@ -7,17 +7,15 @@ html {
 }
 
 body {
-  /* background-color: blue; */
 }
 
 .container {
   background-color: white;
   margin: 0 auto; /*going to appear in the middle*/
-  width: 100%;
 }
 
 section {
-  padding: 3em;
+    padding: 3em;
 }
 
 
@@ -203,9 +201,24 @@ section.hero {
   padding: 100px 30px 20px;
 }
 
-.hero{
-  /* width: 100%; */
-  grid-area: hero;
+.hero {
+  text-align: center;
+}
+
+.clearbox-container {
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+#clearbox-hero {
+  width: 100%;
+  object-fit: cover;
+  height: 30rem
+}
+
+.clearbox-copy {
+  margin-top: -20rem;
+  padding: 3rem 3rem;
   text-align: center;
 }
 
