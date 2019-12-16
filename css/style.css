@@ -224,10 +224,6 @@ section.hero {
 
 
 /*recent work*/
-.recent {
-  grid-area: recent;
-}
-
 .featured-project {
   margin-top: 1.5rem;
 }
@@ -276,6 +272,7 @@ section.hero {
 .about {
   /* background-color: rgb(87, 228, 224); */
   grid-area: about;
+  padding-bottom:0;
 }
 
 
@@ -283,9 +280,7 @@ section.hero {
 .design {
   /* background-color: rgba(246, 123, 10, 0.83); */
   grid-area: design;
-  margin-top: 0px;
 }
-
 
 #design-chart-image {
   margin-top: 3rem;
@@ -370,6 +365,13 @@ footer {
     padding-left: 1rem;
   }
 
+  section {
+    padding: 3rem 12rem;
+  }
+
+  section.hero {
+    padding: 10rem 12rem 2rem 12rem;
+  }
 }
 
 
