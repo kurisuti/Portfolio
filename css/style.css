@@ -20,6 +20,10 @@ section {
 
 
 /*headings*/
+b {
+  font-weight: bold;
+}
+
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.2rem;
@@ -257,7 +261,6 @@ section.hero {
   margin-top: 2rem;
   position: relative;
 }
-
 
 .hr {
   border-top: .1rem solid #DEDADA;
