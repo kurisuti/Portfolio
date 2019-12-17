@@ -28,8 +28,8 @@ p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.2rem;
   line-height: 1.8rem;
-  margin-bottom: 2rem;
-  margin-top: 1.3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 h1 {
@@ -197,6 +197,7 @@ img {
 
 ul {
   color: #929293;
+  font-size: .8rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -207,21 +208,24 @@ li {
 }
 
 /*hero*/
+.clearbox-container {
+  background-color: green;
+  position: relative;
+}
+
 #clearbox-hero {
+  padding: 0rem !important;
   object-fit: cover;
-  height: 350px;
-  object-position: 0% -6rem;
+  height: 35rem;
+  object-position: right top;
 }
 
 .clearbox-copy {
-  margin-top: -50%;
-  padding: 3rem 5rem 3rem 5rem;
   text-align: center;
+  padding: 2rem 4rem;
+  margin: 0 auto;
   position: absolute;
-}
-
-.clearbox-container {
-  position: relative;
+  bottom: 25%;
 }
 
 /*overview*/
