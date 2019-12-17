@@ -216,13 +216,14 @@ section.hero {
 
 #clearbox-hero {
   width: 100%;
-  object-fit: cover;
-  height: 30rem
+  object-fit: contain;
+  object-position: 0% -15%;
+  height: 40rem
 }
 
 .clearbox-copy {
-  margin-top: -20rem;
-  padding: 3rem 3rem;
+  margin-top: -30rem;
+  padding: 3rem 5rem;
   text-align: center;
 }
 
