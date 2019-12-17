@@ -246,6 +246,14 @@ li {
   padding: 0rem 3rem 2rem 3rem;
 }
 
+.discovery-image {
+  max-width: 100%;
+  height: 30rem;
+  background-image: url("../Images/Discovery_Phase-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*user personas*/
 .user-personas {
   background-color: #F9F7F3;
