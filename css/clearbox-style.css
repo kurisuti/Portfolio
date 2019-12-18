@@ -227,7 +227,7 @@ li {
 }
 
 /*overview*/
-.hr, .hr-architecture {
+.hr, .hr-architecture, .hr-footer{
   border-top: .1rem solid #DEDADA;
   width: 80%;
 }
@@ -420,6 +420,20 @@ footer {
     width: 100%;
   }
 
+  .feature-wrapper {
+    display: flex;
+    padding: 2rem 0rem 2rem 0rem;
+  }
+
+  .feature-image {
+    width: 100%;
+  }
+
+  .feature-copy {
+    margin-top: 3rem;
+    width: 75%;
+  }
+
   section {
     padding: 3rem 10rem;
   }
@@ -436,7 +450,7 @@ footer {
     padding-bottom: 100px
     width: 100%;
   }
-  section {
+  /* section {
     padding: 3rem 15rem;
-  }
+  } */
 }
