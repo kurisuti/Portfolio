@@ -6,8 +6,6 @@ html {
   font-size: 10px;
 }
 
-body {
-}
 
 .container {
   background-color: white;
@@ -49,6 +47,7 @@ h3 {
   color: black;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.5rem;
+  padding-top: 1rem;
 }
 
 
@@ -105,10 +104,6 @@ h6 {
   padding: 1rem 3.2rem;
   text-decoration: none;
 
-}
-
-.hr {
-  width: 75%;
 }
 
 /*links*/
@@ -191,14 +186,13 @@ a {
 /*image styling*/
 img {
   object-fit: contain;
-  padding: 2rem;
+  padding: 2rem 2rem;
   width: 100%;
 }
 
 ul {
   color: #929293;
   font-size: .8rem;
-  margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -218,38 +212,38 @@ li {
   text-align: center;
   padding: 2rem 4rem;
   margin: 0 auto;
-  bottom: 15%;
+  bottom: 12%;
   position: absolute;
 }
 
 .clearbox-image {
-  margin-top: 10%;
+  padding-top: 20rem;
   width: 100%;
   height: 30rem;
   background-image: url("../Images/ClearBox_Hero-image.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
 }
 
 /*overview*/
-.hr {
+.hr, .hr-architecture {
   border-top: .1rem solid #DEDADA;
-  width: 90%;
+  width: 80%;
 }
+
 
 /*problem*/
 .problem {
   background-color: #F9F7F3;
 }
 
-.discovery {
-  padding: 0rem 3rem 2rem 3rem;
-}
 
 .discovery-image {
   max-width: 100%;
-  height: 30rem;
+  height: 25rem;
   background-image: url("../Images/Discovery_Phase-image.png");
+  background-position: 0px -3rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -260,11 +254,11 @@ li {
 }
 
 .persona-one {
-  padding: 0rem 10rem 0rem 10rem;
+  padding: 0rem 3rem 0rem 3rem;
 }
 
 .persona-two {
-  padding: 0rem 10rem 0rem 10rem;
+  padding: 0rem 3rem 0rem 3rem;
 }
 
 /*information architecture*/
@@ -288,6 +282,13 @@ li {
   justify-content: center;
 }
 
+.brand-moodboard {
+  max-width: 100%;
+  height: 30rem;
+  background-image: url("../Images/ClearBox-MoodBoard.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /*footer*/
 footer {
@@ -314,7 +315,7 @@ footer {
 /*media queries*/
 
 /*tablet*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 665px) {
   .container {
     background-color: yellow;
     margin: 0 auto;
@@ -335,7 +336,96 @@ footer {
     width: 50%;
   }
 
+  .clearbox-image {
+    background-position: top left;
+    background-size: cover;
+  }
+
+  .clearbox-copy {
+    bottom: 10%;
+  }
+
+  #hamburger-icon {
+    display: none;
+  }
+
+  #mylinks {
+    display: inline-block;
+    float: right;
+    height: 60px;
+    padding: 2.5rem;
+  }
+
+  .user-persona-container {
+    display: flex;
+  }
+
+  .persona-one {
+    padding: 0rem 1rem 0rem 1rem;
+    width: 100%;
+  }
+
+  .persona-two {
+    padding: 0rem 1rem 0rem 1rem;
+    width: 100%;
+  }
+
+  .hr {
+    display: none;
+  }
+
+  .vl {
+    border-left: .1rem solid #DEDADA;
+    height: 40rem;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  .discovery-image {
+    max-width: 100%;
+    height: 35rem;
+    background-image: url("../Images/Discovery_Phase-image.png");
+    background-position: 0px -14rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .brand-moodboard {
+    background-position: center;
+    height: 40rem;
+    background-image: url("../Images/ClearBox-MoodBoard.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .discovery-image {
+    max-width: 100%;
+    height: 45rem;
+    background-image: url("../Images/Discovery_Phase-image.png");
+    background-position: 0 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .preference-wrapper {
+    display: flex;
+  }
+
+  .image-one {
+    width: 100%;
+  }
+
+  .image-two {
+    width: 100%;
+  }
+
+  section {
+    padding: 3rem 10rem;
+  }
+
 }
+
 
 
 
@@ -345,5 +435,8 @@ footer {
     margin: 0 auto;
     padding-bottom: 100px
     width: 100%;
+  }
+  section {
+    padding: 3rem 15rem;
   }
 }
