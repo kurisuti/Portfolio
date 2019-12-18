@@ -434,10 +434,45 @@ footer {
     width: 75%;
   }
 
+
+  .feature-wrap {
+    display: flex;
+  }
+
+  .feature-image-1 {
+    background-image: url(../Images/Laptop-Customize-workspace-cropped.png);
+    width: 100%;
+    height: 30rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* margin: 0rem 7rem 0rem -20rem; */
+  }
+
+  .feature-image-2 {
+    background-image: url(../Images/Laptop-Project-Collaboration-cropped.png);
+    width: 100%;
+    height: 30rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* margin: 0rem 7rem 0rem -20rem; */
+  }
+
+  .feature-image-3 {
+    background-image: url(../Images/Laptop-Document-Creation-cropped.png);
+    width: 100%;
+    height: 30rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* margin: 0rem 7rem 0rem -20rem; */
+  }
+
+  .feature-copy {
+    width: 100%;
+  }
+
   section {
     padding: 3rem 10rem;
   }
-
 }
 
 
