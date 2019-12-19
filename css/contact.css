@@ -18,6 +18,9 @@ section {
     padding: 3em;
 }
 
+.form-wrapper {
+  padding: 0rem 3rem 0rem 3rem;
+}
 
 /*headings*/
 b {
@@ -33,19 +36,21 @@ p {
 }
 
 h1 {
-  font-family: "roboto",Arial,sans-serif;
-  color: pink;
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-top: 2rem;
+  font-family: "halant",Times,serif;
+  color: #F5896C;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 10rem;
 }
 
-h3 {
-  font-family: "halant",Times,serif;
-  color: pink;
+h2 {
+  font-family: "roboto",Arial,sans-serif;
+  color: black;
   font-size: 1.5rem;
   font-weight: 400;
   margin-top: 2rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
 }
 
 .pink{
@@ -172,39 +177,33 @@ a {
   padding: 2.5rem;
 }
 
-
-/*image styling*/
-img {
-  height: 350px;
-  object-fit: cover;
+/*form*/
+input[type=text], seclect {
   width: 100%;
+  padding: 1.2rem 2rem;
+  margin: .8rem 0;
+  font-size: 1.2rem;
 }
 
+textarea {
+  width: 100%;
+  font-family: "roboto",Arial,sans-serif;
+  font-weight:normal;
+  height: 150px;
+  padding: 1.2rem 2rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  margin: .8rem 0;
+  resize: none;
 
-.hr {
+.hr-footer {
   border-top: .1rem solid #DEDADA;
   width: 90%;
 }
 
-/*about*/
-
-.about-me-copy {
-  padding-top: 5rem;
-}
-
-/*my design process*/
-.design {
-  /* background-color: rgba(246, 123, 10, 0.83); */
-  grid-area: design;
-}
-
-#design-chart-image {
-  object-fit: contain;
-}
-
 /*footer*/
-footer {
-  margin-top: 2rem;
+.footer {
+  margin-top: 5rem;
   text-align: center;
 }
 
@@ -229,30 +228,7 @@ footer {
 /*tablet*/
 @media screen and (min-width: 768px) {
   .container {
-    background-color: yellow;
     margin: 0 auto;
-    width: 100%;
-  }
-
-  .about {
-    /* background-color: rgb(87, 228, 224); */
-    display: flex;
-    margin-top: 3rem;
-    padding-bottom: 0rem;
-  }
-
-  .about-me-copy {
-    padding-top: 0rem;
-    width: 80%;
-    padding-left: 3rem;
-  }
-
-  .design {
-    display: flex;
-  }
-
-  .design-copy {
-    margin-right: 3rem;
     width: 100%;
   }
 
@@ -277,37 +253,6 @@ footer {
     padding: 2.5rem;
   }
 
-  section {
-    padding: 3rem 13rem;
-  }
-
-  section.hero {
-    padding: 10rem 12rem 2rem 12rem;
-  }
-
-  .other-projects {
-    display: flex;
-  }
-
-  .project-container-1 {
-    padding-right: 1rem;
-    width: 100%;
-  }
-
-  .project-container-2 {
-    padding-left: 1rem;
-    width: 100%;
-  }
-
-  .profile-image {
-    object-fit: cover;
-    width: 50%;
-    height: 40rem;
-  }
-
-  section.testimonial {
-    padding: 5rem 11rem;
-  }
 }
 
 
