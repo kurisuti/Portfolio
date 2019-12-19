@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto; /*going to appear in the middle*/
+}
+
+section {
+    padding: 3em;
+}
+
+
+/*headings*/
+b {
+  font-weight: bold;
+}
+
+p {
+  font-family: "roboto",Arial,sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: .8rem;
+  margin-top: .8rem;
+}
+
+h1 {
+  font-family: "roboto",Arial,sans-serif;
+  color: pink;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-family: "halant",Times,serif;
+  color: pink;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.pink{
+  color: #F06F54;
+}
+
+h6 {
+  color: #8E8E8E;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.2rem;
+  margin-top: 1.3rem;
+}
+
+
+/*button*/
+.button {
+  background-color: #F5896C;
+  border-radius: .5rem;
+  color: white;
+  display: inline-block;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.4rem;
+  margin: 2rem .2rem;
+  padding: 1rem 3.2rem;
+  text-decoration: none;
+
+}
+
+.button-header{
+  background-color: #F5896C;
+  border-radius: .5rem;
+  color: white;
+  display: inline;
+  padding: .8rem 2rem;
+}
+
+.button-outline {
+  border: 2px solid #F5896C;
+  border-radius: .5rem;
+  color: #F5896C;
+  display: inline-block;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.4rem;
+  margin: 2rem .2rem;
+  padding: 1rem 3.2rem;
+  text-decoration: none;
+
+}
+
+
+/*links*/
+a {
+  color: black;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.newanchor:link {
+  color: black;
+  padding: 2rem;
+}
+
+.newanchor:hover {
+  color: #F06F54;
+}
+
+.newanchor-2:link {
+  color: #F06F54;
+}
+
+.casestudy-link {
+  color: #F06F54;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/*nav*/
+.nav-bar-container {
+  background-color: white;
+  height: 60px;
+	left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+	z-index: 100;
+}
+
+
+#logo {
+  height: 60px;
+  margin-left: 2rem;
+  object-fit: cover;
+  padding: 1rem;
+  width: 60px;
+}
+
+
+.logo-navbar-left {
+  display: inline-block;
+  float: left;
+}
+
+.logo-navbar-right {
+  flex-direction: row;
+  float: right;
+  height: 60px;
+}
+
+#hamburger-icon {
+  height: 60px;
+  object-fit: cover;
+  padding: 2rem;
+  width: 60px;
+}
+
+#mylinks {
+  /* background-color: purple; */
+  display: inline-block;
+  display: none;
+  float: right;
+  height: 60px;
+  padding: 2.5rem;
+}
+
+
+/*image styling*/
+img {
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.hr {
+  border-top: .1rem solid #DEDADA;
+  width: 90%;
+}
+
+/*about*/
+
+.about-me-copy {
+  padding-top: 5rem;
+}
+
+/*my design process*/
+.design {
+  /* background-color: rgba(246, 123, 10, 0.83); */
+  grid-area: design;
+}
+
+#design-chart-image {
+  object-fit: contain;
+}
+
+/*footer*/
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer-icon {
+  text-align: center;
+}
+
+.footer-icon a{
+  display: inline-block;
+  padding-bottom: 3rem;
+  width: 10%;
+}
+
+.fab {
+  font-size: 2rem;
+  color: black;
+}
+
+
+/*media queries*/
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+  .container {
+    background-color: yellow;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .about {
+    /* background-color: rgb(87, 228, 224); */
+    display: flex;
+    margin-top: 3rem;
+    padding-bottom: 0rem;
+  }
+
+  .about-me-copy {
+    padding-top: 0rem;
+    width: 80%;
+    padding-left: 3rem;
+  }
+
+  .design {
+    display: flex;
+  }
+
+  .design-copy {
+    margin-right: 3rem;
+    width: 100%;
+  }
+
+  #design-chart-image {
+    height: 40rem;
+    object-fit: contain;
+    width: 50%;
+  }
+
+  #hamburger-icon {
+    display: none;
+  }
+
+  .hr {
+    width: 75%;
+  }
+
+  #mylinks {
+    display: inline-block;
+    float: right;
+    height: 60px;
+    padding: 2.5rem;
+  }
+
+  section {
+    padding: 3rem 13rem;
+  }
+
+  section.hero {
+    padding: 10rem 12rem 2rem 12rem;
+  }
+
+  .other-projects {
+    display: flex;
+  }
+
+  .project-container-1 {
+    padding-right: 1rem;
+    width: 100%;
+  }
+
+  .project-container-2 {
+    padding-left: 1rem;
+    width: 100%;
+  }
+
+  .profile-image {
+    object-fit: cover;
+    width: 50%;
+    height: 40rem;
+  }
+
+  section.testimonial {
+    padding: 5rem 11rem;
+  }
+}
+
+
+
+/*desktop*/
+@media screen and (max-width: 1025px) {
+  .container {
+    margin: 0 auto;
+    padding-bottom: 100px
+    width: 100%;
+  }
+}
