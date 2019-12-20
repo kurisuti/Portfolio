@@ -79,19 +79,6 @@ h4 {
   padding: .8rem 2rem;
 }
 
-.competitive-analysis-button, .clearbox-prototype-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.back-to-top {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 3rem;
-}
-
 
 /*links*/
 a {
@@ -119,15 +106,6 @@ a {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.2rem;
   margin-bottom: 2rem;
-}
-
-.link-secondary {
-  font-family: "roboto",arial,sans-serif;
-  font-size:1.7rem;
-}
-
-.link-secondary:hover {
-  color: #F06F54;
 }
 
 /*nav*/
@@ -168,7 +146,6 @@ a {
 }
 
 #mylinks {
-  /* background-color: purple; */
   display: inline-block;
   display: none;
   float: right;
@@ -178,25 +155,19 @@ a {
 
 /*image styling*/
 img {
-  object-fit: cover;
   height: 40rem;
+  object-fit: cover;
+  object-position: top;
   width: 100%;
-}
-
-ul {
-  color: #929293;
-  font-size: .8rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-li {
-  display: inline-block;
 }
 
 footer {
   margin-top: 2rem;
   text-align: center;
+}
+
+.about-me {
+  padding-bottom: 10rem;
 }
 
 .hr-footer {
@@ -221,7 +192,6 @@ footer {
 
 
 /*media queries*/
-
 /*tablet*/
 @media screen and (min-width: 665px) {
   .container {
