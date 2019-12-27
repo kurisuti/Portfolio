@@ -3,7 +3,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 11px;
 }
 
 body {
@@ -91,8 +91,8 @@ p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.2rem;
   line-height: 1.8rem;
-  margin-bottom: .8rem;
-  margin-top: .8rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 h1 {
@@ -276,6 +276,7 @@ section.hero {
 /*my design process*/
 #design-chart-image {
   object-fit: contain;
+  padding-top: 3rem;
 }
 
 /*testimonial*/
