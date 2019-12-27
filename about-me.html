@@ -17,19 +17,21 @@
       <span class="navbar-toggle" id="js-navbar-toggle">
            <i class="fas fa-bars"></i>
        </span>
+       <a href="index.html">
        <img id="logo" src="Images/Logo.png">
+       </a>
       <ul class="main-nav" id="js-menu">
         <li>
-          <a href="#" class="nav-links">Home</a>
+          <a href="index.html" class="nav-links">Home</a>
         </li>
         <li>
-          <a href="#" class="nav-links">Work</a>
+          <a href="my-work.html" class="nav-links">Work</a>
         </li>
         <li>
-          <a href="#" class="nav-links">About</a>
+          <a href="about-me.html" class="nav-links">About</a>
         </li>
         <li>
-          <a href="#" class="button-header">Contact</a>
+          <a href="contact.html" class="button-header">Contact</a>
         </li>
       </ul>
     </nav>
@@ -51,7 +53,7 @@
       <footer>
         <h2>Let's Connect</h2>
         <p>Feel free to reach out to me if you think I’d be a great addition to your team.
-        <br><a href="default.asp" class="button">Message Me</a>
+        <br><a href="contact.html" class="button">Message Me</a>
         <br>
         <div class="footer-icon">
             <a href="https://www.linkedin.com/in/christie-chang-52a082117/" class="f"><i class="fab fa-linkedin"></i></a>
@@ -60,5 +62,14 @@
             <a href="https://www.facebook.com/christie.chang.399"><i class="fab fa-facebook-square"></i></a>
         </div>
       </footer>
-  </body>
+      <script>
+          let mainNav = document.getElementById('js-menu');
+          let navBarToggle = document.getElementById('js-navbar-toggle');
+
+          navBarToggle.addEventListener('click', function () {
+
+          mainNav.classList.toggle('active');
+          });
+      </script>
+    </body>
 </html>

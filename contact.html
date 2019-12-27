@@ -13,21 +13,28 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/fontawesome.css" integrity="sha384-jUGOH+gYMCfz2jbO6DW8vojES/a323h7dcoT6qI7Bvod9mew/wwTZryjccmaMOkf" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
-      <div class="nav-bar-container">
-        <div class="logo-navbar-left">
-          <img id="logo" src="Images/Logo.png">
-        </div>
-        <div class="logo-navbar-right">
-          <img id="hamburger-icon" src="Images/hamburger-icon.png">
-          <class id="mylinks">
-            <a href="#" class="newanchor">Home</a>
-            <a href="#" class="newanchor">Work</a>
-            <a href="#" class="newanchor">About</a>
-            <a href="#" class="button-header">Contact</a>
-        </div>
-      </div>
-    </div>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+           <i class="fas fa-bars"></i>
+       </span>
+       <a href="index.html">
+       <img id="logo" src="Images/Logo.png">
+       </a>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="index.html" class="nav-links">Home</a>
+        </li>
+        <li>
+          <a href="my-work.html" class="nav-links">Work</a>
+        </li>
+        <li>
+          <a href="about-me.html" class="nav-links">About</a>
+        </li>
+        <li>
+          <a href="contact.html" class="button-header">Contact</a>
+        </li>
+      </ul>
+    </nav>
     <section class="form-container">
         <div class="hero-copy">
           <h1>Like what I do?<br> Let's chat.</h1>
@@ -53,7 +60,7 @@
     <section class="footer">
       <h2>Let's Connect</h2>
       <p>Feel free to reach out to me if you think I’d be a great addition to your team.
-      <br><a href="default.asp" class="button">Message Me</a>
+      <br><a href="contact.html" class="button">Message Me</a>
       <br>
       <div class="footer-icon">
           <a href="https://www.linkedin.com/in/christie-chang-52a082117/" class="f"><i class="fab fa-linkedin"></i></a>
@@ -62,5 +69,14 @@
           <a href="https://www.facebook.com/christie.chang.399"><i class="fab fa-facebook-square"></i></a>
       </div>
     </section>
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+
+        mainNav.classList.toggle('active');
+        });
+    </script>
   </body>
 </html>
