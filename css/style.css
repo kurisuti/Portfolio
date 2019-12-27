@@ -16,7 +16,7 @@ body {
 }
 
 section {
-    padding: 3em;
+  padding: 3rem 4rem 4rem;
 }
 
 /*navigation*/
@@ -263,6 +263,7 @@ section.hero {
 }
 
 .hr-footer {
+  border: none;
   border-top: .1rem solid #DEDADA;
   width: 90%;
 }

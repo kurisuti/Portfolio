@@ -13,7 +13,7 @@ html {
 }
 
 section {
-  padding: 3rem 3rem 3rem;
+  padding: 3rem 4rem 4rem;
 }
 
 
@@ -184,8 +184,9 @@ footer {
 }
 
 .hr-footer {
+  border: none;
   border-top: .1rem solid #DEDADA;
-  width: 80%;
+  width: 90%;
 }
 
 .footer-icon {

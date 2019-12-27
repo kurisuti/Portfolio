@@ -15,7 +15,7 @@ body {
 }
 
 section {
-    padding: 3em;
+  padding: 3rem 4rem 4rem;
 }
 
 /*headings*/
@@ -42,13 +42,14 @@ h2 {
   font-size: 3rem;
   font-weight:400;
   line-height: 1.3em;
+  padding-top: 5rem;
 }
 
 h3 {
   font-family: "halant",Times,serif;
   font-size: 1.5rem;
   font-weight: 400;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 h4 {
@@ -278,6 +279,12 @@ footer {
   width: 10%;
 }
 
+.hr-footer {
+  margin-top: 5rem;
+  border-top: .1rem solid #DEDADA;
+  width: 85%;
+}
+
 .fab {
   font-size: 2rem;
   color: black;
@@ -344,6 +351,13 @@ footer {
     margin-left: 40px;
   }
 
+  h2 {
+    font-family: "halant",Times,serif;
+    font-size: 3rem;
+    font-weight:400;
+    line-height: 1.3em;
+    padding-top: 2rem;
+  }
 
   .about-me-copy {
     padding-top: 0rem;
@@ -353,7 +367,7 @@ footer {
 
 
   .hr-footer {
-    margin-top: 5rem;
+    border: none;
     border-top: .1rem solid #DEDADA;
     width: 90%;
   }
