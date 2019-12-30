@@ -303,11 +303,15 @@ section.hero {
           justify-content: center;
 }
 
+.slider__header {
+  padding-bottom: 1.5rem;
+}
+
 /*bullets*/
 .slider__nav {
-  width: 12px;
-  height: 12px;
-  margin: 2rem 12px 4rem;
+  width: 10px;
+  height: 10px;
+  margin: 0rem 12px 4rem;
   border-radius: 50%;
   z-index: 10;
   outline: 6px solid #ccc;
@@ -387,7 +391,7 @@ section.hero {
 }
 
 .slider__txt {
-  color: #999;
+  color: black;
   max-width: 50rem;
 }
 
