@@ -40,21 +40,18 @@
           <h1>Like what I do?<br> Let's chat.</h1>
           <h2>If you like what I do, or you just  want to talk about design. Feel  free to send a message over. </h2>
         </div>
-        <div class="form">
-          <form action= "/action_page.php">
-            <input type="text" name="name" value="Name">
-          </form>
-          <form action= "/action_page.php">
-            <input type="text" name="email" value="E-mail">
-          </form>
-          <form action= "/action_page.php">
-            <input type="text" name="title" value="Subject Title">
-          </form>
-          <form action= "/action_page.php">
-            <textarea name="message" ID=styled>Type Message Here</textarea>
-          </form>
-          <a href="default.asp" class="button">Submit</a>
-        </div>
+        <form action="https://formspree.io/xknovpll" method="POST">
+          <label>
+            <input type="text" name="name" placeholder="Name">
+          </label>
+          <label>
+            <input type="text" name="email" placeholder="E-mail">
+          </label>
+          <label>
+            <textarea name="message" placeholder="Type Message Here" ID=styled></textarea>
+          </label>
+          <button type="submit" ID=button>Send</button>
+        </form>
     </section>
     <hr class="hr-footer">
     <section class="footer">
