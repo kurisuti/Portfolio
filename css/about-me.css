@@ -165,10 +165,6 @@ footer {
   text-align: center;
 }
 
-.about-me {
-  padding-bottom: 10rem;
-}
-
 .hr-footer {
   border: none;
   border-top: .1rem solid #DEDADA;
@@ -191,17 +187,16 @@ footer {
 }
 
 
-/*media queries*/
 /*tablet*/
-@media screen and (min-width: 665px) {
+@media screen and (min-width: 768px) {
   .container {
-    background-color: yellow;
     margin: 0 auto;
     width: 100%;
+
   }
 
   section {
-    padding: 3rem 10rem;
+    padding: 3rem 12rem;
   }
 
   .navbar {
@@ -255,10 +250,14 @@ footer {
 
 
 /*desktop*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1800px) {
   .container {
+    background-color:red;
     margin: 0 auto;
     padding-bottom: 100px
-    width: 100%;
   }
+section {
+  padding: 3rem 20rem;
+}
+
 }

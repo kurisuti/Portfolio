@@ -31,10 +31,8 @@ p {
   margin-top: .8rem;
 }
 
-h1 {
-  font-size: 3.5rem;
-  margin: 2rem 0;
-  line-height: 1.3em;
+.hero {
+  text-align: center;
 }
 
 h2 {
@@ -52,32 +50,6 @@ h3 {
   margin-top: 1.5rem;
 }
 
-h4 {
-  color: #F06F54;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 1.3rem;
-}
-
-h5 {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 1.3rem;
-}
-
-.pink{
-  color: #F06F54;
-}
-
-h6 {
-  color: #8E8E8E;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
-  margin-top: 1.3rem;
-}
-
 /*button*/
 .button {
   background-color: #F5896C;
@@ -91,23 +63,10 @@ h6 {
   text-decoration: none;
 }
 
-.button-header{
+.button-header {
   border-radius: .5rem;
   color: #F5896C;
 }
-
-.button-outline {
-  border: 2px solid #F5896C;
-  border-radius: .5rem;
-  color: #F5896C;
-  display: inline-block;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
-  margin: 2rem .2rem;
-  padding: 1rem 3.2rem;
-  text-decoration: none;
-}
-
 
 /*links*/
 a {
@@ -137,9 +96,7 @@ a {
   margin-bottom: 2rem;
 }
 
-/*nav*/
 /*navigation*/
-
 .navbar {
   background-color: white;
   border: 1px solid #EEEDE9;
@@ -165,7 +122,7 @@ a {
   text-decoration: none;
 }
 
-.nav-links:hover {
+.nav-links:hover, .fab:hover {
   color: #E07B63;
 }
 
@@ -208,10 +165,6 @@ img {
   width: 100%;
 }
 
-.hero {
-  text-align: center;
-}
-
 /*recent work*/
 .featured-project {
   margin-top: 1.5rem;
@@ -228,20 +181,20 @@ img {
   color: black;
   display:block;
   left: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
+  margin-left: -125px;
+  margin-top: -96px;
   padding: 5px 20px 5px 20px;
   position: absolute;
   text-align: center;
   top: 57%;
-  width: 200px;
+  width: 250px;
 }
 
 .project-no-detail {
   background-color: white;
   color: black;
   display: block;
-  height: 100;
+  height: 95px;
   left: 50%;
   margin-left: -78px;
   margin-top: -60px;
@@ -249,7 +202,7 @@ img {
   position: absolute;
   text-align: center;
   top: 57%;
-  width: 150px;
+  width: 155px;
 }
 
 .project-container-1, .project-container-2, .project-container-3 {
@@ -291,14 +244,16 @@ footer {
 }
 
 
-/*media queries*/
-
 /*tablet*/
 @media screen and (min-width: 768px) {
   .container {
     background-color: yellow;
     margin: 0 auto;
     width: 100%;
+  }
+
+  section {
+    padding: 3rem 10rem;
   }
 
   .about {
@@ -342,7 +297,7 @@ footer {
     display: none;
   }
 
-  .button-header{
+  .button-header {
     background-color: #F5896C;
     border-radius: .5rem;
     color: white;
@@ -372,12 +327,8 @@ footer {
     width: 90%;
   }
 
-  section {
-    padding: 2rem 10rem;
-  }
-
   section.hero {
-    padding: 10rem 12rem 0rem 12rem;
+    padding-top: 8rem;
   }
 
   .project-container-1 {
@@ -413,10 +364,12 @@ footer {
 
 
 /*desktop*/
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 1025px) {
   .container {
     margin: 0 auto;
     padding-bottom: 100px
-    width: 100%;
+  }
+  section {
+    padding: 3rem 18rem;
   }
 }
