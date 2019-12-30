@@ -17,7 +17,7 @@ section {
 }
 
 
-/*headings*/
+/*heading*/
 b {
   font-weight: bold;
 }
@@ -55,7 +55,6 @@ h4 {
 }
 
 /*navigation*/
-
 .navbar {
   background-color: white;
   border: 1px solid #EEEDE9;
@@ -67,11 +66,10 @@ h4 {
   z-index: 10;
 }
 
-
 .main-nav {
   background-color:#FAF8F0;
-  list-style-type: none;
   display: none;
+  list-style-type: none;
   padding: 2rem;
   z-index: 3;
 }
@@ -81,11 +79,11 @@ h4 {
   text-decoration: none;
 }
 
-.nav-links:hover {
+.nav-links:hover, .fab:hover {
   color: #E07B63;
 }
 
-.main-nav li{
+.main-nav li {
   margin-left: auto;
   margin-right: auto;
   padding-top: 1.1rem;
@@ -97,11 +95,11 @@ li {
 }
 
 .navbar-toggle {
+  cursor: pointer;
+  font-size: 1.8rem;
   position: absolute;
   margin: 1.6rem 2rem 0rem 2rem;
   right: 20px;
-  cursor: pointer;
-  font-size: 1.8rem;
 }
 
 .active {
@@ -146,19 +144,6 @@ a {
   text-decoration: none;
 }
 
-.newanchor:link {
-  color: black;
-  padding: 2rem;
-}
-
-.newanchor:hover {
-  color: #F06F54;
-}
-
-.newanchor-2:link {
-  color: #F06F54;
-}
-
 .casestudy-link {
   color: #F06F54;
   font-family: "roboto",arial,sans-serif;
@@ -174,6 +159,7 @@ img {
   width: 100%;
 }
 
+/*footer*/
 footer {
   margin-top: 2rem;
   text-align: center;
@@ -200,8 +186,8 @@ footer {
 }
 
 .fab {
-  font-size: 2rem;
   color: black;
+  font-size: 2rem;
 }
 
 
@@ -237,7 +223,6 @@ footer {
     justify-content: flex-end;
   }
 
-
   .nav-links {
     margin-left: 40px;
   }
@@ -250,7 +235,7 @@ footer {
     display: none;
   }
 
-  .button-header{
+  .button-header {
     background-color: #F5896C;
     border-radius: .5rem;
     color: white;
