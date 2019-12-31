@@ -6,14 +6,8 @@ html {
   font-size: 11px;
 }
 
-
-.container {
-  background-color: white;
-  margin: 0 auto;
-}
-
 section {
-  padding: 3rem 4rem 4rem;
+  padding: 3rem 5rem 5rem;
 }
 
 /*navigation*/
@@ -70,14 +64,6 @@ li {
 }
 
 
-#logo {
-  height: 50px;
-  margin-left: 2rem;
-  object-fit: contain;
-  padding: 1rem;
-  width: 60px;
-}
-
 /*headings*/
 b {
   font-weight: bold;
@@ -86,7 +72,7 @@ b {
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -132,13 +118,23 @@ h5 {
   font-size: 1.4rem;
   padding: 1rem 3.2rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   text-decoration: none;
+}
 
+.button-header {
+  background-color: #F5896C;
+  border-radius: .5rem;
+  color: white;
+  display: inline;
+  padding: .8rem 2rem;
+  margin-left: 40px;
 }
 
 .competitive-analysis-button, .clearbox-prototype-button {
   align-items: center;
   display: flex;
+  margin-top: 5rem;
   justify-content: center;
 }
 
@@ -175,35 +171,51 @@ a {
 }
 
 /*image styling*/
+
 img {
-  object-fit: contain;
-  padding: 2rem 1rem;
+  margin-bottom: 1rem;
   width: 100%;
 }
 
+#logo {
+    height: 50px;
+    margin-left: 2rem;
+    object-fit: contain;
+    padding: 1rem;
+    width: 60px;
+}
+
+#competitive-analysis {
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+#paper-prototype {
+  height: 30rem;
+  margin-bottom: -1rem;
+  object-fit: contain;
+  width: 100%;
+}
+
+
 /*hero*/
 .clearbox-container {
-  position: relative;
   width: 100%;
 }
 
 .clearbox-copy {
-  bottom: 12%;
-  padding: 2rem 4rem;
+  top: 10%;
   position: absolute;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   width: 100%;
 }
 
 .clearbox-image {
   background-image: url("../Images/ClearBox_Hero-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
   height: 30rem;
-  padding-top: 20rem;
   width: 100%;
+
 }
 
 /*overview*/
@@ -235,14 +247,9 @@ img {
 }
 
 #persona {
-  height: 200px;
+  height: 150px;
   object-fit: contain;
   width: 100%;
-}
-
-
-.persona-one, .persona-two {
-  text-align: center;
 }
 
 .persona-one {
@@ -251,6 +258,10 @@ img {
 
 .persona-two {
   margin: 0rem 3rem 2rem 2rem;
+}
+
+.persona-one, .persona-two {
+  text-align: center;
 }
 
 /*information architecture*/
@@ -410,14 +421,9 @@ footer {
 
 /*media queries*/
 /*tablet*/
-@media screen and (min-width: 665px) {
-  .container {
-    margin: 0 auto;
-    width: 100%;
-  }
-
+@media screen and (min-width: 768px) {
   section {
-    padding: 3rem 10rem;
+    padding: 3rem 18rem;
   }
 
   .overview {
@@ -434,21 +440,27 @@ footer {
     width: 50%;
   }
 
-  .clearbox-image {
-    background-position: top left;
-    background-size: cover;
+  .clearbox-container {
+    position: relative;
+    height: 30rem;
+    width: 100%;
   }
 
   .clearbox-copy {
-    bottom: 10%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 30%;
+    width: 100%;
   }
 
   .navbar {
     background-color: white;
     display: flex;
+    flex-direction: row;
+    height: 70px;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
     z-index: 10;
   }
 
@@ -476,24 +488,6 @@ footer {
 
   .navbar-toggle {
     display: none;
-  }
-
-  .button-header {
-    background-color: #F5896C;
-    border-radius: .5rem;
-    color: white;
-    display: inline;
-    padding: .8rem 2rem;
-    margin-left: 40px;
-  }
-
-  .button-header {
-    background-color: #F5896C;
-    border-radius: .5rem;
-    color: white;
-    display: inline;
-    padding: .8rem 2rem;
-    margin-left: 40px;
   }
 
   .logo:hover, .nav-links:hover {
@@ -556,10 +550,6 @@ footer {
     max-width: 100%;
   }
 
-  .preference-wrapper {
-    display: flex;
-  }
-
   .image-one {
     width: 100%;
   }
@@ -571,24 +561,42 @@ footer {
   .feature-wrapper {
     display: flex;
     flex-direction: row;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: 90%;
+  }
+
+  #information-architecture, #branding {
+    margin-bottom: 1rem;
+    height: 40rem;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  #preference {
+    object-fit: cover;
+    width: 70%;
   }
 
   .feature-wrapper-reverse {
     display: flex;
     flex-direction: row-reverse;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: 90%;
   }
 
   .feature-image-1 {
     height: 30rem;
+    margin: 0 auto;
     width: 100%;
   }
 
   .feature-copy {
-    align-self:center;
+    align-self: center;
+    padding-bottom: 5rem;
     padding-left: 5rem;
     width: 100%;
   }
@@ -600,9 +608,8 @@ footer {
   }
 
   .feature-copy-left {
-    align-self:center;
+    align-self: center;
     float: left;
-    padding-left: 5rem;
     width: 100%;
   }
 
@@ -614,14 +621,13 @@ footer {
 
 
 /*desktop*/
-@media screen and (min-width: 1025px) {
-  .container {
-    margin: 0 auto;
-    padding-bottom: 100px
-    width: 100%;
+@media screen and (min-width: 1200px) {
+  section {
+    padding: 3rem 25rem;
   }
 
-  section {
-    padding: 3rem 20rem;
+  #preference {
+    width: 80%;
+    object-fit: cover;
   }
 }

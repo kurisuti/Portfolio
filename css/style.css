@@ -10,11 +10,6 @@ body {
   margin: 0;
 }
 
-.container {
-  background-color: white;
-  margin: 0 auto; /*going to appear in the middle*/
-}
-
 section {
   padding: 3rem 4rem 4rem;
 }
@@ -90,7 +85,7 @@ b {
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -293,7 +288,7 @@ section.hero {
 .slider__nav {
   width: 10px;
   height: 10px;
-  margin: 0rem 12px 4rem;
+  margin: 0rem 9px 2rem;
   border-radius: 50%;
   z-index: 10;
   outline: 6px solid #ccc;
@@ -425,12 +420,6 @@ footer {
 /*media queries*/
 /*tablet*/
 @media screen and (min-width: 768px) {
-  .container {
-    background-color: yellow;
-    margin: 0 auto;
-    width: 100%;
-  }
-
   section {
     padding: 3rem 10rem;
   }
@@ -492,7 +481,7 @@ footer {
   .about-me-copy {
     padding-top: 0rem;
     padding-left: 3rem;
-    width: 80%;
+    width: 70%;
   }
 
   .design {
@@ -541,10 +530,6 @@ footer {
 
 /*desktop*/
 @media screen and (min-width: 1025px) {
-  .container {
-    margin: 0 auto;
-    padding-bottom: 100px;
-  }
   section {
     padding: 3rem 15rem;
   }

@@ -6,14 +6,8 @@ html {
   font-size: 11px;
 }
 
-
-.container {
-  background-color: white;
-  margin: 0 auto;
-}
-
 section {
-  padding: 3rem 4rem 4rem;
+  padding: 3rem 5rem 5rem;
 }
 
 
@@ -25,7 +19,7 @@ b {
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -153,14 +147,14 @@ a {
 
 /*image styling*/
 img {
-  height: 40rem;
+  height: 35rem;
   object-fit: cover;
   object-position: top;
   width: 100%;
 }
 
 /*footer*/
-footer {
+.footer {
   margin-top: 2rem;
   text-align: center;
 }
@@ -189,14 +183,8 @@ footer {
 
 /*tablet*/
 @media screen and (min-width: 768px) {
-  .container {
-    margin: 0 auto;
-    width: 100%;
-
-  }
-
   section {
-    padding: 3rem 12rem;
+    padding: 4rem 10rem;
   }
 
   .navbar {
@@ -246,18 +234,25 @@ footer {
   .logo:hover, .nav-links:hover {
     color: #E07B63;
   }
+  img {
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
 }
 
 
 /*desktop*/
-@media screen and (min-width: 1800px) {
-  .container {
-    background-color:red;
-    margin: 0 auto;
-    padding-bottom: 100px
+@media screen and (min-width: 1200px) {
+  section {
+    padding: 5rem 20rem;
   }
-section {
-  padding: 3rem 20rem;
-}
 
+  img {
+    height: 35rem;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
 }
