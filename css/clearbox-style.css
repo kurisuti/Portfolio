@@ -12,6 +12,7 @@ section {
 
 /*navigation*/
 
+/*navigation*/
 .navbar {
   background-color: white;
   border: 1px solid #EEEDE9;
@@ -23,10 +24,11 @@ section {
   z-index: 10;
 }
 
+
 .main-nav {
   background-color:#FAF8F0;
-  display: none;
   list-style-type: none;
+  display: none;
   padding: 2rem;
   z-index: 3;
 }
@@ -41,10 +43,10 @@ section {
 }
 
 .main-nav li {
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   padding-top: 1.1rem;
-  text-align: center;
 }
 
 li {
@@ -108,6 +110,7 @@ h5 {
 }
 
 
+
 /*button*/
 .button {
   background-color: #F5896C;
@@ -120,15 +123,6 @@ h5 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-decoration: none;
-}
-
-.button-header {
-  background-color: #F5896C;
-  border-radius: .5rem;
-  color: white;
-  display: inline;
-  padding: .8rem 2rem;
-  margin-left: 40px;
 }
 
 .competitive-analysis-button, .clearbox-prototype-button {
@@ -150,7 +144,7 @@ h5 {
 a {
   color: #F06F54;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
@@ -212,7 +206,7 @@ img {
 }
 
 .clearbox-image {
-  background-image: url("../Images/ClearBox_Hero-image.png");
+  background-image: url("../Images/ClearBox/ClearBox_Hero-image.png");
   height: 30rem;
   width: 100%;
 
@@ -231,7 +225,7 @@ img {
 }
 
 .discovery-image {
-  background-image: url("../Images/Discovery_Phase-image.png");
+  background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
   background-position: 0px -3rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -280,7 +274,7 @@ img {
 
 /*competitive analysis*/
 .brand-moodboard {
-  background-image: url("../Images/ClearBox-MoodBoard.png");
+  background-image: url("../Images/ClearBox/ClearBox-MoodBoard.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
@@ -457,20 +451,19 @@ footer {
   .navbar {
     background-color: white;
     display: flex;
-    flex-direction: row;
-    height: 70px;
     justify-content: space-between;
     padding-bottom: 0;
+    height: 70px;
     z-index: 10;
   }
 
   .main-nav {
     background-color: white;
     display: flex;
-    flex-direction: row;
     margin-right: 3rem;
     margin-bottom: 1rem;
     padding: 1.5rem;
+    flex-direction: row;
     justify-content: flex-end;
   }
 
@@ -482,12 +475,21 @@ footer {
     margin-left: 40px;
   }
 
+  .navbar-toggle {
+    display: none;
+  }
+
   #logo {
     margin-top: .8rem;
   }
 
-  .navbar-toggle {
-    display: none;
+  .button-header {
+    background-color: #F5896C;
+    border-radius: .5rem;
+    color: white;
+    display: inline;
+    padding: .8rem 2rem;
+    margin-left: 40px;
   }
 
   .logo:hover, .nav-links:hover {
@@ -525,7 +527,7 @@ footer {
   }
 
   .discovery-image {
-    background-image: url("../Images/Discovery_Phase-image.png");
+    background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
     background-position: 0px -14rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -535,14 +537,14 @@ footer {
 
   .brand-moodboard {
     background-position: center;
-    background-image: url("../Images/ClearBox-MoodBoard.png");
+    background-image: url("../Images/ClearBox/ClearBox-MoodBoard.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 40rem;
   }
 
   .discovery-image {
-    background-image: url("../Images/Discovery_Phase-image.png");
+    background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
     background-position: 0 40%;
     background-repeat: no-repeat;
     background-size: cover;

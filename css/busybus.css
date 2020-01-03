@@ -107,6 +107,15 @@ h5 {
   padding-top: 1rem;
 }
 
+h6 {
+    color: black;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    padding-top: 1.5rem;
+}
+
 
 /*button*/
 .button {
@@ -122,14 +131,6 @@ h5 {
   text-decoration: none;
 }
 
-.button-header {
-  background-color: #F5896C;
-  border-radius: .5rem;
-  color: white;
-  display: inline;
-  padding: .8rem 2rem;
-  margin-left: 40px;
-}
 
 .competitive-analysis-button, .busybus-prototype-button {
   align-items: center;
@@ -150,7 +151,7 @@ h5 {
 a {
   color: #F06F54;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
@@ -212,7 +213,7 @@ img {
 }
 
 .busybus-image {
-  background-image: url("../Images/busybus-hero.png");
+  background-image: url("../Images/BusyBus/busybus-hero.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -234,7 +235,7 @@ img {
 }
 
 .Discovery-image {
-  background-image: url("../Images/Busybus-holdingphone.png");
+  background-image: url("../Images/BusyBus/Busybus-holdingphone.png");
   background-position: 0px -3rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,7 +264,7 @@ img {
 }
 
 .brand-moodboard {
-  background-image: url("../Images/busybus-MoodBoard.png");
+  background-image: url("../Images/BusyBus/busybus-MoodBoard.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
@@ -469,6 +470,15 @@ footer {
     margin-top: .8rem;
   }
 
+  .button-header {
+    background-color: #F5896C;
+    border-radius: .5rem;
+    color: white;
+    display: inline;
+    padding: .8rem 2rem;
+    margin-left: 40px;
+  }
+
   .navbar-toggle {
     display: none;
   }
@@ -508,7 +518,7 @@ footer {
   }
 
   .discovery-image {
-    background-image: url("../Images/Busybus-holdingphone.png");
+    background-image: url("../Images/BusyBus/Busybus-holdingphone.png");
     background-position: 0px -14rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -518,14 +528,14 @@ footer {
 
   .brand-moodboard {
     background-position: center;
-    background-image: url("../Images/busybus-MoodBoard.png");
+    background-image: url("../Images/BusyBus/busybus-MoodBoard.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 40rem;
   }
 
   .discovery-image {
-    background-image: url("../Images/Busybus-holdingphone.png");
+    background-image: url("../Images/BusyBus/Busybus-holdingphone.png");
     background-position: 0 40%;
     background-repeat: no-repeat;
     background-size: cover;

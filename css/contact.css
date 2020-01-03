@@ -9,13 +9,8 @@ html {
 body {
 }
 
-.container {
-  background-color: white;
-  margin: 0 auto; /*going to appear in the middle*/
-}
-
 section {
-  padding: 3rem 4rem 4rem;
+  padding: 3rem 5rem 5rem;
 }
 
 /*navigation*/
