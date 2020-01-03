@@ -198,6 +198,13 @@ img {
   width: 100%;
 }
 
+.jobflare-guy {
+  background-image: url("../Images/JobFlare-guy.png");
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
 /*hero*/
 .jobflare-container {
   width: 100%;
@@ -219,7 +226,30 @@ img {
   background-position: center;
   height: 30rem;
   width: 100%;
+}
 
+.image-container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.image-one {
+  background-image: url("../Images/jobflare-image2.png");
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 90%;
+}
+
+.image-two {
+  background-image: url("../Images/jobflare-image2.png");
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  margin: 0 auto;
+  width: 90%;
 }
 
 /*overview*/
@@ -357,6 +387,29 @@ footer {
 
   .image-two {
     width: 100%;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image-one {
+    background-image: url("../Images/jobflare-image2.png");
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+    margin-right: 1rem;
+    width: 50%;
+  }
+
+  .image-two {
+    background-image: url("../Images/jobflare-image2.png");
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+    margin-left: 1rem;
+    width: 50%;
   }
 
   .feature-wrapper {
