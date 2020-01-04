@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frontend Challenge</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/solid.css" integrity="sha384-VUnOJnDrNS0aVOhF6puq5SPJOP5oOvIO6n54m14E2/OHv6DU1gklJ4EImoD382c5" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/regular.css" integrity="sha384-gr19od0wAxe2+mYHEXvS7Y1ppn+ESoAQzTYGPauVJYyAYYl0NBQaKveeQnzez2Rm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/brands.css" integrity="sha384-+B+cmd37r9agFUqHw5ABups/+o97SqA/Y6S5b3ly2q0ABacloQs0HZOQAX1NpJhF" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/fontawesome.css" integrity="sha384-jUGOH+gYMCfz2jbO6DW8vojES/a323h7dcoT6qI7Bvod9mew/wwTZryjccmaMOkf" crossorigin="anonymous">
+  </head>
+
+  <body>
+  <nav>
+        <div class="vertical"></div>
+        <div class="back-arrow"></div>
+        <div class="location-x"></div>
+
+        <div class= "search-container">
+            <div class="nav">BUSYBUS</div>
+
+            <div class="bus">
+              <i class="fas fa-bus"></i>
+            </div>
+
+            <div class="search-bars">
+              <form action="/action_page.php">
+                <label>
+                  <input type="SF Pro text" name="FirstName"size="34" placeholder="Your Location" style="font-size:10.5pt;">
+                </label>
+
+                <label>
+                  <input type="SF Pro text" name="LastName" size="34" placeholder="Washington and State" style="font-size:10.5pt;">
+                </label>
+              </form>
+            </div>
+        </div>
+  </nav>
+
+  <section class="map-image"></section>
+
+  <section class="inline-tab">
+      <div class="inline-container">
+            <h6 class="inline-container">Line</h6>
+            <h6 class="inline-container"><span class="move">Destination</span></h6>
+            <h6 class="inline-container">ETA</h6>
+            <h6 class="inline-container">Frequency</h6>
+      </div>
+  </section>
+
+<section class="bus-schedule">
+
+        <ul>
+          <div class="active">
+          <li><div class="bus-line">60</div></li>
+          <li><div class="destination">
+              <h1>Randolph/Harbor Dr</h1>
+              <p>Eastbound</p>
+          </div></li>
+          <li><div class="eta">
+              <h7>9:51am</h7>
+          </div></li>
+          <li><div class="frequency">
+              <h4><span class="small-font">Every</span>10 min</h4>
+          </div></li>
+          <li><div class="arrow">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div></li>
+        </div>
+      </ul>
+
+        <ul>
+          <div class="active">
+          <li><div class="bus-line">124</div></li>
+          <li><div class="destination">
+              <h1>Navy Pier</h1>
+              <p>Eastbound</p>
+          </div><li>
+          <li><div class="eta">
+            <h7>9:51am</h7>
+          </div></li>
+          <li><div class="frequency">
+              <h4><span class="small-font">Every</span>10 min</h4>
+          </div></li>
+          <li><div class="arrow">
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div></li>
+        </div>
+      </ul>
+
+        <ul>
+          <div class="active">
+            <li><div class="bus-line">151</div></li>
+            <li><div class="destination">
+                <h1>Devon/Clark</h1>
+                <p>Northbound</p>
+            </div></li>
+            <li><div class="eta">
+              <h7>9:57am</h7>
+            </div></li>
+            <li><div class="frequency">
+                <h4><span class="small-font">Every</span>16 min</h4>
+            </div></li>
+            <li><div class="arrow">
+                <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            </div></li>
+          </div>
+        </ul>
+
+        <ul>
+          <div class="active">
+            <li><div class="bus-line">J14</div></li>
+            <li><div class="destination">
+                <h1>103rd/Story Island</h1>
+                <p>Southbound</p>
+            </div></li>
+            <li><div class="eta">
+              <h7>9:56am</h7>
+            </div></li>
+            <li><div class="frequency">
+                <h4><span class="small-font">Every</span>15 min</h4>
+            </div></li>
+            <li><div class="arrow">
+                <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            </div></li>
+          </div>
+        </ul>
+
+        <ul>
+          <div class="active">
+            <li><div class="bus-line">124</div></li>
+            <li><div class="destination">
+                  <h1>Navy Pier</h1>
+                  <p>Southbound</p>
+            </div></li>
+            <li><div class="eta">
+                <h7>9:51am</h7>
+            </div></li>
+            <li><div class="frequency">
+                <h4><span class="small-font">Every</span>10 min</h4>
+            </div></li>
+            <li><div class="arrow">
+                  <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            </div></li>
+          </div>
+        </ul>
+
+        <ul>
+          <div class="active">
+            <li><div class="bus-line">6x</div></li>
+            <li><div class="destination">
+                  <h1>Jackson Park Express</h1>
+                  <p>Reroute</p>
+            </div></li>
+            <li><div class="eta">
+                <h7>N/A</h7>
+            </div></li>
+            <li><div class="frequency">
+                <h4>N/A</h4>
+            </div></li>
+            <li><div class="arrow">
+                  <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            </div></li>
+          </div>
+        </ul>
+
+        <ul>
+            <div class="inactive">
+            <li><div class="bus-line-inactive">4</div></li>
+            <li><div class="destination-inactive">
+                    <h1>Cottage Grove</h1>
+                    <h8>Out of Service</h8>
+            </div></li>
+            <li><div class="eta-inactive">
+                  <h3>Resumes<br>12:10am</h3>
+            </div></li>
+            <li><div class="frequency-inactive">
+                    <h5>N/A</h5>
+            </div></li>
+            <li><div class="arrow">
+                    <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            </div></li>
+          </div>
+        </ul>
+
+        <ul>
+            <div class="inactive">
+            <li><div class="bus-line-inactive">20</div></li>
+            <li><div class="destination-inactive">
+                  <h1>Madison</h1>
+                  <h8>Out of Service</h8>
+            </div></li>
+            <li><div class="eta-inactive">
+                  <h3>Resumes<br>12:10am</h3>
+            </div></li>
+            <li><div class="frequency-inactive">
+                  <h5>N/A</h5>
+            </div></li>
+            <li><div class="arrow">
+                  <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            </div></li>
+          </div>
+        </ul>
+
+        <ul>
+          <div class="inactive">
+            <li><div class="bus-line-inactive">157</div></li>
+            <li><div class="destination-inactive">
+                  <h1>Streeterville/Taylor</h1>
+                  <h8>Out of Service</h8>
+            </div></li>
+            <li><div class="eta-inactive">
+                  <h3>Resumes<br>6:00am</h3>
+            </div></li>
+            <li><div class="frequency-inactive">
+                    <h5>N/A</h5>
+            </div></li>
+            <li><div class="arrow">
+                  <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            </div></li>
+          </div>
+        </ul>
+
+    </section>
+  </body>
+</html>

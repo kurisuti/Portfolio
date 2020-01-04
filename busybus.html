@@ -66,20 +66,20 @@
     <section class="solution">
       <h3>Solution</h3>
       <ol>
-        <li><p><b>Visual Map:</b> the map signifies to users where they currently are, and will notify them of their surrounding bus stops.</p></li>
-        <li><p><b>Live Traffic Updates:</b>  once a user places their location in, a route will be drawn from the user to the bus that they are tracking. Users will be given notifications on bus activity.</p></li>
-        <li><p><b>Bus Schedule:</b> when a user places a location for a bus stop, BusyBus will show all buses that run through that stop. This way users are able to identify when their bus will arrive at the intended stop. </p></li>
+        <li><p><b>Visual Map:</b> a visual map identifies the current location of the user. It also shows bus stops near the user.</p></li>
+        <li><p><b>Live Traffic Updates:</b>when users inputs which bus they would like to take. BusyBus will provide live traffic notifications on the status of the bus.</p></li>
+        <li><p><b>Bus Schedule:</b>once a user identifies their bus location. A list of buses that runs through that stop will be shown.</p></li>
       </ol>
     </section>
     <!--discovery phase-->
     <section class="discovery">
         <h4>Discovery Phase</h4>
-        <p>As a local from Los Angeles, I was not familiar with how public transportation worked. In order to have a better understanding of the problem, I conducted a survey. My primary audience are users that use public transit or are familar with using a public transit app. The results from my survey helped me understand the user’s wants and needs from a public transit app. From the results, I found out that about 50% of participants used public transportation twice a week and 23% used it five plus days. The reasons to why public transit was used because it was their way to commute to work, it was affordable, and it was more convenient than driving.</p>
+        <p>As a local from Los Angeles, I was unfamiliar with how public transportation worked. I had to find friends/colleagues that were located in San Francisco to understand how they use public transportation. I put together a survey and sent it out to this audience. A majority of the survey questions consists of asking how long the participant had been involved with public transportation. What were the pros and cons to using a public transit app? The results from my survey helped me better understand how public transportation is used from their viewpoints. I also was able to have a better idea of the user’s wants and needs for these mobile applications. From the results, I found out that about 50% of participants used public transportation twice a week and 23% used it five plus days. The main reason to using public transportation was due to work commutes, affordability, and convenience.</p>
     </section>
         <div class="discovery-image"></div>
     <section class="discovery">
-        <p>In the survey, I asked about struggles that users had with their public transit apps. These were the struggles that I would be placing my focus on. 27% of users said that navigation was oftentimes not accurate. 18% of buses were usually never on time, and a lot of features in their transit apps were buried within tabs.</p>
-        <p>I then looked into asking questions that focused on features in the app. I had survey participants rank in order of preference the following features: Navigation, Bus Schedules, Arrival Notifications, Offline Maps, and Integrates with Uber and Lyft. 55% of participants placed navigation as most important, that was followed by 32% of participants that said bus schedule. Participants suggested that they wanted to see live traffic information on their transit app, bus/arrival notifications of buses.</p>
+        <p>In the survey, I asked about struggles that users faced with public transit apps. 27% of users said  navigation wasn’t always accurate, 18% said buses were usually never on time, and lastly a lot of features were buried within tabs.</p>
+        <p>I was curious to what features were important to participants, and had participants rank out from most to least importance a list of features that I had given to them. These features included: Navigation, Bus Schedules, Arrival Notifications, Offline Maps, and Integrattions with Uber and Lyft. 55% of participants placed navigation as most important, which was followed by 32% of participants that said bus schedule. Towards the end of the survey, I asked users to name features that they would like to see that they currently didn’t have. Users said that they wanted to obtain live traffic notifications on the status of their bus, and that it would be neat to have photos of bus stops to better identify where they are going.</p>
     <div class="carousel">
       <div class="carousel-inner">
           <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
@@ -117,123 +117,41 @@
     <!--competitive analysis-->
     <section class="competitive-analysis">
         <h3>Competitive Analysis</h3>
-        <p>Having familiarized myself with the behaviors of users with mobile transit apps. I did research on competitors within the marketspace. From the survey, the two competitors most used from my participants were Google Maps and Moovit. There were some common similarities that I noticed in researching the two. Both apps home page showed a defaut of a user’s location. There is a lot of information and features with both apps that usually information is buried and hard to find. Lastly, navigation is bias towards a specific source of transportation. Google Maps, for example, is focused on car navigation, whereas, Moovit only supports navigation with users using buses.</p>
-        <p>For BusyBus to enter into the marketspace, I  needed to create a feature that sends instant notification updates to their uesrs on public transit schedules. BusyBus also needs to send user daily real time updates on when their bus/trains are arriving. Since the primarily mode of transportation for BusyBus would be local transportation, it would be neat to see BusyBus include inside maps of metro stations. With users catching their trains, they are already stressed on having to arrive at the train station at the right time. For users to have to also navigate their way around metro stations without a map can cause even more stress. I believe this added visual feature can definitely help BusyBus stand out within their competitors.</p>
+        <p>Having familiarized myself with the behaviors of users with mobile transit apps. I did research on competitors within the marketspace. From the survey, the two competitors most used from my participants were Google Maps and Moovit. There were some common similarities that I noticed in researching the two. Both apps home page showed a defaut of a user’s location, features in the app were usually buried within tabs, and navigation was bias towards a specific source of transportation. Google Maps focused on car navigation, whereas, Moovit only supported navigation with bus users.</p>
+        <p>For BusyBus to enter the marketspace, I  needed to create a feature that would send instant notification updates to their users on bus schedules. BusyBus also needs to send users daily real time traffic updates on when their bus/trains were arriving. Since the primarily mode of transportation for BusyBus would be local transportation. For future improvements, I want to provide images of bus stops and navigational maps in metro stations. As stated in the struggles with participants, I recognized that public transportation can be convenient and affordable, however, it can also be stressful. Therefore, I want to provide these features to users so they can view BusyBus as a helpful tool.</p>
         <img src="Images/BusyBus/google-maps-busybus.png" id="google map">
         <img src="Images/BusyBus/moovit-busybus.png" id="moovit">
     </section>
     <!--information architecture-->
     <section class="information-architecture">
         <h4>Information Architecture Phase</h4>
-        <p>Having gained a better understanding of my users and marketspace. It was time to create user stories and user flows. In my sketch, I wanted to incorporate the results from my survey and market research to create user stories.</p>
-        <img src="Images/BusyBus/Information-Architecture.png" id="information-architecture">
-        <hr class="hr-architecture">
-        <img src="Images/BusyBus/Information-Architecture-2.png" id="information-architecture">
-        <div class="competitive-analysis-button">
-          <a href="https://drive.google.com/open?id=1s9A81mW9JIhv_ObzOEpP9URulg76Uu65" class="button">View all User Flows</a>
+        <p>Having gained a better understanding of my users and marketspace. It was time to create user stories and user flows. In my sketch, I wanted to incorporate the results from my survey and market research to create user stories.</p><br>
+        <p><span style= color:#019F8A>I want to be able to get from point A to point B”</span></p>
+        <p><span style= color:#D5634C>“I want to view bus schedules”</span></p>
+        <p><span style= color:#6B5CA5>“I want to receive notifications on my bus”</span></p>
+        <p><span style= color:#52AFCC>“I want to see a map with my location and bus location”</span></p>
+        <p><span style= color:#ED933E>“I want to be able to easily navigate within the app”</span></p>
+        <img src="Images/BusyBus/BusyBus-wireframe.png" id="information-architecture">
+        <p>The above sketch shows a low-fidelity mock up of how BusyBus would look like. The first screen would show a map of the user’s current location. The input fields on top will be where users fill our their location and where they would like to go. Once both fields are filled out, BusyBus will find the bus stop closest to the location , and show all the buses running at that stop. Users select which bus they want to take, and BusyBus will show the location of the bus in regards to the user’s location. Live notification updates will be shown above the map that tells users the whereabouts of the bus.</p>
+        <div class="usability-testing">
+          <h3>Usability Testing</h3>
+          <p>I wanted to see if the flow of my screens would be understood with the user. I tested the three screens above with  in-person interviews. I interviewed four participants who used public transportation and were familiar with public transit apps. From the interviews, I saw that participants were able to guide me through the screens. They overall understood the flow of the screens, and was able to tell me the functionality of each screen. However, some users were unfamiliar of what an image placeholder look like. Users also wanted to see more informaton on bus lines. Lastly, participants were confused on what bus notifications were. They believed that that container stored the address of the bus stop.</p>
+          <p>With their feedback, I refined my design by adding a detailed map on the first screen. For bus notifications, I added icons and copy to signify a bus’ arrival time. Lastly, I added bus arrival times and bus activity.</p>
+          <div class="usability-wrapper">
+            <div class="testing-1"></div>
+            <div class="testing-2"></div>
+            <div class="testing-3"></div>
+          </div>
         </div>
-    </section>
-    <!--paper prototype-->
-    <section class="paper-prototype">
-        <h3>Paper Prototype</h3>
-        <p>By understanding my user flows, I started sketching out how the screens would look like. For each user flow, I did three to four different sketch iterations. This helped me find the best possible design layout. I used Figma to digitally design these sketches into wireframes.</p>
-        <img src="Images/BusyBus/BusyBus-wireframe.png" id="BusyBus-Wireframe">
-    </section>
-    <!--high-fidelity wireframes-->
-    <section class="high-fidelity-wireframes">
-        <h3>High-Fidelity Wireframes</h3>
-        <p>Building my high-fidelity wireframes prepared me to begin prototyping and testing. The purpose for testing was to see if users would be able to navigate within the product with close to no direction on my end.</p>
-        <img src="Images/BusyBus/HighFidelity-1-desktop.png" alt="High Fidelity desktop">
-        <img src="Images/BusyBus/HighFidelity-2.png" alt="High Fidelity Wireframe2">
-    </section>
-    <div class="competitive-analysis-button">
-        <a href="default.asp" class="button">View all High Fidelity Wireframes</a>
-    </div>
     <!--branding & identity-->
-    <section class="brand">
-        <h4>Branding & Identity Phase</h4>
-        <p>The first steps in branding was identifying my target audience, which in this case were remote professionals. Having worked as a freelancer for five years now, I understood that one of the key struggles I had was not feeling part of a whole. Oftentimes, details and direction on a project can get lost in translation. All I wanted was more clarity and transparency. I liked the word “Clear” used in the product, for it could be interpreted in many ways. For some, it can mean having full transparency, which can eliminate points of cloudiness. I went with the name ClearBox because it represented the idea of creating your own personal workspace and being able to feel part of a whole.</p>
-        <h3>Logo Design</h3>
-        <p>From the word clear, I was able to branch out to other words that I believed would help identify the brand. Some of these words included being transparent, reliable, adaptable, useful, motivational, etc. I used words created from my mind mapping execise to start sketching logo ideas out. I wanted a logo that showed transparency and layers. The logo needed to reflect the name of ClearBox as well as incorporates elements of a workspace in a minimalistic way. The logo would come off as professional, and so most of the shapes used in the logo were geometric.</p>
-        <h3>Color Palette</h3>
-        <p>The next step was establishing the mood board which would come to aid my decision for the color palette. This was personally my favorite part of branding. I searched for images that I thought best represented our product, yet still tied in with the words from the mind map. I drew inspiration from offices that had a lot of natural light, organic natural woods, and plants. I liked the mix of greenery and organic textures amongst industrial spaces. I used the eye picker to select certain colors that popped out to me. The main accent color used is green. I wanted to stray away from blue because it is often a color used in software products. I wanted to make the product visually unique, and at the same time have it serve as a design challenge for myself.</p>
-        <img src="Images/Busybus/ClearBox-Logo-Creation.png" id="branding">
-        <img src="Images/BusyBus/ClearBox-Palette.png" id="branding">
-    </section>
-    <div class="brand-moodboard"></div>
-    <!--user testing phase-->
-    <section class="user-testing">
-        <h4>User Testing Phase</h4>
-        <p>The idea behind the first draft of the high fidelity mock-up was to incorporate stock photo images of work spaces and young working professionals. As stated above in the branding, I used green as an accent color. I also incorporated some warmer/neutral tones to help balance out the whitespace on the screens. As I added this style throughout the rest of the product, I wanted to do a quick preference testing to see how users felt on some particular screens that I had some design curiosity in. I tested out different color variation, layout, and button placement. Below are three screens that I  tested, which 2 designs each:</p>
-    </section>
-    <!--user testing phase-->
-    <section class="preference-testing">
-        <h3>Preference Testing</h3>
-        <p>What color do you prefer? 83% of users chose the second design.</p>
-        <div class="preference-wrapper">
-          <div class="image-one">
-            <img src="Images/BusyBus/preference-1.png" id="preference">
-          </div>
-          <div class="image-two">
-            <img src="Images/BusyBus/preference-2.png" id="preference">
-          </div>
-        </div>
-        <p>Where do you prefer button placement? 84% of users chose the first design.</p>
-        <div class="preference-wrapper">
-          <div class="image-one">
-            <img src="Images/BusyBus/preference-test-3.png" id="preference">
-          </div>
-          <div class="image-two">
-            <img src="Images/BusyBus/preference-test-4.png" id="preference">
-          </div>
-        </div>
-        <p>What layout do you prefer? 67% of users chose the first design.</p>
-        <div class="preference-wrapper">
-          <div class="image-one">
-            <img src="Images/BusyBus/preference-test-5.png" id="preference">
-          </div>
-          <div class="image-two">
-            <img src="Images/BusyBus/preference-test-6.png" id="preference">
-          </div>
+        <div class="brand">
+          <h4>Branding & Identity Phase</h4>
+          <p>The initial steps of branding BusyBus was find some photos for inspiration. I wanted a clean interface, and wanted to be wary of incorporating too many colors for the initial design. The accent color that I decided to move forward would be the turquoise green. I liked how it can easily be interpreted in different ways. For a product pertaining to public transportation, the color green could reflect how BusyBus is eco-friendly. The green can also used to show if a bus line was active. </p>
+          <img src="Images/BusyBus/busybus-moodboard.png" alt="busybus-moodboard">
+          <img src="Images/BusyBus/busybus-colorpalette.png" alt="busybus-palette">
+          <p>With my original design concept of BusyBus, I thought that by assigning different bus lines its’ own color, that would help users establish that these bus lines were different. However, as a I looked at it from afar, I saw that it was hard to read some of the fonts and would not be user-friendly for users that are color blind. Also, the overall design looked distracting , and it clashed with my accent green color. Therefore, for the next iteration of my design, I looked into simplifying the design by making all bus lines the same color.</p>
         </div>
     </section>
-    <!--user testing part 2-->
-    <section class="user-testing">
-          <p>Based on the preference testing, an overwhelming amount of users were more into the dark blue menu for the dashboard. This would be a major change in my second draft of high-fidelity mockups. I was also able to execute the screens users chose in the other preference tests, so made those adjustments as well.</p>
-          <h3>User Testing Part 2</h3>
-          <p>I decided to do a second round of testing in order to add the changes done from my preference testing. The results of this testing drastically changed the look of my design. A number of users had complained that the “My Files” tab and “Collaboration” tab were too similar in look and functionality to one another. The only difference the screen had was the ability to view notes and screen share for collaborative projects. Originally in my mind, I thought collaboration should be a separate tab in itself, because it was a highly sought out feature from my user surveys. However, the way I designed it out didn’t make it too different from “My Files”. Therefore, I decided to combine the “Collaborate” tab into the “My Files” tab. All files that are shared will be allowed the feature to share notes and screen share. The other comment that was made was that settings was difficult to find. Users didn’t seem to notice that the profile image would have a drop down to access settings. Since I had some extra real estate on my left menu bar, I decided to add a tab that featured “Settings”. This way users had two ways in accessing “Settings”. Lastly, one user had commented in adding a breadcrumb trail just to help users track their steps in the product. The breadcrumbs would allow easy shortcuts for users to jump to different screens.</p>
-          <p>One comment that caught me by surprise was when a user couldn’t see how the branding was shown in the product itself. She said the landing page of the website didn’t quite match the same feeling in the product and that she wanted to see more transparent effects that would match the style of the logo. When this was brought to my attention, I realized that I had left out a crucial part of my branding out. I originally named the product ClearBox because it was a platform in which users could feel less alone. They would be able to customize the look and feel of their workspace to match whichever setting they were in. In my final iteration of my design, I seeked to make the product more personable by allowing users to change their background skin on the settings page.</p>
-    </section>
-          <div class="feature-wrapper">
-            <div class="feature-image-1">
-              <img src="Images/BusyBus/Laptop-Customize-workspace.png" alt="customize">
-            </div>
-            <div class="feature-copy">
-              <h3>Customize Your Workspace</h3>
-              <p>Since remote professionals aren’t tied to any space, the ability to customize their workspace allows users to change their settings where ever they are at.</p>
-            </div>
-          </div>
-          <div class="feature-wrapper-reverse">
-            <div class="feature-image-right">
-              <img src="Images/BusyBus/Laptop-Project-Collaboration.png" alt="customize">
-            </div>
-            <div class="feature-copy-left">
-              <h3>Project Collaboration</h3>
-              <p>Team sharing made easy. With two clicks, users can easily add in new team members to projects. Users are also allowed to view activities of actions done to shared projects.</p>
-            </div>
-          </div>
-          <div class="feature-wrapper">
-            <div class="feature-image-3">
-              <img src="Images/BusyBus/Laptop-Document-Creation.png" alt="customize">
-            </div>
-            <div class="feature-copy">
-              <h3>Document Creation</h3>
-              <p>Need to create documents to share? In ClearBox, users have the options to create different types of documents. All documents created in ClearBox will have offline editing abilities and automatic saving features.</p>
-            </div>
-          </div>
-          <div class="clearbox-prototype-button">
-              <a href="https://projects.invisionapp.com/share/4GU25R3598K#/screens/385338170_1-_Desktop" class="button">View ClearBox Prototype</a>
-          </div>
     <!--conclusion-->
     <section class="conclusion">
           <h4>Conclusion</h4>
