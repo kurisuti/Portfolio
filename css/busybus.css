@@ -128,15 +128,20 @@ h6 {
   padding: 1rem 3.2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  align-items: center;
   text-decoration: none;
 }
 
-
-.competitive-analysis-button, .busybus-prototype-button {
-  align-items: center;
-  display: flex;
-  margin-top: 5rem;
-  justify-content: center;
+.button-prototype {
+  background-color: #F5896C;
+  border-radius: .5rem;
+  color: white;
+  display: inline-block;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.4rem;
+  padding: 1rem 3.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .back-to-top {
@@ -174,8 +179,8 @@ a {
 /*image styling*/
 
 img {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   width: 100%;
 }
 
@@ -195,6 +200,12 @@ img {
 #paper-prototype {
   height: 30rem;
   margin-bottom: -1rem;
+  object-fit: contain;
+  width: 100%;
+}
+
+#busybus-prototype {
+  height: 90rem;
   object-fit: contain;
   width: 100%;
 }
@@ -241,6 +252,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 25rem;
+  margin-top: 3rem;
   max-width: 100%;
 }
 
@@ -256,8 +268,9 @@ img {
 }
 
 /*competitive analysis*/
-.competitive-analysis {
+.competitive-analysis, .prototyping {
   background-color: #F9F7F3;
+  margin-top: -3rem;
 
 }
 
@@ -283,7 +296,7 @@ img {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .carousel-inner {
@@ -393,7 +406,7 @@ img {
   width: 100%;
 }
 
-.testing-2 {
+.testing-2, .testing-4 {
   background-image: url("../Images/BusyBus/BusyBus2.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -413,6 +426,27 @@ img {
   height: 50rem;
   margin: auto;
   margin-bottom: 3rem;
+  width: 100%;
+}
+
+.testing-4 {
+  background-image: url("../Images/BusyBus/BusyBus5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 50rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.testing-5 {
+  background-image: url("../Images/BusyBus/BusyBus4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50rem;
+  margin: auto;
   width: 100%;
 }
 
@@ -565,6 +599,26 @@ footer {
     margin-top: 0rem;
     margin-bottom: 0rem;
     width: 33%;
+  }
+
+  .testing-4 {
+    background-image: url("../Images/BusyBus/BusyBus5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  .testing-5 {
+    background-image: url("../Images/BusyBus/BusyBus4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50rem;
+    margin: auto;
+    width: 100%;
   }
 
   .user-persona-container {
