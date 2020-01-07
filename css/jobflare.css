@@ -71,6 +71,12 @@ li {
     width: 60px;
 }
 
+#jf-brainstorm {
+  object-fit: contain;
+  height: 50rem;
+  width: 100%;
+}
+
 /*headings*/
 b {
   font-weight: bold;
@@ -237,12 +243,25 @@ img {
 }
 
 .image-two {
-  background-image: url("../Images/JobFlare/jobflare-image2.png");
+  background-image: url("../Images/JobFlare/jf-girl.png");
   background-size: cover;
   background-position: center;
   height: 30rem;
   margin: 0 auto;
   width: 90%;
+}
+
+/*video*/
+video {
+  margin-top: 4rem;
+  width: 60%;
+  height: auto;
+}
+
+.jf-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*overview*/
@@ -397,7 +416,7 @@ footer {
   }
 
   .image-two {
-    background-image: url("../Images/JobFlare/jobflare-image2.png");
+    background-image: url("../Images/JobFlare/jf-girl.png");
     background-size: cover;
     background-position: center;
     height: 35rem;

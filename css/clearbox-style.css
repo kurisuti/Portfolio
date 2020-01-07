@@ -120,15 +120,19 @@ h5 {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
   padding: 1rem 3.2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   text-decoration: none;
 }
+
+
 
 .competitive-analysis-button, .clearbox-prototype-button {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.competitive-analysis-button {
+  margin-top: 6rem;
 }
 
 .back-to-top {
