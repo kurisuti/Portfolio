@@ -206,7 +206,7 @@ img {
 }
 
 .clearbox-image {
-  background-image: url("/Images/Clearbox/ClearBox_Hero-image.png");
+  background-image: url("../Images/Clearbox/ClearBox_Hero-image.png");
   height: 30rem;
   width: 100%;
 
