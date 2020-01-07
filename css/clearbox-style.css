@@ -225,7 +225,7 @@ img {
 }
 
 .discovery-image {
-  background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
+  background-image: url("../Images/Clearbox/Discovery_Phase-image.png");
   background-position: 0px -3rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -274,7 +274,7 @@ img {
 
 /*competitive analysis*/
 .brand-moodboard {
-  background-image: url("../Images/ClearBox/ClearBox-MoodBoard.png");
+  background-image: url("../Images/Clearbox/ClearBox-MoodBoard.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
@@ -527,7 +527,7 @@ footer {
   }
 
   .discovery-image {
-    background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
+    background-image: url("../Images/Clearbox/Discovery_Phase-image.png");
     background-position: 0px -14rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -537,14 +537,14 @@ footer {
 
   .brand-moodboard {
     background-position: center;
-    background-image: url("../Images/ClearBox/ClearBox-MoodBoard.png");
+    background-image: url("../Images/Clearbox/Clearbox-MoodBoard.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 40rem;
   }
 
   .discovery-image {
-    background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
+    background-image: url("../Images/Clearbox/Discovery_Phase-image.png");
     background-position: 0 40%;
     background-repeat: no-repeat;
     background-size: cover;
