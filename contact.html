@@ -16,10 +16,10 @@
     <nav class="navbar">
       <span class="navbar-toggle" id="js-navbar-toggle">
            <i class="fas fa-bars"></i>
-       </span>
-       <a href="index.html">
+      </span>
+      <a href="index.html">
        <img id="logo" src="Images/Homepage/Logo.png">
-       </a>
+      </a>
       <ul class="main-nav" id="js-menu">
         <li>
           <a href="index.html" class="nav-links">Home</a>
@@ -36,27 +36,27 @@
       </ul>
     </nav>
     <section class="form-container">
-        <div class="hero-copy">
-          <h1>Like what I do?<br> Let's chat.</h1>
-          <h2>If you like what I do, or you just  want to talk about design. Feel  free to send a message over. </h2>
-        </div>
-        <form action="https://formspree.io/xknovpll" method="POST">
-          <label>
-            <input type="text" name="name" placeholder="Name">
-          </label>
-          <label>
-            <input type="text" name="email" placeholder="E-mail">
-          </label>
-          <label>
-            <textarea name="message" placeholder="Type Message Here" ID=styled></textarea>
-          </label>
-          <button type="submit" ID=button>Send</button>
-        </form>
+      <div class="hero-copy">
+        <h1>Like what I do?<br> Let's chat.</h1>
+        <h2>If you like what I do, or you just  want to talk about design. Feel  free to send a message over. </h2>
+      </div>
+      <form action="https://formspree.io/xknovpll" method="POST">
+        <label>
+          <input type="text" name="name" placeholder="Name">
+        </label>
+        <label>
+          <input type="text" name="email" placeholder="E-mail">
+        </label>
+        <label>
+          <textarea name="message" placeholder="Type Message Here" ID=styled></textarea>
+        </label>
+        <button type="submit" ID=button>Send</button>
+      </form>
     </section>
     <hr class="hr-footer">
     <section class="footer">
       <h2>Let's Connect</h2>
-      <p>Feel free to reach out to me if you think I’d be a great addition to your team.
+      <p>Feel free to reach out to me if you think I’d be a great addition to your team.</p>
       <br><a href="contact.html" class="button">Message Me</a>
       <br>
       <div class="footer-icon">
@@ -69,9 +69,7 @@
     <script>
         let mainNav = document.getElementById('js-menu');
         let navBarToggle = document.getElementById('js-navbar-toggle');
-
         navBarToggle.addEventListener('click', function () {
-
         mainNav.classList.toggle('active');
         });
     </script>
@@ -81,7 +79,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-155353267-1');
     </script>
   </body>
