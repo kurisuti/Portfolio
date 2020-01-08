@@ -190,7 +190,6 @@ a {
 /*image styling*/
 
 img {
-  margin-bottom: 1rem;
   width: 100%;
 }
 
@@ -252,6 +251,11 @@ footer {
   display: inline-block;
   padding-bottom: 3rem;
   width: 10%;
+}
+
+.footer-copy {
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 .fab {
