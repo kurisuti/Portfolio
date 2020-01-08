@@ -64,16 +64,16 @@ li {
 }
 
 #logo {
-    height: 50px;
-    margin-left: 2rem;
-    object-fit: contain;
-    padding: 1rem;
-    width: 60px;
+  height: 50px;
+  margin-left: 2rem;
+  object-fit: contain;
+  padding: 1rem;
+  width: 60px;
 }
 
 #jf-brainstorm {
   object-fit: contain;
-  height: 50rem;
+  height: 35rem;
   width: 100%;
 }
 
@@ -139,8 +139,7 @@ h6 {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
   padding: 1rem 3.2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   text-decoration: none;
 }
 
@@ -191,9 +190,7 @@ a {
 /*image styling*/
 
 img {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  position: cover s;
+  position: cover;
   width: 100%;
 }
 
@@ -290,6 +287,11 @@ footer {
   display: inline-block;
   padding-bottom: 3rem;
   width: 10%;
+}
+
+.footer-copy {
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 .fab {
