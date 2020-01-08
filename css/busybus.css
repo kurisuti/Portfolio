@@ -248,11 +248,12 @@ img {
 
 .Discovery-image {
   background-image: url("../Images/BusyBus/Busybus-holdingphone.png");
-  background-position: 0px -3rem;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   max-width: 100%;
 }
 
@@ -268,10 +269,16 @@ img {
 }
 
 /*competitive analysis*/
-.competitive-analysis, .prototyping {
+.competitive-analysis {
   background-color: #F9F7F3;
   margin-top: -3rem;
+  padding-top: 3rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
 
+.prototype {
+  background-color: #F9F7F3;
 }
 
 .brand-moodboard {
@@ -464,6 +471,11 @@ footer {
   display: inline-block;
   padding-bottom: 3rem;
   width: 10%;
+}
+
+.footer-copy {
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 .fab {

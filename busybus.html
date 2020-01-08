@@ -115,13 +115,13 @@
       </div>
     </section>
     <!--competitive analysis-->
-    <section class="competitive-analysis">
+    <div class="competitive-analysis">
         <h3>Competitive Analysis</h3>
         <p>Having familiarized myself with the behaviors of users with mobile transit apps. I did research on competitors within the marketspace. From the survey, the two competitors most used from my participants were Google Maps and Moovit. There were some common similarities that I noticed in researching the two. Both apps home page showed a defaut of a user’s location, features in the app were usually buried within tabs, and navigation was bias towards a specific source of transportation. Google Maps focused on car navigation, whereas, Moovit only supported navigation with bus users.</p>
         <p>For BusyBus to enter the marketspace, I  needed to create a feature that would send instant notification updates to their users on bus schedules. BusyBus also needs to send users daily real time traffic updates on when their bus/trains were arriving. Since the primarily mode of transportation for BusyBus would be local transportation. For future improvements, I want to provide images of bus stops and navigational maps in metro stations. As stated in the struggles with participants, I recognized that public transportation can be convenient and affordable, however, it can also be stressful. Therefore, I want to provide these features to users so they can view BusyBus as a helpful tool.</p>
         <img src="Images/BusyBus/google-maps-busybus.png" id="google map">
         <img src="Images/BusyBus/moovit-busybus.png" id="moovit">
-    </section>
+    </div>
     <!--information architecture-->
     <section class="information-architecture">
         <h4>Information Architecture Phase</h4>
@@ -156,7 +156,7 @@
           </div>
         </div>
     </section>
-    <section class="prototyping">
+    <section class="prototype">
         <h3>Prototyping</h3>
         <p>The next step in the process was being able to create a prototype of what I had designed. The initial problem I was solving for was to create a screen where users would be able to find when their certain bus was going to arrive, which in my case was on Washington and State. I wanted my prototype to look as real as possible, therefore I adjusted the copy so the information looked accurate. In my screen, I divided bus line information into four columns. The first one being the name of the bus line, the second, the destination that the bus stop was located at, the third was how often the bus arrived at the stop, and fourth was the arrow that signified to users that when users selected the line, it would take them to the next screen. With the excessive amount of information given, I had to label the information, so that users would be able to take a quick look at the screen and be able to digest the information given to them.</p>
         <p>For BusyBus to enter the marketspace, I  needed to create a feature that would send instant notification updates to their users on bus schedules. BusyBus also needs to send users daily real time traffic updates on when their bus/trains were arriving. Since the primarily mode of transportation for BusyBus would be local transportation. For future improvements, I want to provide images of bus stops and navigational maps in metro stations. As stated in the struggles with participants, I recognized that public transportation can be convenient and affordable, however, it can also be stressful. Therefore, I want to provide these features to users so they can view BusyBus as a helpful tool.</p>
@@ -174,7 +174,7 @@
     <!--footer-->
     <footer>
       <h2>Let's Connect</h2>
-      <p>Feel free to reach out to me if you think I’d be a great addition to your team.
+      <p class="footer-copy">Feel free to reach out to me if you think I’d be a great addition to your team.</p>
       <br><a href="contact.html" class="button">Message Me</a>
       <br>
       <div class="footer-icon">
@@ -187,9 +187,7 @@
     <script>
         let mainNav = document.getElementById('js-menu');
         let navBarToggle = document.getElementById('js-navbar-toggle');
-
         navBarToggle.addEventListener('click', function () {
-
         mainNav.classList.toggle('active');
         });
     </script>
@@ -199,7 +197,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-155353267-1');
     </script>
   </body>
