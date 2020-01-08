@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  padding: 3rem 4rem 4rem;
+  padding: 2rem 4rem 2rem 4rem;
 }
 
 
@@ -100,11 +100,11 @@ li {
 
 
 #logo {
-    height: 50px;
-    margin-left: 2rem;
-    object-fit: contain;
-    padding: 1rem;
-    width: 60px;
+  height: 50px;
+  margin-left: 2rem;
+  object-fit: contain;
+  padding: 1rem;
+  width: 60px;
 }
 
 /*headings*/
@@ -272,7 +272,7 @@ section.hero {
 .hr-footer {
   border: none;
   border-top: .1rem solid #DEDADA;
-  width: 90%;
+  width: 80%;
 }
 
 
@@ -290,7 +290,7 @@ section.hero {
 /*testimonial*/
 .slider {
   background-color: #FAF8F0;
-  height: 30rem;
+  height: 40rem;
   position: relative;
   overflow: hidden;
   display: -webkit-box;
@@ -310,15 +310,13 @@ section.hero {
           justify-content: center;
 }
 
-.slider__header {
-  padding-bottom: 1.5rem;
-}
+
 
 /*bullets*/
 .slider__nav {
   width: 10px;
   height: 10px;
-  margin: 0rem 9px 2rem;
+  margin: 0rem 10px 6rem;
   border-radius: 50%;
   z-index: 10;
   outline: 6px solid #ccc;
@@ -369,7 +367,7 @@ section.hero {
 .slider__contents {
   padding: 3rem;
   height: 100%;
-  margin-top: -2.5rem;
+  margin-top: -3.5rem;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -435,7 +433,12 @@ footer {
   text-align: center;
 }
 
-.footer-icon a{
+.footer-copy {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.footer-icon a {
   display: inline-block;
   padding-bottom: 3rem;
   width: 10%;
@@ -466,10 +469,10 @@ footer {
   .main-nav {
     background-color: white;
     display: flex;
+    flex-direction: row;
     margin-right: 3rem;
     margin-bottom: 1rem;
     padding: 1.5rem;
-    flex-direction: row;
     justify-content: flex-end;
   }
 
