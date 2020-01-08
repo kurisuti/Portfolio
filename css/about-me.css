@@ -102,11 +102,11 @@ li {
 
 
 #logo {
-    height: 50px;
-    margin-left: 2rem;
-    object-fit: contain;
-    padding: 1rem;
-    width: 60px;
+  height: 50px;
+  margin-left: 2rem;
+  object-fit: contain;
+  padding: 1rem;
+  width: 60px;
 }
 
 /*button*/
@@ -121,12 +121,11 @@ li {
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-decoration: none;
-
 }
 
 .button-header {
-  color: #F5896C;
   border-radius: .5rem;
+  color: #F5896C;
   display: inline;
 }
 
@@ -162,7 +161,7 @@ img {
 .hr-footer {
   border: none;
   border-top: .1rem solid #DEDADA;
-  width: 90%;
+  width: 80%;
 }
 
 .footer-icon {
