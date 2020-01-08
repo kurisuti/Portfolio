@@ -120,6 +120,7 @@ h5 {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
   padding: 1rem 3.2rem;
+  margin-bottom: 2.5rem;
   text-decoration: none;
 }
 
@@ -222,6 +223,11 @@ img {
   width: 90%;
 }
 
+.hr-architecture {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 /*problem*/
 .problem {
   background-color: #F9F7F3;
@@ -266,6 +272,10 @@ img {
   background-color: #F9F7F3;
 }
 
+.information-container {
+  margin-top: 3.5rem;
+}
+
 .preference-testing {
   background-color: #F9F7F3;
   text-align: center;
@@ -290,6 +300,22 @@ img {
 
 .feature-copy-left {
   padding: 0rem 3rem;
+}
+
+.feature-wrapper {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.feature-wrapper-reverse {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+/*high fidelity*/
+.highfidelity-prototype {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -408,6 +434,11 @@ footer {
   display: inline-block;
   padding-bottom: 3rem;
   width: 10%;
+}
+
+.footer-copy {
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 .fab {
@@ -563,17 +594,9 @@ footer {
     width: 100%;
   }
 
-  .feature-wrapper {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    width: 90%;
-  }
-
-  #information-architecture, #branding {
+  #branding {
     margin-bottom: 1rem;
+    margin-top: 3rem;
     height: 40rem;
     object-fit: contain;
     width: 100%;
@@ -584,12 +607,19 @@ footer {
     width: 70%;
   }
 
+  .feature-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 90%;
+  }
+
   .feature-wrapper-reverse {
     display: flex;
     flex-direction: row-reverse;
     margin: 0 auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
     width: 90%;
   }
 
@@ -600,7 +630,6 @@ footer {
   }
 
   .feature-copy {
-    align-self: center;
     padding-bottom: 5rem;
     padding-left: 5rem;
     width: 100%;
@@ -613,7 +642,6 @@ footer {
   }
 
   .feature-copy-left {
-    align-self: center;
     float: left;
     width: 100%;
   }
