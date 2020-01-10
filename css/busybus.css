@@ -275,6 +275,13 @@ img {
   padding-left: 5rem;
 }
 
+  #competitive {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+
+
 .prototype {
   background-color: #F9F7F3;
 }
@@ -566,8 +573,9 @@ footer {
     color: #E07B63;
   }
 
-  .persona-one, .persona-two {
+  #competitive {
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   /*usability testing*/
@@ -685,7 +693,8 @@ footer {
   #information-architecture, #branding {
     height: 30rem;
     object-fit: contain;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     width: 100%;
   }
 
