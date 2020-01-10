@@ -14,7 +14,7 @@ section {
   padding: 2rem 4rem 2rem 4rem;
 }
 
-
+/*animation*/
 .animate-pop-in {
   animation: pop-in .6s ease-out forwards;
   opacity: 0;
@@ -32,8 +32,6 @@ section {
   animation-delay: 1s;
 }
 
-
-/*animation*/
 @keyframes pop-in {
   0% {
     opacity: 0;
@@ -56,7 +54,6 @@ section {
   width: 100%;
   z-index: 10;
 }
-
 
 .main-nav {
   background-color:#FAF8F0;
@@ -98,7 +95,6 @@ li {
   display: block;
 }
 
-
 #logo {
   height: 50px;
   margin-left: 2rem;
@@ -123,7 +119,7 @@ p {
 h1 {
   font-size: 3.5rem;
   line-height: 1.3em;
-  margin: 2rem 0;
+  margin: 2rem 1rem;
 }
 
 h2 {
@@ -202,7 +198,6 @@ h6 {
 }
 
 
-
 /*links*/
 a {
   color: #F06F54;
@@ -233,11 +228,10 @@ a {
 
 /*image styling*/
 img {
-  object-fit: cover;
   height: 350px;
+  object-fit: cover;
   width: 100%;
 }
-
 
 /*hero*/
 section.hero {
@@ -289,7 +283,7 @@ section.hero {
 }
 
 
-/*about*/
+/*about-me*/
 .about-me-copy {
   padding-top: 3rem;
 }
@@ -323,13 +317,11 @@ section.hero {
           justify-content: center;
 }
 
-
-
 /*bullets*/
 .slider__nav {
   width: 10px;
   height: 10px;
-  margin: 0rem 10px 6rem;
+  margin: 0rem 10px 5rem;
   border-radius: 50%;
   z-index: 10;
   outline: 6px solid #ccc;
@@ -518,6 +510,12 @@ footer {
     color: #E07B63;
   }
 
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.3em;
+    margin: 2rem 3rem;
+  }
+
   .about {
     display: flex;
     margin-top: 3rem;
@@ -571,7 +569,6 @@ footer {
   }
 
 }
-
 
 
 /*desktop*/
