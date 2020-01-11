@@ -45,7 +45,7 @@ section {
 
 /*navigation*/
 .navbar {
-  background-color: white;
+  background-color: pink;
   border: 1px solid #EEEDE9;
   font-family: "roboto",sans-serif;
   font-size: 1.4rem;
@@ -68,7 +68,7 @@ section {
   text-decoration: none;
 }
 
-.nav-links:hover, .fab:hover {
+.nav-links:hover, .fab:hover, .dropbtn:hover {
   color: #E07B63;
 }
 
