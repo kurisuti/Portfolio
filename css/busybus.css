@@ -408,8 +408,7 @@ img {
   background-size: contain;
   background-position: center;
   height: 50rem;
-  margin: auto;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   width: 100%;
 }
@@ -421,7 +420,6 @@ img {
   background-position: center;
   height: 50rem;
   margin: auto;
-  margin-top: 2rem;
   margin-bottom: 2rem;
   width: 100%;
 }
@@ -432,7 +430,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   height: 50rem;
-  margin: auto;
   margin-bottom: 3rem;
   width: 100%;
 }
@@ -456,6 +453,10 @@ img {
   height: 50rem;
   margin: auto;
   width: 100%;
+}
+
+.usability-wrapper-2 {
+  margin-top: 3rem;
 }
 
 /*footer*/
@@ -578,60 +579,54 @@ footer {
   .usability-wrapper {
     display: flex;
     flex-direction: row;
+  }
+
+  .usability-wrapper-2 {
+    display: none;
+  }
+
+  .usability-test-two {
+    background-image: url("../Images/BusyBus/busybus-wireframe-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 100%;
+    margin-bottom: 2rem;
+    height: 50rem;
+
   }
 
   .testing-1 {
     background-image: url("../Images/BusyBus/BusyBus1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 40rem;
-    margin-right: 0rem;
+    background-position: center;
+    height: 50rem;
+    margin-right: 2rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    width: 33%;
+    width: 100%;
   }
 
-  .testing-2 {
+  .testing-2, .testing-4 {
     background-image: url("../Images/BusyBus/BusyBus2.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 40rem;
-    margin-right: 0rem;
+    background-position: center;
+    height: 50rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    width: 33%;
+    margin-right: 2rem;
+    width: 100%;
   }
 
   .testing-3 {
     background-image: url("../Images/BusyBus/BusyBus3.png");
-    background-repeat: no-repeat;
     background-size: contain;
-    height: 40rem;
-    margin-top: 0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50rem;
     margin-bottom: 0rem;
-    width: 33%;
-  }
-
-  .testing-4 {
-    background-image: url("../Images/BusyBus/BusyBus5.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 50rem;
-    margin: auto;
-    width: 100%;
-  }
-
-  .testing-5 {
-    background-image: url("../Images/BusyBus/BusyBus4.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50rem;
-    margin: auto;
     width: 100%;
   }
 
