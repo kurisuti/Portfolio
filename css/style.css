@@ -14,7 +14,7 @@ section {
   padding: 2rem 4rem 2rem 4rem;
 }
 
-/*animation*/
+/*title animation*/
 .animate-pop-in {
   animation: pop-in .6s ease-out forwards;
   opacity: 0;
@@ -144,20 +144,12 @@ h4 {
   margin-top: 1.3rem;
 }
 
-h5 {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 1.3rem;
-}
-
 h6 {
   color: #8E8E8E;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.2rem;
   margin-top: 1.3rem;
 }
-
 
 /*button*/
 .button {
@@ -196,7 +188,6 @@ h6 {
   padding: 1rem 3.2rem;
   text-decoration: none;
 }
-
 
 /*links*/
 a {
@@ -281,7 +272,6 @@ section.hero {
   border-top: .1rem solid #DEDADA;
   width: 80%;
 }
-
 
 /*about-me*/
 .about-me-copy {
@@ -427,7 +417,6 @@ section.hero {
   }
 }
 
-
 /*footer*/
 footer {
   margin-top: 2rem;
@@ -454,8 +443,6 @@ footer {
   font-size: 2rem;
 }
 
-
-/*media queries*/
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
@@ -497,7 +484,7 @@ footer {
     display: none;
   }
 
-  .button-header{
+  .button-header {
     background-color: #F5896C;
     border-radius: .5rem;
     color: white;
@@ -569,7 +556,6 @@ footer {
   }
 
 }
-
 
 /*desktop*/
 @media screen and (min-width: 1025px) {

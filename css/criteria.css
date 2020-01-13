@@ -96,14 +96,12 @@ h2 {
   line-height: 1.3em;
 }
 
-
 h3 {
   font-family: "halant",Times,serif;
   font-size: 1.7rem;
   font-weight: 400;
   margin-top: 2rem;
 }
-
 
 h4 {
   color: #F06F54;
@@ -128,7 +126,6 @@ h6 {
   padding-top: 1.5rem;
 }
 
-
 /*button*/
 .button {
   background-color: #F5896C;
@@ -142,20 +139,12 @@ h6 {
   text-decoration: none;
 }
 
-.competitive-analysis-button, .criteria-prototype-button {
-  align-items: center;
-  display: flex;
-  margin-top: 5rem;
-  justify-content: center;
-}
-
 .back-to-top {
   align-items: center;
   display: flex;
   justify-content: center;
   padding: 2rem 3rem;
 }
-
 
 /*links*/
 a {
@@ -170,24 +159,12 @@ a {
   text-decoration: underline;
 }
 
-.casestudy-link {
-  color: #F06F54;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
 .link-secondary {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.5rem;
 }
 
-.link-secondary:hover {
-  color: #F06F54;
-}
-
 /*image styling*/
-
 img {
   width: 100%;
 }
@@ -216,7 +193,7 @@ img {
 }
 
 /*overview*/
-.hr, .hr-architecture, .hr-footer {
+.hr-footer {
   border: none;
   border-top: .1rem solid #DEDADA;
   width: 90%;
@@ -225,15 +202,6 @@ img {
 /*problem*/
 .challenges {
   background-color: #F9F7F3;
-}
-
-.Discovery-image {
-  background-image: url("../Images/Criteria/Busybus-holdingphone.png");
-  background-position: 0px -3rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 25rem;
-  max-width: 100%;
 }
 
 /*footer*/
@@ -262,8 +230,6 @@ footer {
   font-size: 2rem;
 }
 
-
-/*media queries*/
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
@@ -351,40 +317,11 @@ footer {
     display: none;
   }
 
-  .vl {
-    border-left: .1rem solid #DEDADA;
-    height: 50%;
-    left: 50%;
-    margin-left: -3px;
-  }
-
-  .image-one {
-    width: 100%;
-  }
-
-  .image-two {
-    width: 100%;
-  }
-
-  .feature-wrapper {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    width: 90%;
-  }
 }
-
 
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
     padding: 3rem 25rem;
-  }
-
-  #preference {
-    width: 80%;
-    object-fit: cover;
   }
 }

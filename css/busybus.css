@@ -52,11 +52,11 @@ li {
 }
 
 .navbar-toggle {
-  position: absolute;
-  margin: 1.6rem 2rem 0rem 2rem;
-  right: 20px;
   cursor: pointer;
   font-size: 1.8rem;
+  margin: 1.6rem 2rem 0rem 2rem;
+  position: absolute;
+  right: 20px;
 }
 
 .active {
@@ -65,10 +65,6 @@ li {
 
 
 /*headings*/
-b {
-  font-weight: bold;
-}
-
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.2rem;
@@ -87,7 +83,7 @@ h2 {
 h3 {
   color: black;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding-top: 1rem;
 }
 
@@ -105,31 +101,18 @@ h5 {
   margin-top: 2rem;
 }
 
-
 /*button*/
 .button {
-  background-color: #F5896C;
-  border-radius: .5rem;
-  color: white;
-  display: inline-block;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
-  padding: 1rem 3.2rem;
-  margin-bottom: 2rem;
   align-items: center;
-  text-decoration: none;
-}
-
-.button-prototype {
   background-color: #F5896C;
   border-radius: .5rem;
   color: white;
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
-  padding: 1rem 3.2rem;
-  margin-top: 2rem;
   margin-bottom: 2rem;
+  padding: 1rem 3.2rem;
+  text-decoration: none;
 }
 
 .back-to-top {
@@ -148,20 +131,9 @@ a {
   text-decoration: none;
 }
 
-.casestudy-link {
-  color: #F06F54;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
 .link-secondary {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.5rem;
-}
-
-.link-secondary:hover {
-  color: #F06F54;
 }
 
 /*image styling*/
@@ -183,30 +155,16 @@ img {
   margin-bottom: -2rem;
 }
 
-#paper-prototype {
-  height: 30rem;
-  margin-bottom: -1rem;
-  object-fit: contain;
-  width: 100%;
-}
-
-#busybus-prototype {
-  height: 90rem;
-  object-fit: contain;
-  width: 100%;
-}
-
-
 /*hero*/
 .busybus-container {
   width: 100%;
 }
 
 .busybus-copy {
-  top: 10%;
-  position: absolute;
   margin: auto;
+  position: absolute;
   text-align: center;
+  top: 10%;
   width: 100%;
 }
 
@@ -221,7 +179,7 @@ img {
 }
 
 /*overview*/
-.hr, .hr-architecture, .hr-footer {
+.hr-footer {
   border: none;
   border-top: .1rem solid #DEDADA;
   width: 90%;
@@ -232,7 +190,7 @@ img {
   background-color: #F9F7F3;
 }
 
-.Discovery-image {
+.discovery-image {
   background-image: url("../Images/BusyBus/Busybus-holdingphone.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -243,51 +201,17 @@ img {
   max-width: 100%;
 }
 
-
-/*information architecture*/
-.preference-testing {
-  background-color: #F9F7F3;
-  text-align: center;
-}
-
-.preference-wrapper {
-  padding: 0rem !important;
-}
-
 /*competitive analysis*/
 .competitive-analysis {
   background-color: #F9F7F3;
 }
 
-  #competitive {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-
-
-.prototype {
-  background-color: #F9F7F3;
+#competitive {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.brand-moodboard {
-  background-image: url("../Images/BusyBus/busybus-MoodBoard.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30rem;
-  max-width: 100%;
-}
-
-.feature-copy {
-  padding: 0rem 3rem;
-}
-
-.feature-copy-left {
-  padding: 0rem 3rem;
-}
-
-
-/*carousel*/
+/*discovery phase carousel*/
 .carousel {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
@@ -302,13 +226,13 @@ img {
 }
 
 .carousel-open:checked + .carousel-item {
-    position: static;
     opacity: 100;
+    position: static;
 }
 
 .carousel-item {
-    position: absolute;
     opacity: 0;
+    position: absolute;
     -webkit-transition: opacity 0.6s ease-out;
     transition: opacity 0.6s ease-out;
 }
@@ -352,7 +276,6 @@ img {
     color: #aaaaaa;
 }
 
-
 /*bullets*/
 .carousel-indicators {
     list-style: none;
@@ -389,7 +312,6 @@ img {
 }
 
 /*usability testing*/
-
 .testing-1 {
   background-image: url("../Images/BusyBus/BusyBus1.png");
   background-repeat: no-repeat;
@@ -440,6 +362,7 @@ img {
   background-position: center;
   height: 50rem;
   margin: auto;
+  margin-bottom: 2rem;
   width: 100%;
 }
 
@@ -618,11 +541,6 @@ footer {
     width: 100%;
   }
 
-  .user-persona-container {
-    display: flex;
-    flex-direction: row;
-  }
-
   .hr {
     display: none;
   }
@@ -643,14 +561,6 @@ footer {
     max-width: 100%;
   }
 
-  .brand-moodboard {
-    background-position: center;
-    background-image: url("../Images/BusyBus/busybus-MoodBoard.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 40rem;
-  }
-
   .discovery-image {
     background-image: url("../Images/BusyBus/Busybus-holdingphone.png");
     background-position: 0 40%;
@@ -660,64 +570,11 @@ footer {
     max-width: 100%;
   }
 
-  .feature-wrapper {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    width: 90%;
-  }
-
-  #information-architecture, #branding {
+  #information-architecture {
     height: 30rem;
     object-fit: contain;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    width: 100%;
-  }
-
-  #preference {
-    object-fit: cover;
-    width: 70%;
-  }
-
-  .feature-wrapper-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 0 auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    width: 90%;
-  }
-
-  .feature-image-1 {
-    height: 30rem;
-    margin: 0 auto;
-    width: 100%;
-  }
-
-  .feature-copy {
-    align-self: center;
-    padding-bottom: 5rem;
-    padding-left: 5rem;
-    width: 100%;
-  }
-
-  .feature-image-right {
-    float: right;
-    height: 30rem;
-    width: 100%;
-  }
-
-  .feature-copy-left {
-    align-self: center;
-    float: left;
-    width: 100%;
-  }
-
- .feature-image-3 {
-    height: 30rem;
     width: 100%;
   }
 }
@@ -727,10 +584,5 @@ footer {
 @media screen and (min-width: 1200px) {
   section {
     padding: 3rem 25rem;
-  }
-
-  #preference {
-    width: 80%;
-    object-fit: cover;
   }
 }
