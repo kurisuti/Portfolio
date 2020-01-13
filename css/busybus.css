@@ -91,7 +91,6 @@ h3 {
   padding-top: 1rem;
 }
 
-
 h4 {
   color: #F06F54;
   font-family: "roboto",arial,sans-serif;
@@ -100,20 +99,10 @@ h4 {
 }
 
 h5 {
-  color: #F06F54;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
-  padding-top: 1rem;
-}
-
-h6 {
-    color: black;
-    font-family: "roboto",arial,sans-serif;
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    padding-top: 1.5rem;
+  font-family: "halant",Times,serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-top: 2rem;
 }
 
 
@@ -126,7 +115,6 @@ h6 {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
   padding: 1rem 3.2rem;
-  margin-top: 2rem;
   margin-bottom: 2rem;
   align-items: center;
   text-decoration: none;
@@ -469,15 +457,15 @@ footer {
   text-align: center;
 }
 
+.footer-copy {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
 .footer-icon a {
   display: inline-block;
   padding-bottom: 3rem;
   width: 10%;
-}
-
-.footer-copy {
-  padding-right: 3rem;
-  padding-left: 3rem;
 }
 
 .fab {

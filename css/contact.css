@@ -106,8 +106,15 @@ h2 {
   margin-bottom: 2rem;
 }
 
+h3 {
+  font-family: "halant",Times,serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
 /*button design*/
-button#button, .button {
+#button, .button {
   background-color: #F5896C;
   border-radius: .5rem;
   color: white;
@@ -119,9 +126,8 @@ button#button, .button {
   text-decoration: none;
 }
 
-.button-header{
-  border-radius: .5rem;
-  color: #F5896C;
+#button {
+  margin-top: 2rem;
 }
 
 /*links*/
@@ -235,7 +241,7 @@ textarea#styled {
 }
 
 /*footer*/
-.footer {
+footer {
   text-align: center;
 }
 

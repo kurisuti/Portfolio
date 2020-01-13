@@ -55,6 +55,14 @@ h4 {
   font-weight: 400;
 }
 
+
+h5 {
+  font-family: "halant",Times,serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
 /*button*/
 .button {
   background-color: #F5896C;
@@ -253,21 +261,15 @@ footer {
   text-align: center;
 }
 
+.footer-copy {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
 .footer-icon a {
   display: inline-block;
   padding-bottom: 3rem;
   width: 10%;
-}
-
-.hr-footer {
-  margin-top: 5rem;
-  border-top: .1rem solid #DEDADA;
-  width: 85%;
-}
-
-.footer-copy {
-  padding-right: 3rem;
-  padding-left: 3rem;
 }
 
 .fab {

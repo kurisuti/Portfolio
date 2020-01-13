@@ -452,15 +452,15 @@ footer {
   text-align: center;
 }
 
+.footer-copy {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
 .footer-icon a {
   display: inline-block;
   padding-bottom: 3rem;
   width: 10%;
-}
-
-.footer-copy {
-  padding-right: 3rem;
-  padding-left: 3rem;
 }
 
 .fab {
