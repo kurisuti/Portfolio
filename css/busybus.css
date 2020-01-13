@@ -194,7 +194,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30rem;
+  height: 32rem;
   width: 100%;
 }
 
@@ -553,7 +553,7 @@ footer {
     background-image: url("../Images/BusyBus/Busybus-holdingphone.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 40rem;
     max-width: 100%;
   }
