@@ -146,8 +146,10 @@
       <h3>Competitive Analysis</h3>
       <p>I had an ample amount of research done on potential users, and wanted to transition my attention to competitors in the market space. The three competitors I looked into was Google Drive, DropBox, and Evernote. As I looked into their strengths and weaknesses, I noticed a pattern. For most part, the features provided to users were similar in the three competitors. However, what made them different was their target audience, and to whom they marketed their platform for. Google Drive’s targeted every day users, but specifically to small business owners. DropBox seeked out creatives by marketing their feature DropBox Page which allowed teams to collaborate together on projects. Lastly, EverNote was geared towards students, and focused their product on note taking. What I took out of this research was that I needed to find my own specific audience.</p>
       <img src="Images/Clearbox/Competitive-Analysis.png" id="competitive-analysis">
-      <div class="competitive-analysis-button">
-        <a href="https://docs.google.com/document/d/1A_G-1FepWaW909sjuHrw0oCmYgKjYFplXtCGwHNw3VY/edit?usp=sharing" class="button">View Competitive Analysis</a>
+      <button id="open-popup">Open popup</button>
+
+      <div id="my-popup" class="mfp-hide white-popup">
+        Inline popup
       </div>
     </section>
 
@@ -301,15 +303,8 @@
           <a href="https://www.facebook.com/christie.chang.399"><i class="fab fa-facebook-square"></i></a>
       </div>
     </footer>
-    <!-- Menu Bar -->
-    <script>
-        let mainNav = document.getElementById('js-menu');
-        let navBarToggle = document.getElementById('js-navbar-toggle');
-        navBarToggle.addEventListener('click', function () {
-        mainNav.classList.toggle('active');
-        });
-    </script>
-    <!-- Google Analytics -->
+    <script src="js/clearbox.js"></script>
+    <!--Google Analytics-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
