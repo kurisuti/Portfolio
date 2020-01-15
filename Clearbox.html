@@ -146,10 +146,8 @@
       <h3>Competitive Analysis</h3>
       <p>I had an ample amount of research done on potential users, and wanted to transition my attention to competitors in the market space. The three competitors I looked into was Google Drive, DropBox, and Evernote. As I looked into their strengths and weaknesses, I noticed a pattern. For most part, the features provided to users were similar in the three competitors. However, what made them different was their target audience, and to whom they marketed their platform for. Google Drive’s targeted every day users, but specifically to small business owners. DropBox seeked out creatives by marketing their feature DropBox Page which allowed teams to collaborate together on projects. Lastly, EverNote was geared towards students, and focused their product on note taking. What I took out of this research was that I needed to find my own specific audience.</p>
       <img src="Images/Clearbox/Competitive-Analysis.png" id="competitive-analysis">
-      <button id="open-popup">Open popup</button>
-
-      <div id="my-popup" class="mfp-hide white-popup">
-        Inline popup
+      <div class="competitive-analysis-button">
+        <a href="https://drive.google.com/open?id=1-OgHfFYG-_VaXjIClMTfkTBinga6YlK3" class="button">View Competitive Analysis</a>
       </div>
     </section>
 
@@ -163,7 +161,7 @@
         <img src="Images/Clearbox/Information-Architecture-2.png" id="information-architecture">
       </div>
       <div class="competitive-analysis-button">
-        <a href="https://drive.google.com/open?id=1s9A81mW9JIhv_ObzOEpP9URulg76Uu65" class="button">View all User Flows</a>
+        <a href="https://drive.google.com/open?id=1oTK4e7Z8lLz_B6tK8GXdYTtX5ZZ7G6HY" class="button">View all User Flows</a>
       </div>
     </section>
 
@@ -303,8 +301,15 @@
           <a href="https://www.facebook.com/christie.chang.399"><i class="fab fa-facebook-square"></i></a>
       </div>
     </footer>
-    <script src="js/clearbox.js"></script>
-    <!--Google Analytics-->
+    <!-- Menu Bar -->
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        navBarToggle.addEventListener('click', function () {
+        mainNav.classList.toggle('active');
+        });
+    </script>
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
