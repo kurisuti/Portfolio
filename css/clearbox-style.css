@@ -427,21 +427,6 @@ img {
     color: #F06F54;
 }
 
-/*lightbox stylizing button*/
-#open-popup {padding:20px}
-.white-popup {
-  position: relative;
-  background: #FFF;
-  padding: 40px;
-  width: auto;
-  max-width: 200px;
-  margin: 20px auto;
-  text-align: center;
-}
-
-.feature-wrapper, .feature-wrapper-reverse, .feature-copy {
-  margin-bottom: 2rem;
-}
 
 /*footer*/
 footer {
