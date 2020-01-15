@@ -12,7 +12,6 @@ section {
 }
 
 /*navigation*/
-
 .navbar {
   background-color: white;
   border: 1px solid #EEEDE9;
@@ -70,12 +69,6 @@ li {
   object-fit: contain;
   padding: 1rem;
   width: 60px;
-}
-
-#jf-brainstorm {
-  object-fit: contain;
-  height: 35rem;
-  width: 100%;
 }
 
 /*headings*/
@@ -244,6 +237,13 @@ video {
   background-color: #F9F7F3;
 }
 
+/*sketch*/
+#jf-brainstorm {
+  object-fit: contain;
+  height: 35rem;
+  width: 100%;
+}
+
 /*footer*/
 footer {
   margin-top: 2rem;
@@ -271,7 +271,6 @@ footer {
 }
 
 
-/*media queries*/
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
