@@ -308,6 +308,17 @@ img {
     color: #F06F54;
 }
 
+/*Information Architecture*/
+.user-stories {
+  margin-bottom: 2rem;
+}
+
+/*branding*/
+.branding {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 /*usability testing*/
 .testing-1 {
   background-image: url("../Images/BusyBus/BusyBus1.png");
@@ -394,7 +405,6 @@ footer {
 }
 
 
-/*media queries*/
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
