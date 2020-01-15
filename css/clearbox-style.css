@@ -177,15 +177,14 @@ img {
 
 #competitive-analysis {
   margin-top: 2rem;
-  margin-bottom: -2rem;
 }
 
 #paper-prototype {
-  height: 30rem;
-  margin-top: 1rem;
+  height: 35rem;
   margin-bottom: 2rem;
   object-fit: contain;
   width: 100%;
+  margin-top: 2rem;
 }
 
 /*hero*/
@@ -233,10 +232,12 @@ img {
 
 .discovery-image {
   background-image: url("../Images/Clearbox/Discovery_Phase-image.png");
-  background-position: 0px -3rem;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25rem;
+  margin-bottom: -6rem;
+  margin-top: -7rem;
+  height: 35rem;
   max-width: 100%;
 }
 
@@ -286,6 +287,11 @@ img {
   padding: 0rem !important;
 }
 
+.image-one, .image-two {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
 /*competitive analysis*/
 .brand-moodboard {
   background-image: url("../Images/Clearbox/ClearBox-MoodBoard.png");
@@ -296,11 +302,15 @@ img {
 }
 
 .feature-copy {
-  padding: 0rem 3rem;
+  padding: 2rem 3rem;
 }
 
 .feature-copy-left {
   padding: 0rem 3rem;
+}
+
+.feature-image-right {
+  margin-bottom: 1.5rem;
 }
 
 .feature-wrapper, .feature-wrapper-reverse {
@@ -426,6 +436,10 @@ img {
   max-width: 200px;
   margin: 20px auto;
   text-align: center;
+}
+
+.feature-wrapper, .feature-wrapper-reverse, .feature-copy {
+  margin-bottom: 2rem;
 }
 
 /*footer*/
@@ -588,15 +602,6 @@ footer {
     margin-left: -3px;
   }
 
-  .discovery-image {
-    background-image: url("../Images/Clearbox/Discovery_Phase-image.png");
-    background-position: 0px -14rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 35rem;
-    max-width: 100%;
-  }
-
   .brand-moodboard {
     background-position: center;
     background-image: url("../Images/Clearbox/ClearBox-MoodBoard.png");
@@ -610,18 +615,10 @@ footer {
     background-position: 0 40%;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
     height: 45rem;
     max-width: 100%;
-  }
-
-  .image-one {
-    margin-bottom: 2rem;
-    width: 100%;
-  }
-
-  .image-two {
-    margin-bottom: 2rem;
-    width: 100%;
   }
 
   #customize {
@@ -632,10 +629,9 @@ footer {
   }
 
   #branding {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
     height: 40rem;
     object-fit: contain;
+    margin-bottom: -8rem;
     width: 100%;
   }
 
@@ -644,11 +640,16 @@ footer {
     width: 100%;
   }
 
+  .feature-container {
+    margin-left: 10rem;
+  }
+
   .feature-wrapper {
     align-items: center;
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    object-position: center;
+    margin: auto;
     width: 90%;
   }
 
@@ -656,9 +657,9 @@ footer {
     align-items: center;
     display: flex;
     flex-direction: row-reverse;
-    margin: 0 auto;
     margin-right: 2rem;
     margin-left: 2rem;
+    margin: auto;
     width: 90%;
   }
 
