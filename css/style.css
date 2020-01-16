@@ -184,7 +184,8 @@ h6 {
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
-  margin-bottom: 1.5rem;
+  margin-top: 0rem;
+  margin-bottom: 4rem;
   padding: 1rem 3.2rem;
   text-decoration: none;
 }
@@ -455,8 +456,14 @@ section.hero {
 
 /*footer*/
 footer {
-  margin-top: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   text-align: center;
+}
+
+p.footer-copy{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .footer-icon {
@@ -470,8 +477,8 @@ footer {
 }
 
 .footer-icon a {
-  display: inline-block;
-  padding-bottom: 3rem;
+  display: inline;
+  padding: 1rem;
   width: 10%;
 }
 
@@ -495,7 +502,7 @@ footer {
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 5rem;
+    padding: 3rem 8rem;
   }
 
   .navbar {
@@ -557,7 +564,7 @@ footer {
 
   .about {
     display: flex;
-    margin-top: 3rem;
+    margin-bottom: 3rem;
     padding-bottom: 0rem;
   }
 
@@ -569,10 +576,14 @@ footer {
 
   .design {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5rem;
   }
 
   .design-copy {
     margin-right: 3rem;
+    max-width: 66ch;
     width: 100%;
   }
 
@@ -584,7 +595,7 @@ footer {
 
   .hr-footer {
     border-top: .1rem solid #DEDADA;
-    width: 80%;
+    width: 70%;
   }
 
   .other-projects {
@@ -603,9 +614,11 @@ footer {
   }
 
   .profile-image {
-    object-fit: cover;
-    height: 40rem;
-    width: 50%;
+    background-position: contain;
+    background-position: center;
+    background-image: url(../Images/Homepage/Christie-ProfilePicture.jpg);
+    background-size: cover;
+    width: 65%;
   }
 
 }
@@ -613,6 +626,6 @@ footer {
 /*desktop*/
 @media screen and (min-width: 1025px) {
   section {
-    padding: 3rem 10rem;
+    padding: 3rem 15rem;
   }
 }
