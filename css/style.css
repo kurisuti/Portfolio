@@ -136,13 +136,13 @@ p {
 
 h1 {
   font-family: "halant",Times,serif;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   line-height: 1.3em;
-  margin: 2rem 1rem;
+  margin: 2rem 2.8rem;
 }
 
 h2 {
-  font-family: "halant",Times,serif;
+  font-family: "roboto",arial,sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3em;
@@ -160,6 +160,7 @@ h3 {
   font-size: 1.6rem;
   font-weight: 400;
   margin-top: 1rem;
+
 }
 
 h4 {
@@ -316,12 +317,6 @@ section.hero {
   width: 80%;
 }
 
-/*about-me*/
-.about-me-copy {
-  padding-top: 2rem;
-  max-width: 66ch;
-}
-
 /*my design process*/
 #design-chart-image {
   object-fit: contain;
@@ -349,6 +344,10 @@ section.hero {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.slider__header {
+  margin-bottom: 2rem;
 }
 
 /*bullets*/
@@ -549,6 +548,13 @@ p.footer-copy{
     display: none;
   }
 
+  h1 {
+    font-family: "halant",Times,serif;
+    font-size: 3.2rem;
+    line-height: 1.6rem;
+    margin: 2rem 2.8rem;
+  }
+
   .button-header {
     background-color: #F5896C;
     border-radius: .5rem;
@@ -576,7 +582,7 @@ p.footer-copy{
   .about-me-copy {
     padding-top: 0rem;
     padding-left: 3rem;
-    width: 70%;
+    max-width: 66ch;
   }
 
   .design {
