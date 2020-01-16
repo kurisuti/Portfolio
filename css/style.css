@@ -3,7 +3,7 @@
 }
 
 html {
-  font-size: 11px;
+  font-size: 10px;
   scroll-behavior: smooth;
 }
 
@@ -76,12 +76,26 @@ section {
 .main-nav li {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1.1rem;
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 li {
-  line-height: 1.5rem;
+  float: right;
+}
+
+a {
+  color: #F06F54;
+  cursor: pointer;
+  display: block;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.4rem;
+  text-decoration: none;
 }
 
 .navbar-toggle {
@@ -97,11 +111,12 @@ li {
 }
 
 #logo {
-  height: 50px;
+  height: 58px;
   margin-left: 2rem;
   object-fit: contain;
-  padding: 1rem;
-  width: 60px;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  width: 65px;
 }
 
 /*headings*/
@@ -111,14 +126,16 @@ b {
 
 p {
   font-family: "roboto",Arial,sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
+;
 }
 
 h1 {
-  font-size: 3.1rem;
+  font-family: "halant",Times,serif;
+  font-size: 3.5rem;
   line-height: 1.3em;
   margin: 2rem 1rem;
 }
@@ -128,19 +145,26 @@ h2 {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3em;
+  order: -1;
+}
+
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 h3 {
-  font-family: "halant",Times,serif;
-  font-size: 1.7rem;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.6rem;
   font-weight: 400;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 h4 {
   color: #F06F54;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-top: 1.3rem;
 }
@@ -160,7 +184,7 @@ h6 {
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   padding: 1rem 3.2rem;
   text-decoration: none;
 }
@@ -190,14 +214,16 @@ h6 {
   text-decoration: none;
 }
 
-/*links*/
-a {
-  color: #F06F54;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
-  text-decoration: none;
+.button-hero:hover, .button:hover, .button-header:hover {
+  background-color: #D96040;
 }
 
+.button-outline:hover {
+  border: 2px solid ##D96040;
+  color: #D96040;
+}
+
+/*links*/
 .newanchor:link {
   color: black;
   padding: 2rem;
@@ -227,43 +253,51 @@ img {
 
 /*hero*/
 section.hero {
-  padding: 150px 30px 20px;
-}
-
-.hero {
-  text-align: center;
+  padding: 150px 0px 0px;
 }
 
 /*recent work*/
 .featured-project {
   margin-top: 1.5rem;
+  position: relative;
 }
 
+
 .featured-project-copy {
-  background-color: #FAF8F0;
-  padding: 20px 0px 20px 20px;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 15rem;
+  width: 280px;
+  z-index: 1;
 }
 
 .project-copy {
   background-color: white;
   color: black;
   display: block;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
-  padding: 5px 10px 5px 10px;
+  padding-right: 1.8rem;
+  padding-left: 1.8rem;
+  padding-top: 1.5rem;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   text-align: center;
-  top: 57%;
-  width: 200px;
+  width: 230px;
+  height: 16rem;
 }
 
-.project-container-1 {
+.project-container-2 {
   margin-top: 2rem;
   position: relative;
 }
 
-.project-container-2 {
+.project-container-3 {
   margin-top: 2rem;
   position: relative;
 }
@@ -277,6 +311,7 @@ section.hero {
 /*about-me*/
 .about-me-copy {
   padding-top: 3rem;
+  max-width: 66ch;
 }
 
 /*my design process*/
@@ -420,11 +455,12 @@ section.hero {
 
 /*footer*/
 footer {
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-align: center;
 }
 
 .footer-icon {
+  margin-top: 1.5rem;
   text-align: center;
 }
 
@@ -459,7 +495,7 @@ footer {
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 10rem;
+    padding: 3rem 5rem;
   }
 
   .navbar {
@@ -467,7 +503,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
+    height: 85px;
     z-index: 10;
   }
 
@@ -475,9 +511,6 @@ footer {
     background-color: white;
     display: flex;
     flex-direction: row;
-    margin-right: 3rem;
-    margin-bottom: 1rem;
-    padding: 1.5rem;
     justify-content: flex-end;
   }
 
@@ -486,11 +519,16 @@ footer {
   }
 
   .nav-links {
-    margin-left: 40px;
+    font-size: 1.4rem;
+    margin-right: 40px;
+    padding: 14.5px;
   }
 
   #logo {
-    margin-top: .8rem;
+    margin-top: 1.2rem;
+    display: inline;
+    margin-left: 3rem;
+    object-fit: contain;
   }
 
   .navbar-toggle {
@@ -501,9 +539,10 @@ footer {
     background-color: #F5896C;
     border-radius: .5rem;
     color: white;
-    display: inline;
+    font-size: 1.4rem;
     padding: .8rem 2rem;
     margin-left: 40px;
+    margin-top: .5rem;
   }
 
   .logo:hover, .nav-links:hover {
@@ -511,7 +550,7 @@ footer {
   }
 
   h1 {
-    font-size: 3.4rem;
+    font-size: 3.1rem;
     line-height: 1.3em;
     margin: 2rem 3rem;
   }
@@ -550,14 +589,15 @@ footer {
 
   .other-projects {
     display: flex;
+    flex-direction: row;
   }
 
-  .project-container-1 {
+  .project-container-2 {
     padding-right: 1rem;
     width: 100%;
   }
 
-  .project-container-2 {
+  .project-container-3 {
     padding-left: 1rem;
     width: 100%;
   }
@@ -573,6 +613,6 @@ footer {
 /*desktop*/
 @media screen and (min-width: 1025px) {
   section {
-    padding: 3rem 15rem;
+    padding: 3rem 10rem;
   }
 }
