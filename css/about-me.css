@@ -50,8 +50,8 @@ h5 {
 
 .main-nav {
   background-color:#FAF8F0;
-  display: none;
   list-style-type: none;
+  display: none;
   padding: 2rem;
   z-index: 3;
 }
@@ -73,12 +73,19 @@ h5 {
 }
 
 li {
-  line-height: 1.5rem;
+  line-height: 3rem;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-toggle {
   cursor: pointer;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   position: absolute;
   margin: 1.6rem 2rem 0rem 2rem;
   right: 20px;
@@ -90,11 +97,12 @@ li {
 
 
 #logo {
-  height: 50px;
+  height: 58px;
   margin-left: 2rem;
   object-fit: contain;
-  padding: 1rem;
-  width: 60px;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  width: 65px;
 }
 
 /*button*/
@@ -119,8 +127,10 @@ li {
 /*links*/
 a {
   color: #F06F54;
+  cursor: pointer;
+  display: block;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 
@@ -140,11 +150,18 @@ img {
 
 /*footer*/
 footer {
-  margin-top: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   text-align: center;
 }
 
+p.footer-copy{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .footer-icon {
+  margin-top: 1.5rem;
   text-align: center;
 }
 
@@ -154,8 +171,8 @@ footer {
 }
 
 .footer-icon a {
-  display: inline-block;
-  padding-bottom: 3rem;
+  display: inline;
+  padding: 1rem;
   width: 10%;
 }
 
@@ -168,7 +185,7 @@ footer {
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 4rem 10rem;
+    padding: 3rem 15rem;
   }
 
   .navbar {
@@ -176,26 +193,32 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
+    height: 85px;
     z-index: 10;
   }
 
   .main-nav {
     background-color: white;
     display: flex;
-    margin-right: 3rem;
-    margin-bottom: 1rem;
-    padding: 1.5rem;
     flex-direction: row;
     justify-content: flex-end;
+    padding: 2.2rem;
+  }
+
+  .main-nav li {
+    margin: 0;
   }
 
   .nav-links {
-    margin-left: 40px;
+    font-size: 1.4rem;
+    margin-right: 40px;
   }
 
   #logo {
-    margin-top: .8rem;
+    margin-top: 1.2rem;
+    display: inline;
+    margin-left: 3rem;
+    object-fit: contain;
   }
 
   .navbar-toggle {
@@ -206,9 +229,10 @@ footer {
     background-color: #F5896C;
     border-radius: .5rem;
     color: white;
-    display: inline;
+    font-size: 1.4rem;
     padding: .8rem 2rem;
     margin-left: 40px;
+    margin-top: .5rem;
   }
 
   .logo:hover, .nav-links:hover {
@@ -230,7 +254,7 @@ footer {
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 5rem 20rem;
+    padding: 5rem 21rem;
   }
 
   img {

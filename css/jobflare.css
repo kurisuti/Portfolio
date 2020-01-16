@@ -246,11 +246,18 @@ video {
 
 /*footer*/
 footer {
-  margin-top: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   text-align: center;
 }
 
+p.footer-copy{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .footer-icon {
+  margin-top: 1.5rem;
   text-align: center;
 }
 
@@ -260,8 +267,8 @@ footer {
 }
 
 .footer-icon a {
-  display: inline-block;
-  padding-bottom: 3rem;
+  display: inline;
+  padding: 1rem;
   width: 10%;
 }
 

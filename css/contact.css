@@ -30,7 +30,7 @@ section {
 /*headings*/
 p {
   font-family: "roboto",Arial,sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 2rem;
   margin-bottom: .8rem;
   margin-top: .8rem;
@@ -38,10 +38,11 @@ p {
 
 h1 {
   color: #F5896C;
+  text-align: center;
   font-family: "halant",Times,serif;
   font-size: 3.5rem;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 h2 {
@@ -85,9 +86,11 @@ h3 {
 
 /*links*/
 a {
-  color: black;
+  color: #F06F54;
+  cursor: pointer;
+  display: block;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 
@@ -105,8 +108,8 @@ a {
 
 .main-nav {
   background-color:#FAF8F0;
-  display: none;
   list-style-type: none;
+  display: none;
   padding: 2rem;
   z-index: 3;
 }
@@ -116,24 +119,25 @@ a {
   text-decoration: none;
 }
 
-.nav-links:hover {
+.nav-links:hover, .fab:hover {
   color: #E07B63;
 }
 
 .main-nav li {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1.1rem;
   text-align: center;
 }
 
 li {
-  line-height: 1.5rem;
+    line-height: 3rem;
+    display: block;
 }
+
 
 .navbar-toggle {
   cursor: pointer;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   position: absolute;
   margin: 1.6rem 2rem 0rem 2rem;
   right: 20px;
@@ -195,22 +199,35 @@ textarea#styled {
 
 /*footer*/
 footer {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   text-align: center;
 }
 
+p.footer-copy{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .footer-icon {
+  margin-top: 1.5rem;
   text-align: center;
 }
 
 .footer-icon a {
-  display: inline-block;
-  padding-bottom: 3rem;
+  display: inline;
+  padding: 1rem;
   width: 10%;
 }
 
 .footer-copy {
   padding-right: 3rem;
   padding-left: 3rem;
+}
+
+.link-secondary {
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.5rem;
 }
 
 .fab {
@@ -220,9 +237,8 @@ footer {
 
 /*tablet*/
 @media screen and (min-width: 768px) {
-  .container {
-    margin: 0 auto;
-    width: 100%;
+  section {
+    padding: 3rem 9rem;
   }
 
   .navbar {
@@ -230,18 +246,16 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 70px;
+    height: 85px;
     z-index: 10;
   }
 
   .main-nav {
     background-color: white;
     display: flex;
-    margin-right: 3rem;
-    margin-bottom: 1rem;
-    padding: 1.5rem;
     flex-direction: row;
     justify-content: flex-end;
+    padding: 2.2rem;
   }
 
   .main-nav li {
@@ -249,11 +263,15 @@ footer {
   }
 
   .nav-links {
-    margin-left: 40px;
+    font-size: 1.4rem;
+    margin-right: 40px;
   }
 
   #logo {
-    margin-top: .8rem;
+    margin-top: 1.2rem;
+    display: inline;
+    margin-left: 3rem;
+    object-fit: contain;
   }
 
   .navbar-toggle {
@@ -264,22 +282,27 @@ footer {
     background-color: #F5896C;
     border-radius: .5rem;
     color: white;
-    display: inline;
+    font-size: 1.4rem;
     padding: .8rem 2rem;
     margin-left: 40px;
+    margin-top: .5rem;
+  }
+
+  .logo:hover, .nav-links:hover {
+    color: #E07B63;
   }
 
   .hr-footer {
+    border: none;
     border-top: .1rem solid #DEDADA;
-    width: 90%;
+    width: 80%;
   }
 
   .form-container {
-    display: flex;
-    padding-top: 10rem;
+    padding-top: 13rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 15rem;
+    margin-bottom: 9rem;
   }
 
   .form {
@@ -291,10 +314,16 @@ footer {
 
 
 /*desktop*/
-@media screen and (max-width: 1025px) {
-  .container {
-    margin: 0 auto;
-    padding-bottom: 100px;
-    width: 100%;
+@media screen and (min-width: 1025px) {
+  section {
+    padding: 3rem 15rem;
   }
+
+  .form-container {
+    padding-top: 13rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 9rem;
+  }
+
 }
