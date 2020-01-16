@@ -68,7 +68,6 @@ h5 {
 .main-nav li {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1.1rem;
     text-align: center;
 }
 
@@ -208,7 +207,7 @@ p.footer-copy{
 
   .main-nav li {
     margin: 0;
-    padding-top: 1.1rem;
+    padding-top: .5rem;
   }
 
   .nav-links {
