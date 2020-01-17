@@ -20,11 +20,12 @@ section {
 
 
 #logo {
-  height: 50px;
+  height: 58px;
   margin-left: 2rem;
   object-fit: contain;
-  padding: 1rem;
-  width: 60px;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  width: 65px;
 }
 
 /*headings*/
@@ -152,14 +153,6 @@ ul {
 
 .active {
   display: block;
-}
-
-#logo {
-  height: 50px;
-  margin-left: 2rem;
-  object-fit: contain;
-  padding: 1rem;
-  width: 60px;
 }
 
 /*form*/

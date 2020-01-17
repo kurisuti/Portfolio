@@ -178,11 +178,12 @@ img {
 }
 
 #logo {
-  height: 50px;
+  height: 58px;
   margin-left: 2rem;
   object-fit: contain;
-  padding: 1rem;
-  width: 60px;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  width: 65px;
 }
 
 #competitive-analysis {
@@ -477,6 +478,14 @@ p.footer-copy{
     padding: 3rem 18rem;
   }
 
+  #logo {
+    margin-top: 1.2rem;
+    display: inline;
+    margin-left: 3rem;
+    object-fit: contain;
+  }
+
+
   .overview {
     display: flex;
   }
@@ -524,6 +533,7 @@ p.footer-copy{
 
   .main-nav li {
     margin: 0;
+    margin-top: .5rem;
   }
 
   .nav-links {
@@ -531,15 +541,15 @@ p.footer-copy{
     margin-right: 40px;
   }
 
-  .navbar-toggle {
-    display: none;
-  }
-
   #logo {
     margin-top: 1.2rem;
     display: inline;
     margin-left: 3rem;
     object-fit: contain;
+  }
+
+  .navbar-toggle {
+    display: none;
   }
 
   .button-header {
