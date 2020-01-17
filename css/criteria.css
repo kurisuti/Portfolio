@@ -12,7 +12,6 @@ section {
 }
 
 /*navigation*/
-
 .navbar {
   background-color: white;
   border: 1px solid #EEEDE9;
@@ -26,8 +25,8 @@ section {
 
 .main-nav {
   background-color:#FAF8F0;
-  display: none;
   list-style-type: none;
+  display: none;
   padding: 2rem;
   z-index: 3;
 }
@@ -44,20 +43,21 @@ section {
 .main-nav li {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1.1rem;
+  padding-top: .5rem;
   text-align: center;
 }
 
 li {
-  line-height: 1.5rem;
+    line-height: 3rem;
+    display: block;
 }
 
 .navbar-toggle {
+  cursor: pointer;
+  font-size: 2.5rem;
   position: absolute;
   margin: 1.6rem 2rem 0rem 2rem;
   right: 20px;
-  cursor: pointer;
-  font-size: 1.8rem;
 }
 
 .active {
@@ -65,11 +65,12 @@ li {
 }
 
 #logo {
-  height: 50px;
+  height: 58px;
   margin-left: 2rem;
   object-fit: contain;
-  padding: 1rem;
-  width: 60px;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  width: 65px;
 }
 
 #image {
@@ -141,6 +142,8 @@ h5 {
 /*links*/
 a {
   color: #F06F54;
+  cursor: pointer;
+  display: block;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
   text-decoration: none;
@@ -198,11 +201,18 @@ img {
 
 /*footer*/
 footer {
-  margin-top: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   text-align: center;
 }
 
+p.footer-copy{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .footer-icon {
+  margin-top: 1.5rem;
   text-align: center;
 }
 
@@ -212,9 +222,14 @@ footer {
 }
 
 .footer-icon a {
-  display: inline-block;
-  padding-bottom: 3rem;
+  display: inline;
+  padding: 1rem;
   width: 10%;
+}
+
+.link-secondary {
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.5rem;
 }
 
 .fab {
@@ -257,16 +272,18 @@ footer {
   }
 
   #logo {
-    margin-top: .8rem;
+    margin-top: 1.2rem;
+    display: inline;
+    margin-left: 3rem;
+    object-fit: contain;
   }
 
   .navbar {
     background-color: white;
     display: flex;
-    flex-direction: row;
-    height: 70px;
     justify-content: space-between;
     padding-bottom: 0;
+    height: 85px;
     z-index: 10;
   }
 
@@ -274,10 +291,8 @@ footer {
     background-color: white;
     display: flex;
     flex-direction: row;
-    margin-right: 3rem;
-    margin-bottom: 1rem;
-    padding: 1.5rem;
     justify-content: flex-end;
+    padding: 2.2rem;
   }
 
   .main-nav li {
@@ -285,7 +300,8 @@ footer {
   }
 
   .nav-links {
-    margin-left: 40px;
+    font-size: 1.4rem;
+    margin-right: 40px;
   }
 
   .navbar-toggle {
