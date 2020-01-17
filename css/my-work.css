@@ -305,12 +305,6 @@ p.footer-copy{
 
 /*tablet*/
 @media screen and (min-width: 768px) {
-  .container {
-    background-color: yellow;
-    margin: 0 auto;
-    width: 100%;
-  }
-
   section {
     padding: 3rem 10rem;
   }
@@ -390,7 +384,7 @@ p.footer-copy{
   }
 
   .hero {
-    padding-top: 8rem;
+    padding-top: 9rem;
   }
 
   .other-projects {
