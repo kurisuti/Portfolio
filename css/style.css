@@ -129,7 +129,7 @@ b {
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.4rem;
-  line-height: 2.5rem;
+  line-height: 2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -153,8 +153,8 @@ h2 {
 
 h3 {
   color: black;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.5rem;
+  font-family: "halant",Times,serif;
+  font-size: 2rem;
   padding-top: 1rem;
 }
 
@@ -183,6 +183,7 @@ h6 {
   color: #8E8E8E;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.3rem;
+  margin-top: 1.5rem;
 }
 
 .about {
@@ -584,10 +585,12 @@ p.footer-copy{
     line-height: 1.3em;
   }
 
+
   h3 {
-      color: black;
-      font-family: "roboto",arial,sans-serif;
-      font-size: 1.6rem;
+    color: black;
+    font-family: "halant",Times,serif;
+    font-size: 2rem;
+    padding-top: 1rem;
   }
 
   h4 {
