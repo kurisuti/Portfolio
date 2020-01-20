@@ -240,7 +240,7 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 2rem 18rem;
+    padding: 3rem 17rem;
   }
 
   .overview {
@@ -330,6 +330,12 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 25rem;
+    padding: 3rem 36rem;
+  }
+
+/*max-width desktop*/
+@media screen and (min-width: 1400px) {
+  section {
+    padding: 3rem 45rem;
   }
 }

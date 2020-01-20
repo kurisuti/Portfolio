@@ -78,7 +78,7 @@ b {
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.4rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -107,7 +107,7 @@ h4 {
 h5 {
   color: #F06F54;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.8rem;
   padding-top: 1rem;
 }
@@ -119,7 +119,7 @@ h5 {
   color: white;
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 1rem 3.2rem;
   margin-top: 1rem;
   margin-bottom: 2.5rem;
@@ -132,7 +132,7 @@ h5 {
   color: white;
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 1rem 3.2rem;
   margin-bottom: 3rem;
   text-decoration: none;
@@ -265,12 +265,15 @@ img {
   width: 100%;
 }
 
-.persona-one {
-  margin: 0rem 3rem 2rem 2rem;
+
+
+.persona-one-wrapper, .persona-two-wrapper {
+  width: 100%;
 }
 
+
+
 .persona-two {
-  margin: 0rem 3rem 2rem 2rem;
 }
 
 .persona-one, .persona-two {
@@ -476,7 +479,7 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 18rem;
+    padding: 3rem 17rem;
   }
 
   #logo {
@@ -486,9 +489,48 @@ p.footer-copy{
     object-fit: contain;
   }
 
+  p {
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-family: "halant",Times,serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h3 {
+      color: black;
+      font-family: "roboto",arial,sans-serif;
+      font-size: 2rem;
+  }
+
+  h4 {
+    color: rgb(240, 111, 84);
+    font-family: "roboto", arial, sans-serif;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+
+  h5 {
+    color: #F06F54;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding-top: 1rem;
+  }
 
   .overview {
     display: flex;
+    margin-top: 4rem;
   }
 
   .column-1 {
@@ -512,6 +554,13 @@ p.footer-copy{
     margin: auto;
     text-align: center;
     top: 43%;
+    width: 100%;
+  }
+
+  .clearbox-image {
+    background-image: url(../Images/Clearbox/ClearBox_Hero-image.png);
+    background-position: center;
+    height: 35rem;
     width: 100%;
   }
 
@@ -566,14 +615,7 @@ p.footer-copy{
     color: #E07B63;
   }
 
-  .persona-one, .persona-two {
-    margin-top: 2rem;
-  }
 
-  .user-persona-container {
-    display: flex;
-    flex-direction: row;
-  }
 
   .carousel-item img {
       display: block;
@@ -583,15 +625,6 @@ p.footer-copy{
       object-position: center;
   }
 
-  #persona-copy {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  #persona-copy-2 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
 
   #information-architecture {
     object-fit: contain;
@@ -601,9 +634,29 @@ p.footer-copy{
   }
 
   #persona {
-    height: 16rem;
+    height: 14rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     object-fit: contain;
     width: 100%;
+  }
+
+  .user-persona-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .persona-one-wrapper {
+    margin-right: 2rem;
+  }
+
+  .persona-two-wrapper {
+    margin-left: 2rem;
+  }
+
+  .persona-one-copy, .persona-two-copy {
+    margin-bottom: 2rem;
+    text-align: center;
   }
 
   #paper-prototype {
@@ -634,12 +687,12 @@ p.footer-copy{
   }
 
   .discovery-image {
-    background-image: url("../Images/Clearbox/Discovery_Phase-image.png");
+    background-image: url(../Images/Clearbox/Discovery_Phase-image.png);
     background-position: 0 40%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
     height: 45rem;
     max-width: 100%;
   }
@@ -720,11 +773,17 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 25rem;
+    padding: 3rem 36rem;
   }
 
   #preference {
     width: 80%;
     object-fit: cover;
   }
+
+/*max-width desktop*/
+  @media screen and (min-width: 1400px) {
+    section {
+      padding: 3rem 45rem;
+    }
 }

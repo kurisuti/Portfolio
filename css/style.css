@@ -517,7 +517,7 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 9rem;
+    padding: 3rem 11rem;
   }
 
   .navbar {
@@ -585,7 +585,7 @@ p.footer-copy{
   .about-me-copy {
     padding-top: 0rem;
     padding-left: 3rem;
-    max-width: 66ch;
+    width: 40%;
   }
 
   .design {
@@ -597,14 +597,13 @@ p.footer-copy{
 
   .design-copy {
     margin-right: 3rem;
-    max-width: 66ch;
-    width: 100%;
+    width: 40%;
   }
 
   #design-chart-image {
     height: 40rem;
     object-fit: contain;
-    width: 50%;
+    width: 65%;
   }
 
   .hr-footer {
@@ -640,6 +639,17 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1025px) {
   section {
-    padding: 3rem 15rem;
+    padding: 3rem 18rem;
+  }
+
+  .about-me-copy {
+    padding-top: 0rem;
+    padding-left: 3rem;
+    max-width: 40%;
+  }
+
+  .design-copy {
+    margin-right: 3rem;
+    max-width: 40%;
   }
 }

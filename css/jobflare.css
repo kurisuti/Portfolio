@@ -128,7 +128,7 @@ h5 {
   color: white;
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 1rem 3.2rem;
   margin-bottom: 2.5rem;
   text-decoration: none;
@@ -265,6 +265,15 @@ p.footer-copy{
   margin-bottom: 2rem;
 }
 
+h2 {
+  font-family: "halant",Times,serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .footer-icon {
   margin-top: 1.5rem;
   text-align: center;
@@ -290,7 +299,28 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 2rem 18rem;
+    padding: 3rem 17rem;
+  }
+
+  p {
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    color: black;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2rem;
+  }
+
+  h4 {
+    color: rgb(240, 111, 84);
+    font-family: "roboto", arial, sans-serif;
+    font-size: 2rem;
+    padding-top: 1rem;
   }
 
   .overview {
@@ -317,7 +347,7 @@ p.footer-copy{
     position: absolute;
     margin: auto;
     text-align: center;
-    top: 42%;
+    top: 38%;
     width: 100%;
   }
 
@@ -330,6 +360,7 @@ p.footer-copy{
     border-radius: .5rem;
     color: white;
     display: inline;
+    font-size: 1.6rem;
     padding: .8rem 2rem;
     margin-left: 40px;
   }
@@ -432,6 +463,12 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 25rem;
+    padding: 3rem 36rem;
+  }
+
+/*max-width desktop*/
+@media screen and (min-width: 1200px) {
+  section {
+    padding: 3rem 45rem;
   }
 }
