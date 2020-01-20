@@ -77,6 +77,10 @@ ul {
 
 
 /*headings*/
+b {
+  font-weight: bold;
+}
+
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.4rem;

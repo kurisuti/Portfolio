@@ -129,17 +129,18 @@ b {
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.4rem;
-  line-height: 2.2rem;
-  margin-top: 1rem;
+  line-height: 2.5rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 h1 {
   font-family: "halant",Times,serif;
-  font-size: 3.2rem;
-  line-height: 1.3em;
+  font-size: 2.8rem;
+  line-height: 4rem;
   margin: 2rem 2.8rem;
 }
+
 
 h2 {
   font-family: "roboto",arial,sans-serif;
@@ -149,33 +150,39 @@ h2 {
   order: -1;
 }
 
+
+h3 {
+  color: black;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+h4 {
+  color: #F06F54;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.6rem;
+  padding-top: 3rem;
+}
+
+h5 {
+  color: #F06F54;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-top: 1rem;
+}
+
 .hero {
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-h3 {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-  margin-top: 1rem;
-
-}
-
-h4 {
-  color: #F06F54;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin-top: 1.3rem;
-}
-
 h6 {
   color: #8E8E8E;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.3rem;
-  margin-top: 1.3rem;
 }
 
 .about {
@@ -288,9 +295,7 @@ section.hero {
   background-color: white;
   color: black;
   display: block;
-  padding-right: 1.8rem;
-  padding-left: 1.8rem;
-  padding-top: 1.5rem;
+  padding: 10px 20px 20px 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -363,7 +368,7 @@ section.hero {
 .slider__nav {
   width: 10px;
   height: 10px;
-  margin: 0rem 10px 5rem;
+  margin: 0rem 10px 3rem;
   border-radius: 50%;
   z-index: 10;
   outline: 6px solid #ccc;
@@ -414,7 +419,7 @@ section.hero {
 .slider__contents {
   padding: 3rem;
   height: 100%;
-  margin-top: -3.5rem;
+  margin-top: -1.5rem;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -443,8 +448,9 @@ section.hero {
 }
 
 .slider__txt {
-  color: black;
-  max-width: 50rem;
+    color: black;
+    margin-top: 0rem;
+    max-width: 50rem;
 }
 
 @-webkit-keyframes check {
@@ -561,8 +567,71 @@ p.footer-copy{
     font-family: "halant",Times,serif;
     font-size: 3.2rem;
     line-height: 4.5rem;
-    margin: 2rem 2.8rem;
+    margin: 2rem 6rem;
   }
+
+  p {
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2rem;
+    line-height: 1.3em;
+  }
+
+  h3 {
+      color: black;
+      font-family: "roboto",arial,sans-serif;
+      font-size: 1.6rem;
+  }
+
+  h4 {
+      color: rgb(240, 111, 84);
+      font-family: "roboto", arial, sans-serif;
+      font-size: 1.7rem;
+      padding-top: 2rem;
+  }
+
+
+  h5 {
+    color: #F06F54;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding-top: 1rem;
+  }
+
+  .featured-project-copy {
+    background-color: white;
+    padding: 18px 20px 20px 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 18rem;
+    width: 280px;
+    z-index: 1;
+}
+
+.project-copy {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 10px 20px 20px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 230px;
+    height: 19rem;
+}
 
   .button-header {
     background-color: #F5896C;
@@ -603,6 +672,7 @@ p.footer-copy{
   #design-chart-image {
     height: 40rem;
     object-fit: contain;
+    padding-left: 5rem;
     width: 65%;
   }
 
@@ -630,9 +700,35 @@ p.footer-copy{
     background-position: cover;
     background-position: center;
     background-image: url(../Images/Christie-ProfilePicture.jpg);
-    height: 50rem;
+    height: 58rem;
     width: 65%;
   }
+
+  .slider__contents {
+    padding: 3rem;
+    height: 100%;
+    margin-top: -2.5rem;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
 
 }
 
