@@ -170,9 +170,7 @@
         <h4>Conclusion</h4>
         <p>After completing this project, I believe that there is still other screens that I can solve for with BusyBus. However, I believe that I was able to create a screen that was able to solve for local transit riders. I created a screen that showed the whereabout of the user to correspondence to bus stops near their location. I created input fields so that users can search up a location, and view the bus lines that run in that area. I also provided users live traffic notications of  buses.</p>
         <p>In order to improve on this product, I want to provide photos and indoor metro maps so that users can have an easier time getting to their desired destination</p>
-        <div class="back-to-top">
-          <a href="#" class="link-secondary">Back to top</a>
-        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top" i class='fa fa-chevron-up'></button>
     </section>
     <!--footer-->
     <footer>
@@ -202,6 +200,28 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-155353267-1');
+    </script>
+    <!--Back to top-->
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
     </script>
   </body>
 </html>

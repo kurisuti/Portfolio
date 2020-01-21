@@ -287,9 +287,7 @@
         <p>In considering future developments of the current product, I want to send out surveys targeting remote work professionals. From the surveys, I’m hoping to create more features that are geared towards my specific audience. I liked how I used my personal experiences as a freelancer to help my drive ClearBox’s branding. In the next steps of design, I’d like to place my focus in having the product be more malleable to the user.</p>
         <p>I believe these goals listed above can be achieved through user research, ideation, prototyping, wireframing and usability testings.</p>
     </section>
-    <div class="back-to-top">
-      <a class="navbar-brand" href="#">Back To Top</a>
-    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" i class='fa fa-chevron-up'></button>
     <!--footer-->
     <footer>
       <h2>Let's Connect</h2>
@@ -305,7 +303,7 @@
     </footer>
 
     <!-- Menu Bar -->
-    <script>
+    <scri
         let mainNav = document.getElementById('js-menu');
         let navBarToggle = document.getElementById('js-navbar-toggle');
         navBarToggle.addEventListener('click', function () {
@@ -323,6 +321,27 @@
 
       gtag('config', 'UA-155353267-1');
     </script>
-x
+    <!--Back to top-->
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
   </body>
 </html>
