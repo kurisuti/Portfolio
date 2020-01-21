@@ -38,7 +38,7 @@ p {
 }
 
 h1 {
-  color: #F5896C;
+  color: #FF744F;
   text-align: center;
   font-family: "halant",Times,serif;
   font-size: 3.5rem;
@@ -67,7 +67,7 @@ h3 {
 
 /*button design*/
 #button, .button {
-  background-color: #F5896C;
+  background-color: #FF744F;
   border-radius: .5rem;
   color: white;
   display: inline-block;

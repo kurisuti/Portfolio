@@ -98,14 +98,14 @@ h3 {
 }
 
 h4 {
-  color: #F06F54;
+  color: #FF744F;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.6rem;
   padding-top: 1rem;
 }
 
 h5 {
-  color: #F06F54;
+  color: #FF744F;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
   line-height: 1.8rem;
@@ -114,7 +114,7 @@ h5 {
 
 /*button*/
 .button {
-  background-color: #F5896C;
+  background-color: #FF744F;
   border-radius: .5rem;
   color: white;
   display: inline-block;
@@ -127,7 +127,7 @@ h5 {
 }
 
 .button-wireframes {
-  background-color: #F5896C;
+  background-color: #FF744F;
   border-radius: .5rem;
   color: white;
   display: inline-block;
@@ -513,7 +513,7 @@ p.footer-copy{
   }
 
   h4 {
-    color: rgb(240, 111, 84);
+    color: #FF744F;
     font-family: "roboto", arial, sans-serif;
     font-size: 2rem;
     padding-top: 1rem;
@@ -521,7 +521,7 @@ p.footer-copy{
 
 
   h5 {
-    color: #F06F54;
+    color: #FF744F;
     font-family: "roboto",arial,sans-serif;
     font-size: 1.3rem;
     line-height: 1.8rem;

@@ -159,7 +159,7 @@ h3 {
 }
 
 h4 {
-  color: #F06F54;
+  color:  #FF744F;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.6rem;
   padding-top: 3rem;
@@ -193,7 +193,7 @@ h6 {
 
 /*button*/
 .button {
-  background-color: #F5896C;
+  background-color: #FF744F;
   border-radius: .5rem;
   color: white;
   display: inline-block;
@@ -206,7 +206,7 @@ h6 {
 }
 
 .button-hero {
-  background-color: #F5896C;
+  background-color: #FF744F;
   border-radius: .5rem;
   color: white;
   display: inline-block;
@@ -219,9 +219,9 @@ h6 {
 }
 
 .button-outline {
-  border: 2px solid #F5896C;
+  border: 2px solid #FF744F;
   border-radius: .5rem;
-  color: #F5896C;
+  color: #FF744F;
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
@@ -250,7 +250,7 @@ h6 {
 }
 
 .newanchor-2:link {
-  color: #F06F54;
+  color:  #FF744F;
 }
 
 .casestudy-link {
@@ -594,7 +594,7 @@ p.footer-copy{
   }
 
   h4 {
-      color: rgb(240, 111, 84);
+      color: #FF744F;
       font-family: "roboto", arial, sans-serif;
       font-size: 1.7rem;
       padding-top: 2rem;
@@ -635,16 +635,6 @@ p.footer-copy{
     width: 230px;
     height: 19rem;
 }
-
-  .button-header {
-    background-color: #F5896C;
-    border-radius: .5rem;
-    color: white;
-    font-size: 1.4rem;
-    padding: .8rem 2rem;
-    margin-left: 40px;
-    margin-top: .5rem;
-  }
 
   .logo:hover, .nav-links:hover {
     color: #E07B63;

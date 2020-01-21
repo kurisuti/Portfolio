@@ -106,7 +106,7 @@ h3 {
 }
 
 h4 {
-  color: #F06F54;
+  color: #FF744F;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.6rem;
   padding-top: 1rem;
@@ -121,7 +121,7 @@ h5 {
 
 /*button*/
 .button {
-  background-color: #F5896C;
+  background-color: #FF744F;
   border-radius: .5rem;
   color: white;
   display: inline-block;
@@ -306,15 +306,6 @@ p.footer-copy{
 
   .navbar-toggle {
     display: none;
-  }
-
-  .button-header {
-    background-color: #F5896C;
-    border-radius: .5rem;
-    color: white;
-    display: inline;
-    padding: .8rem 2rem;
-    margin-left: 40px;
   }
 
   .logo:hover, .nav-links:hover {
