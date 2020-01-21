@@ -7,7 +7,7 @@ html {
 }
 
 section {
-  padding: 3rem 5rem 5rem;
+  padding: 2rem 4rem 2rem 4rem;
 }
 
 
@@ -15,25 +15,34 @@ section {
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.4rem;
-  line-height: 2.2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  line-height: 2.5rem;
 }
 
 h3 {
   color: black;
+  font-family: "halant",Times,serif;
+  font-weight: 400;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+}
+
+h4 {
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.6rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  text-align: center;
+  color: #E07B63;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: .5rem;
 }
 
 h5 {
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-  margin-top: 1rem;
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+.work {
+  margin-bottom: 2rem;
 }
 
 /*navigation*/
@@ -116,7 +125,7 @@ a {
 
 /*button*/
 .button {
-  background-color: #F5896C;
+  background-color: #FF744F;
   border-radius: .5rem;
   color: white;
   display: inline-block;
@@ -133,6 +142,9 @@ a {
   display: inline;
 }
 
+.about-me-copy {
+  margin-bottom: 2rem;
+}
 
 /*image styling*/
 img {
@@ -185,8 +197,52 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 15rem;
+    padding: 3rem 11rem;
   }
+
+  p {
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+
+  h3 {
+    color: black;
+    font-family: "halant",Times,serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 2.5rem;
+    padding-top: 1.5rem;
+  }
+
+  h4 {
+    font-family: "roboto",arial,sans-serif;
+    color: #FF744F;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+
+  h5 {
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2rem;
+    line-height: 1.3em;
+  }
+
+  .about-me-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-me-copy {
+    margin-right: 10%;
+    width: 60%;
+  }
+
+  .work {
+    padding-bottom: 1.5rem;
+  }
+
 
   .navbar {
     background-color: white;
@@ -240,6 +296,10 @@ p.footer-copy{
     color: #E07B63;
   }
 
+  .button:hover {
+    background-color: #FFB19C;
+  }
+
   img {
     height: 30rem;
     object-fit: cover;
@@ -251,9 +311,9 @@ p.footer-copy{
 
 /*desktop*/
 @media screen and (min-width: 1200px) {
-  section {
-    padding: 5rem 21rem;
-  }
+    section {
+      padding: 3rem 27rem;
+    }
 
   img {
     height: 35rem;
@@ -261,4 +321,5 @@ p.footer-copy{
     object-position: center;
     width: 100%;
   }
+
 }
