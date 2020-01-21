@@ -83,6 +83,12 @@ p {
   margin-top: 1rem;
 }
 
+h1 {
+  font-family: "halant",Times,serif;;
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
 h2 {
   font-family: "roboto",arial,sans-serif;
   font-size: 2rem;
@@ -92,14 +98,14 @@ h2 {
 h3 {
   color: black;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding-top: 1rem;
 }
 
 h4 {
   color: #FF744F;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   padding-top: 1rem;
 }
 
@@ -213,7 +219,7 @@ img {
   padding-right: 2rem;
   padding-left: 2rem;
   text-align: center;
-  top: 15%;
+  top: 12%;
   width: 100%;
 }
 
@@ -508,18 +514,34 @@ p.footer-copy{
     object-fit: contain;
   }
 
-  p {
-    font-family: "roboto",Arial,sans-serif;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+
+  .clearbox-image {
+    background-image: url("../Images/Clearbox/ClearBox_Hero-image.png");
+    height: 36rem;
+    width: 100%;
+  }
+
+  .clearbox-copy {
+    position: absolute;
+    margin: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+  }
+
+  h1 {
+    font-family: "halant",Times,serif;
+    font-size: 3rem;
+    line-height: 1.5em;
   }
 
   h2 {
-    font-family: "roboto",arial,sans-serif;
-    font-size: 2rem;
-    line-height: 1.3em;
+      color: black;
+      font-family: "roboto",arial,sans-serif;
+      font-size: 1.8rem;
+      line-height: 1.5rem;
   }
 
   h3 {
@@ -544,6 +566,14 @@ p.footer-copy{
     padding-top: 1rem;
   }
 
+  p {
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
   .overview {
     display: flex;
     margin-top: 4rem;
@@ -562,14 +592,6 @@ p.footer-copy{
   .clearbox-container {
     position: relative;
     height: 30rem;
-    width: 100%;
-  }
-
-  .clearbox-copy {
-    position: absolute;
-    margin: auto;
-    text-align: center;
-    top: 43%;
     width: 100%;
   }
 
@@ -625,6 +647,10 @@ p.footer-copy{
     display: inline;
     padding: .8rem 2rem;
     margin-left: 40px;
+  }
+
+  #prototype {
+    margin-bottom: 1rem;
   }
 
   .logo:hover, .nav-links:hover {

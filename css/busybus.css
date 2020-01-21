@@ -81,31 +81,37 @@ b {
   font-weight: bold;
 }
 
+h1 {
+  font-family: "halant",Times,serif;
+  font-size: 2rem;
+  line-height: 1.3rem;
+}
+
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.4rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
 h2 {
   font-family: "roboto",arial,sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.3em;
 }
 
 h3 {
   color: black;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   padding-top: 1rem;
 }
 
 h4 {
   color: #FF744F;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   padding-top: 1rem;
 }
 
@@ -197,7 +203,6 @@ img {
   background-position: center;
   height: 30rem;
   width: 100%;
-
 }
 
 /*overview*/
@@ -467,6 +472,13 @@ p.footer-copy{
 
   .overview {
     display: flex;
+    margin-top: 5rem;
+  }
+
+  h1 {
+    font-family: "halant",Times,serif;
+    font-size: 3rem;
+    line-height: 1.5rem;
   }
 
   p {
@@ -479,7 +491,7 @@ p.footer-copy{
 
   h2 {
     font-family: "roboto",arial,sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.3em;
   }
 
@@ -487,13 +499,31 @@ p.footer-copy{
     color: black;
     font-family: "roboto",arial,sans-serif;
     font-size: 2rem;
+    padding-top: 1rem;
   }
 
   h4 {
     color: #FF744F;
-    font-family: "roboto", arial, sans-serif;
+    font-family: "roboto",arial,sans-serif;
     font-size: 2rem;
     padding-top: 1rem;
+  }
+
+  .busybus-copy {
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 46%;
+    width: 100%;
+  }
+
+  .busybus-image {
+    background-image: url("../Images/BusyBus/busybus-hero.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36rem;
+    width: 100%;
   }
 
   .column-1 {
@@ -509,14 +539,6 @@ p.footer-copy{
   .busybus-container {
     position: relative;
     height: 30rem;
-    width: 100%;
-  }
-
-  .busybus-copy {
-    position: absolute;
-    margin: auto;
-    text-align: center;
-    top: 35%;
     width: 100%;
   }
 

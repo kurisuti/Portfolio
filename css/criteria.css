@@ -83,38 +83,44 @@ b {
   font-weight: bold;
 }
 
+h1 {
+  font-family: "halant",Times,serif;
+  font-size: 2rem;
+  line-height: 1.3rem;
+}
+
+h2 {
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.3em;
+}
+
+h3 {
+  color: black;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.7rem;
+  padding-top: 1rem;
+}
+
+h4 {
+  color: #FF744F;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.7rem;
+  padding-top: 1rem;
+}
+
+h5 {
+  font-family: "roboto",arial,sans-serif;
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
 p {
   font-family: "roboto",Arial,sans-serif;
   font-size: 1.4rem;
   line-height: 2.5rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
-}
-
-h2 {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 2rem;
-  line-height: 1.3em
-}
-
-h3 {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 2rem;
-  line-height: 1.3em;
-}
-
-h4 {
-  color: #FF744F;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.6rem;
-  padding-top: 1rem;
-}
-
-h5 {
-  color: black;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.5rem;
-  padding-top: 1rem;
 }
 
 /*button*/
@@ -172,7 +178,7 @@ img {
 }
 
 .criteria-copy {
-  top: 8%;
+  top: 10%;
   position: absolute;
   margin: auto;
   text-align: center;
@@ -186,7 +192,6 @@ img {
   background-position: center;
   height: 30rem;
   width: 100%;
-
 }
 
 /*overview*/
@@ -266,6 +271,49 @@ p.footer-copy{
     padding: 3rem 17rem;
   }
 
+  .criteria-copy {
+    top: 42%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .criteria-image {
+    background-image: url("../Images/Criteria/criteria-hero.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36rem;
+    width: 100%;
+  }
+
+  h1 {
+    font-family: "halant",Times,serif;
+    font-size: 3rem;
+    line-height: 1.5rem;
+  }
+
+  h2 {
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5em;
+  }
+
+  h3 {
+    color: black;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+
+  h4 {
+    color: #FF744F;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+
   p {
     font-family: "roboto",Arial,sans-serif;
     font-size: 1.5rem;
@@ -274,21 +322,15 @@ p.footer-copy{
     margin-top: 2rem;
   }
 
-  h4 {
-    color: #FF744F;
-    font-family: "roboto", arial, sans-serif;
-    font-size: 2rem;
-    padding-top: 1rem;
-  }
-
   h5 {
-    color: black;
     font-family: "roboto",arial,sans-serif;
     font-size: 2rem;
+    line-height: 1.3em;
   }
 
   .overview {
     display: flex;
+    margin-top: 5rem;
   }
 
   .column-1 {
@@ -304,14 +346,6 @@ p.footer-copy{
   .criteria-container {
     position: relative;
     height: 30rem;
-    width: 100%;
-  }
-
-  .criteria-copy {
-    position: absolute;
-    margin: auto;
-    text-align: center;
-    top: 30%;
     width: 100%;
   }
 
