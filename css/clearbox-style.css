@@ -113,7 +113,7 @@ h5 {
 }
 
 /*button*/
-.button {
+.button, .button-wireframes {
   background-color: #FF744F;
   border-radius: .5rem;
   color: white;
@@ -126,13 +126,11 @@ h5 {
   text-decoration: none;
 }
 
+.button:hover, .button-wireframes:hover {
+  background-color: #FFB19C;
+}
+
 .button-wireframes {
-  background-color: #FF744F;
-  border-radius: .5rem;
-  color: white;
-  display: inline-block;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.6rem;
   padding: 1rem 3.2rem;
   margin-bottom: 3rem;
   text-decoration: none;

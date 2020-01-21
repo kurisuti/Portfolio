@@ -121,8 +121,8 @@ a {
   text-decoration: none;
 }
 
-.nav-links:hover, .fab:hover {
-  color: #E07B63;
+ .fab:hover, #button:hover, .button:hover {
+  color: #FFB19C;
 }
 
 .main-nav li {

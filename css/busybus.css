@@ -131,6 +131,10 @@ h5 {
   text-decoration: none;
 }
 
+.button:hover {
+  background-color: #FFB19C;
+}
+
 .back-to-top {
   align-items: center;
   display: flex;
