@@ -127,7 +127,7 @@ h5 {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.6rem;
   margin-bottom: 2.5rem;
-  padding: 1rem 3.2rem;
+  padding: 1.5rem 3.5rem;
   text-decoration: none;
 }
 
@@ -423,22 +423,21 @@ p.footer-copy{
   padding-left: 3rem;
 }
 
-.footer-icon a {
-  display: inline;
-  padding: 1rem;
-  width: 10%;
-}
-
 .link-secondary {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.5rem;
 }
 
-.fab {
-  color: black;
-  font-size: 2rem;
+.footer-icon a {
+  display: inline;
+  padding: 2rem;
+  width: 10%;
 }
 
+.fab {
+  color: black;
+  font-size: 2.5rem;
+}
 
 /*tablet*/
 @media screen and (min-width: 768px) {

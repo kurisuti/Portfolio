@@ -23,7 +23,7 @@ h3 {
   font-family: "halant",Times,serif;
   font-weight: 400;
   font-size: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   padding-top: 1.5rem;
 }
 
@@ -42,7 +42,7 @@ h5 {
 }
 
 .work {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /*navigation*/
@@ -132,7 +132,7 @@ a {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
   margin-bottom: 2.5rem;
-  padding: 1rem 3.2rem;
+  padding: 1.5rem 3.5rem;
   text-decoration: none;
 }
 
@@ -148,9 +148,11 @@ a {
 
 /*image styling*/
 img {
-  height: 35rem;
+  height: 44rem;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
+  margin-bottom: 1rem;
+  padding-top: 8rem;
   width: 100%;
 }
 
@@ -184,13 +186,13 @@ p.footer-copy{
 
 .footer-icon a {
   display: inline;
-  padding: 1rem;
+  padding: 2rem;
   width: 10%;
 }
 
 .fab {
   color: black;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 
@@ -211,7 +213,7 @@ p.footer-copy{
     font-family: "halant",Times,serif;
     font-weight: 400;
     font-size: 2rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
     padding-top: 1.5rem;
   }
 
@@ -240,7 +242,7 @@ p.footer-copy{
   }
 
   .work {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
   }
 
 
@@ -292,16 +294,20 @@ p.footer-copy{
     margin-top: .5rem;
   }
 
+  #about-me-button {
+    margin-top: 3rem;
+  }
+
   .logo:hover, .nav-links:hover {
     color: #E07B63;
   }
 
-  .button:hover {
+  .button:hover, #about-me-button:hover {
     background-color: #FFB19C;
   }
 
   img {
-    height: 30rem;
+    height: 40rem;
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -314,12 +320,5 @@ p.footer-copy{
     section {
       padding: 3rem 27rem;
     }
-
-  img {
-    height: 35rem;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-  }
 
 }

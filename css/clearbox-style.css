@@ -120,7 +120,7 @@ h5 {
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.6rem;
-  padding: 1rem 3.2rem;
+  padding: 1.5rem 3.5rem;
   margin-top: 1rem;
   margin-bottom: 2.5rem;
   text-decoration: none;
@@ -131,7 +131,7 @@ h5 {
 }
 
 .button-wireframes {
-  padding: 1rem 3.2rem;
+  padding: 1.5rem 3.5rem;
   margin-bottom: 3rem;
   text-decoration: none;
 }
@@ -464,13 +464,13 @@ p.footer-copy{
 
 .footer-icon a {
   display: inline;
-  padding: 1rem;
+  padding: 2rem;
   width: 10%;
 }
 
 .fab {
   color: black;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 
