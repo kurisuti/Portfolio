@@ -43,8 +43,8 @@ h1 {
   font-family: "halant",Times,serif;
   font-size: 3.5rem;
   font-weight: bold;
-  margin-top: 2rem;
-  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
 }
 
 h2 {
@@ -156,10 +156,18 @@ ul {
 }
 
 /*form*/
+
+label {
+  font-family: "roboto",Arial,sans-serif;
+  font-size: 1.4rem;
+  display: block;
+  align-items: center;
+}
+
 input[type=text], seclect {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   height: 40px;
-  margin: .8rem 0;
+  margin: 1.8rem 0;
   outline: none;
   padding: 1.2rem 2rem;
   width: 100%;
@@ -171,7 +179,7 @@ textarea#styled {
   font-size: 1.4rem;
   font-weight: 100;
   height:12rem;
-  margin: .8rem 0;
+  margin: 1.8rem 0;
   outline: none;
   padding: 2rem;
   resize: none;
@@ -211,12 +219,11 @@ p.footer-copy{
 
 .footer-icon {
   margin-top: 1.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-copy {
   padding-right: 3rem;
-  padding-left: 3rem;
 }
 
 .link-secondary {
@@ -226,6 +233,7 @@ p.footer-copy{
 .footer-icon a {
   display: inline;
   padding: 2rem;
+  padding-left: 0rem;
   width: 10%;
 }
 
@@ -237,7 +245,7 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 9rem;
+    padding: 3rem 8rem;
   }
 
   .navbar {
@@ -313,16 +321,18 @@ p.footer-copy{
 
 
 /*desktop*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 15rem;
+    padding: 3rem 30rem;
   }
-
-  .form-container {
-    padding-top: 13rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
-    margin-bottom: 9rem;
+  h1 {
+    color: #FF744F;
+    text-align: center;
+    font-family: "halant",Times,serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
   }
 
 }
