@@ -115,10 +115,9 @@ h4 {
 }
 
 h5 {
-  font-family: "halant",Times,serif;
-  font-size: 1.7rem;
-  font-weight: 400;
-  margin-top: 2rem;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 2rem;
+  line-height: 1.3em;
 }
 
 /*button*/

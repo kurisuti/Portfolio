@@ -142,6 +142,15 @@ a {
   display: inline;
 }
 
+#about-me-button {
+  margin-top: 3rem;
+}
+
+.button:hover, #about-me-button:hover {
+  background-color: #FFB19C;
+}
+
+
 .about-me-copy {
   margin-bottom: 2rem;
 }
@@ -294,16 +303,8 @@ p.footer-copy{
     margin-top: .5rem;
   }
 
-  #about-me-button {
-    margin-top: 3rem;
-  }
-
   .logo:hover, .nav-links:hover {
     color: #E07B63;
-  }
-
-  .button:hover, #about-me-button:hover {
-    background-color: #FFB19C;
   }
 
   img {

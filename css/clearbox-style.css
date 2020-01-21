@@ -84,9 +84,8 @@ p {
 }
 
 h2 {
-  font-family: "halant",Times,serif;
+  font-family: "roboto",arial,sans-serif;
   font-size: 2rem;
-  font-weight: 400;
   line-height: 1.3em;
 }
 
@@ -238,6 +237,7 @@ img {
 /*problem*/
 .problem {
   background-color: #F9F7F3;
+  height: 30rem;
 }
 
 .discovery-image {
@@ -439,7 +439,6 @@ img {
     color: #F06F54;
 }
 
-
 /*footer*/
 footer {
   margin-top: 6rem;
@@ -496,12 +495,9 @@ p.footer-copy{
   }
 
   h2 {
-    font-family: "halant",Times,serif;
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 1.3rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2rem;
+    line-height: 1.3em;
   }
 
   h3 {
