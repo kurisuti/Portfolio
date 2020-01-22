@@ -149,7 +149,7 @@ h5 {
 
 .competitive-analysis-button {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .back-to-top {
@@ -243,7 +243,6 @@ img {
 /*problem*/
 .problem {
   background-color: #F9F7F3;
-  height: 30rem;
 }
 
 .discovery-image {
@@ -300,6 +299,7 @@ img {
 .preference-testing {
   background-color: #F9F7F3;
   text-align: center;
+  padding: 3rem 5rem 5rem;
 }
 
 .preference-wrapper {
@@ -561,7 +561,7 @@ p.footer-copy{
   h5 {
     color: #FF744F;
     font-family: "roboto",arial,sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 1.8rem;
     padding-top: 1rem;
   }
@@ -709,6 +709,12 @@ p.footer-copy{
     margin-top: 2rem;
   }
 
+  .preference-testing {
+    background-color: #F9F7F3;
+    text-align: center;
+    padding: 7rem;
+  }
+
   .hr {
     display: none;
   }
@@ -749,7 +755,6 @@ p.footer-copy{
   #branding {
     height: 40rem;
     object-fit: contain;
-    margin-bottom: -8rem;
     width: 100%;
   }
 
@@ -810,6 +815,11 @@ p.footer-copy{
     height: 30rem;
     width: 100%;
   }
+
+  .preference-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /*desktop*/
@@ -819,7 +829,7 @@ p.footer-copy{
   }
 
   #preference {
-    width: 80%;
+    width: 95%;
     object-fit: cover;
   }
 
