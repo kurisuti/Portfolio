@@ -87,14 +87,6 @@ h1 {
   line-height: 1.3rem;
 }
 
-p {
-  font-family: "roboto",Arial,sans-serif;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
 h2 {
   font-family: "roboto",arial,sans-serif;
   font-size: 1.8rem;
@@ -115,11 +107,12 @@ h4 {
   padding-top: 1rem;
 }
 
-h5 {
-  font-family: "halant",Times,serif;
-  font-size: 1.7rem;
-  font-weight: 400;
-  margin-top: 2rem;
+p {
+  font-family: "roboto",Arial,sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 /*button*/
@@ -140,14 +133,6 @@ h5 {
   background-color: #FFB19C;
 }
 
-.back-to-top {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 2rem 3rem;
-}
-
-
 /*links*/
 a {
   color: #F06F54;
@@ -158,13 +143,7 @@ a {
   text-decoration: none;
 }
 
-.link-secondary {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.5rem;
-}
-
 /*image styling*/
-
 img {
   width: 100%;
 }
@@ -191,8 +170,9 @@ img {
 .busybus-copy {
   margin: auto;
   position: absolute;
+  padding: 3rem;
   text-align: center;
-  top: 10%;
+  top: 9%;
   width: 100%;
 }
 
@@ -203,12 +183,6 @@ img {
   background-position: center;
   height: 30rem;
   width: 100%;
-}
-
-/*overview*/
-.hr-footer {
-  border-top: .1rem solid #DEDADA;
-  width: 70%;
 }
 
 /*problem*/
@@ -513,7 +487,7 @@ p.footer-copy{
     margin: auto;
     position: absolute;
     text-align: center;
-    top: 46%;
+    top: 42%;
     width: 100%;
   }
 
