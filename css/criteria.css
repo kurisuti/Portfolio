@@ -140,13 +140,6 @@ p {
   background-color: #FFB19C;
 }
 
-.back-to-top {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 2rem 3rem;
-}
-
 /*links*/
 a {
   color: #F06F54;
@@ -192,13 +185,6 @@ img {
   background-position: center;
   height: 30rem;
   width: 100%;
-}
-
-/*overview*/
-.hr-footer {
-  border: none;
-  border-top: .1rem solid #DEDADA;
-  width: 90%;
 }
 
 /*problem*/
