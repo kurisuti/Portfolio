@@ -12,12 +12,6 @@ section {
 
 
 /*heading*/
-p {
-  font-family: "roboto",Arial,sans-serif;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
-}
-
 h3 {
   color: black;
   font-family: "halant",Times,serif;
@@ -39,6 +33,12 @@ h5 {
   font-family: "roboto",arial,sans-serif;
   font-size: 2rem;
   line-height: 1.3em;
+}
+
+p {
+  font-family: "roboto",Arial,sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
 }
 
 .work {
@@ -136,12 +136,6 @@ a {
   text-decoration: none;
 }
 
-.button-header {
-  border-radius: .5rem;
-  color: #F5896C;
-  display: inline;
-}
-
 #about-me-button {
   margin-top: 3rem;
 }
@@ -150,7 +144,6 @@ a {
   background-color: #FFB19C;
 }
 
-
 .about-me-copy {
   margin-bottom: 2rem;
 }
@@ -158,17 +151,11 @@ a {
 /*image styling*/
 img {
   height: 44rem;
+  margin-bottom: 1rem;
   object-fit: cover;
   object-position: center;
-  margin-bottom: 1rem;
   padding-top: 8rem;
   width: 100%;
-}
-
-.hr-footer {
-  border: none;
-  border-top: .1rem solid #DEDADA;
-  width: 90%;
 }
 
 /*footer*/
@@ -210,13 +197,6 @@ p.footer-copy{
   section {
     padding: 3rem 11rem;
   }
-
-  p {
-    font-family: "roboto",Arial,sans-serif;
-    font-size: 1.4rem;
-    line-height: 2.5rem;
-  }
-
   h3 {
     color: black;
     font-family: "halant",Times,serif;
@@ -240,6 +220,12 @@ p.footer-copy{
     line-height: 1.3em;
   }
 
+  p {
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+
   .about-me-container {
     display: flex;
     flex-direction: row;
@@ -253,7 +239,6 @@ p.footer-copy{
   .work {
     padding-bottom: 1rem;
   }
-
 
   .navbar {
     background-color: white;
@@ -315,11 +300,9 @@ p.footer-copy{
   }
 }
 
-
 /*desktop*/
 @media screen and (min-width: 1200px) {
-    section {
-      padding: 3rem 27rem;
-    }
-
+  section {
+    padding: 3rem 27rem;
+  }
 }
