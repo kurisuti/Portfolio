@@ -75,14 +75,6 @@ b {
   font-weight: bold;
 }
 
-p {
-  font-family: "roboto",Arial,sans-serif;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
 h1 {
   font-family: "halant",Times,serif;;
   font-size: 2rem;
@@ -115,6 +107,14 @@ h5 {
   font-size: 1.4rem;
   line-height: 1.8rem;
   padding-top: 1rem;
+}
+
+p {
+  font-family: "roboto",Arial,sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 /*button*/
@@ -152,14 +152,6 @@ h5 {
   margin-top: 3rem;
 }
 
-.back-to-top {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 2rem 3rem;
-}
-
-
 /*links*/
 a {
   color: #F06F54;
@@ -169,7 +161,6 @@ a {
   font-size: 1.4rem;
   text-decoration: none;
 }
-
 
 .link-secondary {
   font-family: "roboto",arial,sans-serif;
@@ -268,13 +259,9 @@ img {
   width: 100%;
 }
 
-
-
 .persona-one-wrapper, .persona-two-wrapper {
   width: 100%;
 }
-
-
 
 .persona-two {
 }
@@ -538,16 +525,16 @@ p.footer-copy{
   }
 
   h2 {
-      color: black;
-      font-family: "roboto",arial,sans-serif;
-      font-size: 1.8rem;
-      line-height: 1.5rem;
+    color: black;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5rem;
   }
 
   h3 {
-      color: black;
-      font-family: "roboto",arial,sans-serif;
-      font-size: 2rem;
+    color: black;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2rem;
   }
 
   h4 {
@@ -657,16 +644,13 @@ p.footer-copy{
     color: #E07B63;
   }
 
-
-
   .carousel-item img {
-      display: block;
-      height: 28rem;
-      max-width: 100%;
-      object-fit: contain;
-      object-position: center;
+    display: block;
+    height: 28rem;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
   }
-
 
   #information-architecture {
     object-fit: contain;
