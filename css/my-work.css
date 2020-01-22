@@ -23,14 +23,6 @@ section {
   text-align: center;
 }
 
-p {
-  font-family: "roboto",Arial,sans-serif;
-  font-size: 1.4rem;
-  line-height: 2rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
 h1 {
   font-family: "halant",Times,serif;
   font-size: 3rem;
@@ -40,10 +32,9 @@ h1 {
 }
 
 h3 {
-  color: black;
-  font-family: "halant",Times,serif;
+  font-family: "roboto",arial,sans-serif;
   font-size: 2rem;
-  padding-top: 1rem;
+  line-height: 1.3em;
 }
 
 h4 {
@@ -59,6 +50,14 @@ h5 {
   margin-top: 2rem;
 }
 
+p {
+  font-family: "roboto",Arial,sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
 /*button*/
 .button {
   background-color: #FF744F;
@@ -70,11 +69,6 @@ h5 {
   margin-bottom: 2.5rem;
   padding: 1.5rem 3.5rem;
   text-decoration: none;
-}
-
-.button-header {
-  border-radius: .5rem;
-  color: #F5896C;
 }
 
 /*links*/
@@ -197,6 +191,7 @@ img {
   background-color: white;
   color: black;
   display: block;
+  height: 16rem;
   padding-right: 1.8rem;
   padding-left: 1.8rem;
   padding-top: 13px;
@@ -206,13 +201,13 @@ img {
   transform: translate(-50%,-50%);
   text-align: center;
   width: 230px;
-  height: 16rem;
 }
 
 .project-copy-nodetail {
   background-color: white;
   color: black;
   display: block;
+  height: 11rem;
   padding-right: 1.8rem;
   padding-left: 1.8rem;
   padding-top: 2.5rem;
@@ -222,7 +217,6 @@ img {
   transform: translate(-50%,-50%);
   text-align: center;
   width: 230px;
-  height: 11rem;
 }
 
 .project-container-2 {
