@@ -787,7 +787,7 @@ p.footer-copy{
   }
 
   .feature-copy-left {
-    padding: left: 5rem;
+    padding-left: 5rem;
     padding-right: 2rem;
     width: 100%;
   }
