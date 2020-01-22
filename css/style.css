@@ -235,7 +235,7 @@ h6 {
 }
 
 .button-outline:hover {
-  border: 2px solid ##D96040;
+  border: 2px solid #D96040;
   color: #D96040;
 }
 
@@ -663,7 +663,6 @@ p.footer-copy{
   }
 
   .profile-image {
-    background-position: cover;
     background-position: center;
     background-image: url(../Images/Christie-ProfilePicture.jpg);
     height: 58rem;
