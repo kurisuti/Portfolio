@@ -172,6 +172,12 @@ img {
   width: 100%;
 }
 
+#user-testing-2, #branding, #wireframe {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
 #logo {
   height: 58px;
   margin-left: 2rem;
@@ -220,8 +226,8 @@ img {
 }
 
 .hr {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .hr-architecture {
@@ -282,7 +288,7 @@ img {
 
 .preference-testing {
   text-align: center;
-  padding: 3rem 5rem 5rem;
+  padding: 2rem 5rem 2rem 5rem;;
 }
 
 .preference-wrapper {
