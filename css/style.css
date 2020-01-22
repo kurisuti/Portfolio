@@ -162,7 +162,7 @@ h4 {
   color:  #FF744F;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.6rem;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 h5 {
@@ -498,18 +498,6 @@ p.footer-copy{
   padding-left: 3rem;
 }
 
-.back-to-top {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 2rem 3rem;
-}
-
-.link-secondary {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.5rem;
-}
-
 .footer-icon a {
   display: inline;
   padding: 2rem;
@@ -571,20 +559,11 @@ p.footer-copy{
     margin: 2rem 6rem;
   }
 
-  p {
-    font-family: "roboto",Arial,sans-serif;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-
   h2 {
     font-family: "roboto",arial,sans-serif;
     font-size: 2rem;
     line-height: 1.3em;
   }
-
 
   h3 {
     color: black;
@@ -597,9 +576,7 @@ p.footer-copy{
       color: #FF744F;
       font-family: "roboto", arial, sans-serif;
       font-size: 1.7rem;
-      padding-top: 2rem;
   }
-
 
   h5 {
     color: #F06F54;
@@ -607,6 +584,12 @@ p.footer-copy{
     font-size: 1.3rem;
     line-height: 1.8rem;
     padding-top: 1rem;
+  }
+
+  p {
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
   }
 
   .featured-project-copy {
@@ -657,21 +640,11 @@ p.footer-copy{
     margin-bottom: 1.5rem;
   }
 
-  .design-copy {
-    margin-right: 3rem;
-    width: 40%;
-  }
 
   #design-chart-image {
-    height: 40rem;
     object-fit: contain;
-    padding-left: 5rem;
-    width: 65%;
-  }
-
-  .hr-footer {
-    border-top: .1rem solid #DEDADA;
-    width: 70%;
+    margin-left: 2rem;
+    width: 55%;
   }
 
   .other-projects {
@@ -694,7 +667,7 @@ p.footer-copy{
     background-position: center;
     background-image: url(../Images/Christie-ProfilePicture.jpg);
     height: 58rem;
-    width: 65%;
+    width: 60%;
   }
 
   .slider__contents {
@@ -723,7 +696,6 @@ p.footer-copy{
     justify-content: center;
 }
 
-}
 
 /*desktop*/
 @media screen and (min-width: 1025px) {
