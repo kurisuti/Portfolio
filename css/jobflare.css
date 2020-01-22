@@ -111,12 +111,6 @@ h4 {
   padding-top: 1rem;
 }
 
-h5 {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 2rem;
-  line-height: 1.3em;
-}
-
 
 p {
   font-family: "roboto",Arial,sans-serif;
@@ -144,13 +138,6 @@ p {
   background-color: #FFB19C;
 }
 
-.back-to-top {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 2rem 3rem;
-}
-
 /*links*/
 a {
   color: #F06F54;
@@ -164,11 +151,6 @@ a {
 #link {
   color: rgba(45, 99, 191);
   text-decoration: underline;
-}
-
-.link-secondary {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.5rem;
 }
 
 /*image styling*/
@@ -192,9 +174,9 @@ img {
 
 .jobflare-copy {
   color: white;
-  top: 13%;
+  top: 12%;
   position: absolute;
-  margin: auto;
+  padding: 3rem;
   text-align: center;
   width: 100%;
 }
@@ -205,11 +187,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   height: 30rem;
-  width: 100%;
-}
-
-.image-container {
-  margin: 0 auto;
   width: 100%;
 }
 
@@ -351,13 +328,6 @@ p.footer-copy{
     padding-top: 1rem;
   }
 
-  h5 {
-    font-family: "roboto",arial,sans-serif;
-    font-size: 2rem;
-    line-height: 1.3em;
-  }
-
-
   p {
     font-family: "roboto",Arial,sans-serif;
     font-size: 1.5rem;
@@ -397,16 +367,6 @@ p.footer-copy{
 
   #logo {
     margin-top: .8rem;
-  }
-
-  .button-header {
-    background-color: #F5896C;
-    border-radius: .5rem;
-    color: white;
-    display: inline;
-    font-size: 1.6rem;
-    padding: .8rem 2rem;
-    margin-left: 40px;
   }
 
   .navbar {
@@ -462,14 +422,6 @@ p.footer-copy{
     margin-left: -3px;
   }
 
-  .image-one {
-    width: 100%;
-  }
-
-  .image-two {
-    width: 100%;
-  }
-
   .image-container {
     display: flex;
     flex-direction: row;
@@ -491,15 +443,6 @@ p.footer-copy{
     height: 35rem;
     margin-left: 1rem;
     width: 50%;
-  }
-
-  .feature-wrapper {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    width: 90%;
   }
 
   .jobflare-copy {

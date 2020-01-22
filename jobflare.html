@@ -1,10 +1,5 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-  <html
-        xmlns="http://www.w3.org/1999/xhtml"
-        xml:lang="en-US"
-        lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
   <head profile="http://www.w3.org/2005/10/profile">
      <meta charset="utf-8"/>
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,12 +15,8 @@
   </head>
   <body>
   <nav class="navbar">
-    <span class="navbar-toggle" id="js-navbar-toggle">
-         <i class="fas fa-bars"></i>
-     </span>
-     <a href="index.html">
-     <img id="logo" src="Images/Homepage/Logo.png">
-     </a>
+    <span class="navbar-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>
+     <a href="index.html"><img id="logo" src="Images/Homepage/Logo.png"></a>
     <ul class="main-nav" id="js-menu">
       <li>
         <a href="my-work.html" class="nav-links">Work</a>
@@ -39,25 +30,26 @@
     </ul>
   </nav>
     <!--header-->
-    <div class="jobflare-container">
+    <article class="jobflare-container">
       <div class= "jobflare-image"></div>
-      <section class="jobflare-copy">
+      <div class="jobflare-copy">
         <h1>JobFlare</h1>
         <p>JobFlare is a mobile application that helps users match with companies based on their game scores.</p>
       </div>
+    </article>
     <!--overview/role and duration-->
     <section class="overview">
-      <div class="column-1">
+      <article class="column-1">
         <h3>Overview</h3>
         <p>JobFlare is a mobile application that helps users connect to companies. JobFlare has six 90-second brain games that tracks a user’s performance in skills that are key predictors of job success: math, verbal, attention to detail, and memory. The more stars a user earns, the more it helps users stand out to companies. As the UI designer, my primary role was to design the mobile interface of JobFlare. I collaborated with the marketing and engineering team to create features that would increase the number of downloads, as well as, lengthen a player’s time in app.</p>
-      </div>
-      <div class="column-2">
+      </article>
+      <article class="column-2">
         <h3>Role & Duration</h3>
         <p><b>UI Designer</b></p>
         <p>Visual Design, Print Design</p><br>
         <hr>
         <p>Aug 2017 - Jan 2019</p>
-      </div>
+      </article>
     </section>
     <!--challenges-->
     <section class="challenges">
@@ -82,11 +74,11 @@
         <h4>Conclusion</h4>
         <p>The results of adding the level maps was able to improve player retention within the app. We noticed a greater conversion of players that were able to gain an additional star level, which would be beneficial for both them and companies. With the next update to the games, we want to focus our designs by maturing our game characters. Our marketing team went to a couple of career fairs, and shared with us that a user’s first interaction with the app is that the graphics appear childlike. Our next stage in improving our app will be researching brain games, and studying their style to elevate the aesthetics of our game characters.</p>
         <a href="https://jobflare.com/" id="link">View JobFlare’s Website</a>
-        <div class="jf-video">
+        <article class="jf-video">
           <video width="400" controls>
             <source src="Images/JobFlare/RPReplay_Final1578376426.mov" type="video/mp4">
           </video>
-        </div>
+        </article>
         <button onclick="topFunction()" id="myBtn" title="Go to top" i class='fa fa-chevron-up'></button>
     </section>
     <!--footer-->
@@ -102,6 +94,7 @@
           <a href="https://www.facebook.com/christie.chang.399"><i class="fab fa-facebook-square"></i></a>
       </div>
     </footer>
+
     <!-- Menu-->
     <script>
         let mainNav = document.getElementById('js-menu');
@@ -110,17 +103,19 @@
         mainNav.classList.toggle('active');
         });
     </script>
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-155353267-1');
     </script>
+
     <!--Back to top-->
     <script>
+
     //Get the button
     var mybutton = document.getElementById("myBtn");
 
