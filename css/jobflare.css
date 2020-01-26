@@ -155,7 +155,6 @@ a {
 
 /*image styling*/
 img {
-  position: cover;
   width: 100%;
 }
 
@@ -475,5 +474,6 @@ p.footer-copy{
 @media screen and (min-width: 1400px) {
   section {
     padding: 3rem 45rem;
+    }
   }
 }
