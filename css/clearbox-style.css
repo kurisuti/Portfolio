@@ -124,7 +124,7 @@ p {
   color: white;
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding: 1.5rem 3.5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -307,8 +307,6 @@ img {
 }
 
 .image-two {
-  margin-bottom: 1rem;
-  margin-left: 1rem;
   width: 100%;
 }
 
@@ -830,4 +828,5 @@ p.footer-copy{
     section {
       padding: 3rem 45rem;
     }
+  }
 }
