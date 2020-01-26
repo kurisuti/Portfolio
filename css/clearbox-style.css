@@ -8,7 +8,7 @@ html {
 }
 
 section {
-  padding: 3rem 5rem 5rem;
+  padding: 3rem 5rem 3rem 5rem;
 }
 
 /*navigation*/
@@ -105,7 +105,7 @@ h5 {
   color: #FF744F;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.4rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
   padding-top: 1rem;
 }
 
@@ -127,7 +127,7 @@ p {
   font-size: 1.6rem;
   padding: 1.5rem 3.5rem;
   margin-top: 1rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   text-decoration: none;
 }
 
@@ -211,8 +211,8 @@ img {
 .clearbox-copy {
   position: absolute;
   margin: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
   text-align: center;
   top: 12%;
   width: 100%;
@@ -273,6 +273,11 @@ img {
   text-align: center;
 }
 
+.persona-one-copy, .persona-two-copy {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 /*information architecture*/
 .information-architecture {
   background-color: #F9F7F3;
@@ -288,15 +293,22 @@ img {
 
 .preference-testing {
   text-align: center;
-  padding: 2rem 5rem 2rem 5rem;;
+  padding: 0rem 5rem 0rem 5rem;;
 }
 
 .preference-wrapper {
   padding: 0rem !important;
 }
 
-.image-one, .image-two {
+.image-one {
   margin-bottom: 1rem;
+  margin-right: 1rem;
+  width: 100%;
+}
+
+.image-two {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
   width: 100%;
 }
 
@@ -350,7 +362,7 @@ img {
 
 .carousel-open:checked + .carousel-item {
     position: static;
-    opacity: 100;
+    opacity: 100%;
 }
 
 .carousel-item {
@@ -553,7 +565,7 @@ p.footer-copy{
     color: #FF744F;
     font-family: "roboto",arial,sans-serif;
     font-size: 1.4rem;
-    line-height: 1.8rem;
+    line-height: 2rem;
     padding-top: 1rem;
   }
 
@@ -567,7 +579,7 @@ p.footer-copy{
 
   .overview {
     display: flex;
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
 
   .column-1 {
@@ -684,11 +696,6 @@ p.footer-copy{
     margin-left: 2rem;
   }
 
-  .persona-one-copy, .persona-two-copy {
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-
   #paper-prototype {
     height: 35rem;
     object-fit: contain;
@@ -698,7 +705,7 @@ p.footer-copy{
 
   .preference-testing {
     text-align: center;
-    padding: 0rem 9rem 0rem 9rem
+    padding: 0rem 10rem 0rem 10rem
   }
 
   .hr {
@@ -716,7 +723,7 @@ p.footer-copy{
     background-position: center;
     background-image: url("../Images/Clearbox/ClearBox-MoodBoard.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 40rem;
   }
 
@@ -739,7 +746,6 @@ p.footer-copy{
   }
 
   #branding {
-    height: 40rem;
     object-fit: contain;
     width: 100%;
   }
@@ -750,7 +756,8 @@ p.footer-copy{
   }
 
   .feature-container {
-    margin-left: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
   .feature-wrapper {
