@@ -225,7 +225,7 @@ img {
 }
 
 .carousel-open:checked + .carousel-item {
-    opacity: 100;
+    opacity: 100%;
     position: static;
 }
 
@@ -666,4 +666,5 @@ p.footer-copy{
     section {
       padding: 3rem 45rem;
     }
+  }
 }
