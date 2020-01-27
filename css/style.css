@@ -334,6 +334,7 @@ section.hero {
 
 /*my design process*/
 #design-chart-image {
+  height: 38rem;
   object-fit: contain;
   padding-top: 3rem;
 }
