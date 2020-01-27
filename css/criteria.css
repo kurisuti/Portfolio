@@ -37,7 +37,7 @@ section {
 }
 
 .nav-links:hover, .fab:hover {
-  color: #E07B63;
+  color: #F06F54;
 }
 
 .main-nav li {
@@ -139,7 +139,7 @@ p {
 }
 
 .button:hover {
-  background-color: #FFB19C;
+  background-color: #CD4D2B;
 }
 
 /*links*/
@@ -377,7 +377,7 @@ p.footer-copy{
   }
 
   .logo:hover, .nav-links:hover {
-    color: #E07B63;
+    color: #F06F54;
   }
 
   .hr {

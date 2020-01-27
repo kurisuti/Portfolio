@@ -70,7 +70,7 @@ section {
 }
 
 .nav-links:hover, .fab:hover {
-  color: #E07B63;
+  color: #F06F54;
 }
 
 .main-nav li {
@@ -231,11 +231,11 @@ h6 {
 }
 
 .button-hero:hover, .button:hover, .button-header:hover {
-  background-color: #FFB19C;
+  background-color: #CD4D2B;
 }
 
 .button-outline:hover {
-  border: 2px solid #D96040;
+  border: 2px solid #CD4D2B ;
   color: #D96040;
 }
 
@@ -621,7 +621,7 @@ p.footer-copy{
 }
 
   .logo:hover, .nav-links:hover {
-    color: #E07B63;
+    color: #F06F54;
   }
 
   .about {

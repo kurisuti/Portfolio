@@ -37,7 +37,7 @@ section {
 }
 
 .nav-links:hover, .fab:hover {
-  color: #E07B63;
+  color: #F06F54;
 }
 
 .main-nav li {
@@ -132,7 +132,7 @@ p {
 }
 
 .button:hover, .button-wireframes:hover {
-  background-color: #FFB19C;
+  background-color: #CD4D2B;
 }
 
 .button-wireframes {
@@ -655,7 +655,7 @@ p.footer-copy{
   }
 
   .logo:hover, .nav-links:hover {
-    color: #E07B63;
+    color: #F06F54;
   }
 
   .carousel-item img {

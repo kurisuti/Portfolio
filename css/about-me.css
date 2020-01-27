@@ -71,7 +71,7 @@ p {
 }
 
 .nav-links:hover, .fab:hover {
-  color: #E07B63;
+  color: #F06F54;
 }
 
 .main-nav li {
@@ -142,7 +142,7 @@ a {
 }
 
 .button:hover, #about-me-button:hover {
-  background-color: #FFB19C;
+  background-color: #CD4D2B;
 }
 
 .about-me-copy {
@@ -290,7 +290,7 @@ p.footer-copy{
   }
 
   .logo:hover, .nav-links:hover {
-    color: #E07B63;
+    color: #F06F54;
   }
 
   img {

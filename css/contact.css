@@ -88,8 +88,12 @@ a {
   text-decoration: none;
 }
 
-.fab:hover, #button:hover, .button:hover {
-  color: #FFB19C;
+.fab:hover, .button:hover {
+  color: #F06F54;
+}
+
+#button:hover {
+  background-color: #CD4D2B;
 }
 
 .main-nav li {
@@ -257,7 +261,7 @@ p.footer-copy{
   }
 
   .logo:hover, .nav-links:hover {
-    color: #E07B63;
+    color: #F06F54;
   }
 
   .hr-footer {
