@@ -96,7 +96,7 @@ a {
   cursor: pointer;
   display: block;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-decoration: none;
 }
 
@@ -538,7 +538,7 @@ p.footer-copy{
   }
 
   .nav-links {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-right: 40px;
   }
 
@@ -589,7 +589,7 @@ p.footer-copy{
 
   p {
     font-family: "roboto",Arial,sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 2.5rem;
   }
 
