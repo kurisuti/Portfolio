@@ -117,6 +117,7 @@ a {
 #logo {
   height: 58px;
   margin-left: 2rem;
+  margin-bottom: 0rem;
   object-fit: contain;
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
