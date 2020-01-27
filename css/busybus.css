@@ -327,7 +327,7 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 50rem;
+  height: 40rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   width: 100%;
@@ -338,10 +338,9 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 50rem;
+  height: 40rem;
   margin: auto;
   margin-bottom: 2rem;
-  width: 100%;
 }
 
 .testing-3 {
@@ -349,7 +348,7 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 50rem;
+  height: 40rem;
   margin-bottom: 3rem;
   width: 100%;
 }
@@ -359,7 +358,7 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 50rem;
+  height: 40rem;
   margin: auto;
   margin-bottom: 2rem;
   width: 100%;
@@ -596,7 +595,7 @@ p.footer-copy{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 50rem;
+    height: 35rem;
     margin-right: 2rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -608,7 +607,7 @@ p.footer-copy{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 50rem;
+    height: 35rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
     margin-right: 2rem;
@@ -620,7 +619,7 @@ p.footer-copy{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50rem;
+    height: 35rem;
     margin-bottom: 0rem;
     width: 100%;
   }
@@ -660,6 +659,40 @@ p.footer-copy{
   section {
     padding: 3rem 36rem;
   }
+  .testing-1 {
+    background-image: url("../Images/BusyBus/BusyBus1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 45rem;
+    margin-right: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    width: 100%;
+  }
+
+  .testing-2, .testing-4 {
+    background-image: url("../Images/BusyBus/BusyBus2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 45rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-right: 2rem;
+    width: 100%;
+  }
+
+  .testing-3 {
+    background-image: url("../Images/BusyBus/BusyBus3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45rem;
+    margin-bottom: 0rem;
+    width: 100%;
+  }
+}
 
 /*max-width desktop*/
   @media screen and (min-width: 1400px) {
