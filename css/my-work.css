@@ -339,9 +339,13 @@ p.footer-copy{
     margin: 0;
   }
 
-  .nav-links {
+  .main-nav a {
     font-size: 1.4rem;
     margin-right: 40px;
+  }
+
+  .main-nav .current {
+    color: #FF744F;
   }
 
   .logo:hover, .nav-links:hover {

@@ -625,9 +625,13 @@ p.footer-copy{
     margin-top: .5rem;
   }
 
-  .nav-links {
+  .main-nav a {
     font-size: 1.4rem;
     margin-right: 40px;
+  }
+
+  .main-nav .current {
+    color: #FF744F;
   }
 
   #logo {
