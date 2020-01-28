@@ -205,8 +205,8 @@ img {
 }
 
 .clearbox-image {
-  background-image: url("../Images/ClearBox/Clearbox-mockup-2 copy.png");
-  height: 45rem;
+  background-image: url("../Images/ClearBox/Clearbox_Hero-image.png");
+  height: 32rem;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -244,14 +244,14 @@ img {
   background-color: #F9F7F3;
 }
 
-.discovery-image {
+/* .discovery-image {
   background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
   background-position: -63px 40%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 45rem;
   max-width: 100%
-}
+} */
 
 .clearbox-mockup {
   background-image: url("../Images/ClearBox/clearbox-mockup-1 copy.png");
@@ -527,10 +527,10 @@ p.footer-copy{
 
 
   .clearbox-image {
-    background-image: url("../Images/ClearBox/Clearbox-mockup-2 copy.png");
+    background-image: url("../Images/ClearBox/Clearbox_Hero-image.png");
     background-position: bottom;
     background-size: cover;
-    height: 63rem;
+    height: 35rem;
     width: 100%;
   }
 
@@ -589,8 +589,7 @@ p.footer-copy{
   }
   .overview {
     display: flex;
-    margin-top: 24rem;
-    margin-top: 23rem;
+    margin-top: 5rem;
     margin-bottom: 2rem;
   }
 
@@ -607,14 +606,6 @@ p.footer-copy{
   .clearbox-container {
     position: relative;
     height: 30rem;
-    width: 100%;
-  }
-
-  .clearbox-image {
-    background-image: url("../Images/ClearBox/Clearbox-mockup-2 copy.png");
-    background-position: top;
-    background-size: cover;
-    height: 50rem;
     width: 100%;
   }
 
@@ -744,7 +735,7 @@ p.footer-copy{
     height: 40rem;
   }
 
-  .discovery-image {
+  /* .discovery-image {
     background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -753,7 +744,7 @@ p.footer-copy{
     margin-top: 2rem;
     height: 45rem;
     max-width: 100%;
-  }
+  } */
 
   #customize {
     height: 25rem;
@@ -843,10 +834,10 @@ p.footer-copy{
   }
 
   .clearbox-image {
-    background-image: url("../Images/ClearBox/Clearbox-mockup-2 copy.png");
+    background-image: url("../Images/ClearBox/Clearbox_Hero-image.png");
     background-position: center;
     background-size: cover;
-    height: 50rem;
+    height: 34rem;
     width: 100%;
   }
 
