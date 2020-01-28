@@ -385,8 +385,7 @@ section.hero {
 }
 
 .slider__nav:checked {
-  -webkit-animation: check 0.4s linear forwards;
-          animation: check 0.4s linear forwards;
+  -webkit-animation: check 0.25s linear forwards;
 }
 
 .slider__nav:checked:nth-of-type(1) ~ .slider__inner {
