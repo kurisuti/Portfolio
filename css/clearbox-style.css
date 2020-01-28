@@ -208,7 +208,7 @@ img {
   background-image: url("../Images/ClearBox/Clearbox-mockup-2 copy.png");
   height: 45rem;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   width: 100%;
 }
 
@@ -246,12 +246,11 @@ img {
 
 .discovery-image {
   background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
-  background-position: center;
+  background-position: -63px 40%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: -6rem;
-  height: 35rem;
-  max-width: 100%;
+  height: 45rem;
+  max-width: 100%
 }
 
 .clearbox-mockup {
@@ -747,7 +746,7 @@ p.footer-copy{
 
   .discovery-image {
     background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
-    background-position: 0 40%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 1rem;
@@ -835,7 +834,7 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 40rem;
+    padding: 3rem 28rem;
   }
 
   #preference {
@@ -843,10 +842,18 @@ p.footer-copy{
     object-fit: cover;
   }
 
+  .clearbox-image {
+    background-image: url("../Images/ClearBox/Clearbox-mockup-2 copy.png");
+    background-position: center;
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+  }
+
 /*max-width desktop*/
   @media screen and (min-width: 1400px) {
     section {
-      padding: 3rem 45rem;
+      padding: 3rem 32rem;
     }
   }
 }
