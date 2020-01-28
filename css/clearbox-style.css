@@ -82,22 +82,24 @@ h1 {
 }
 
 h2 {
+  color: black;
   font-family: "roboto",arial,sans-serif;
   font-size: 2rem;
-  line-height: 1.3em;
+  line-height: 1.5rem;
 }
 
 h3 {
   color: black;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.8rem;
-  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
 }
 
 h4 {
   color: #FF744F;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding-top: 1rem;
 }
 
@@ -204,7 +206,9 @@ img {
 
 .clearbox-image {
   background-image: url("../Images/ClearBox/Clearbox-mockup-2 copy.png");
-  height: 30rem;
+  height: 45rem;
+  background-size: cover;
+  background-position: top;
   width: 100%;
 }
 
@@ -241,7 +245,7 @@ img {
 }
 
 .discovery-image {
-  background-image: url("../Images/ClearBox/clearbox-mockup-1 copy.png");
+  background-image: url("../Images/ClearBox/Discovery_Phase-image.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -512,7 +516,7 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 17rem;
+    padding: 5rem 24rem;
   }
 
   #logo {
@@ -525,7 +529,9 @@ p.footer-copy{
 
   .clearbox-image {
     background-image: url("../Images/ClearBox/Clearbox-mockup-2 copy.png");
-    height: 36rem;
+    background-position: bottom;
+    background-size: cover;
+    height: 63rem;
     width: 100%;
   }
 
@@ -548,14 +554,15 @@ p.footer-copy{
   h2 {
     color: black;
     font-family: "roboto",arial,sans-serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 1.5rem;
   }
 
   h3 {
     color: black;
     font-family: "roboto",arial,sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
   }
 
   h4 {
@@ -577,24 +584,25 @@ p.footer-copy{
   p {
     font-family: "roboto",Arial,sans-serif;
     font-size: 1.6rem;
-    line-height: 2.5rem;
+    line-height: 2.8rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
-
   .overview {
     display: flex;
-    margin-top: 22rem;
+    margin-top: 24rem;
+    margin-top: 23rem;
+    margin-bottom: 2rem;
   }
 
   .column-1 {
-    padding-right: 2rem;
-    width: 50%;
+    padding-right: 5rem;
+    width: 70%;
   }
 
   .column-2 {
-    padding-left: 2rem;
-    width: 50%;
+    padding-left: 3rem;
+    width: 30%;
   }
 
   .clearbox-container {
@@ -827,7 +835,7 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 36rem;
+    padding: 3rem 40rem;
   }
 
   #preference {
