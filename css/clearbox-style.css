@@ -434,7 +434,7 @@ img {
 
 .carousel-item img {
   display: block;
-  height: 19rem;
+  height: auto;
   max-width: 100%;
   object-fit: contain;
   object-position: center;
