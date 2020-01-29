@@ -158,6 +158,24 @@ p {
   margin-top: 3.5rem;
 }
 
+.user-flow {
+  background-image: url("../Images/ClearBox/Information-Architecture.png");
+  height: 30rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.user-flow-2 {
+  background-image: url("../Images/ClearBox/Information-Architecture-2.png");
+  height: 30rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
 
 .copy {
   margin-top: 2rem;
@@ -198,7 +216,6 @@ img {
   height: 25rem;
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 
 #user-testing-2, #branding, #wireframe {
@@ -206,9 +223,24 @@ img {
   margin-bottom: 2rem;
 }
 
+.high-fidelity-one, .high-fidelity-two, .user-testing-2-wrapper-one, .user-testing-2-wrapper-two {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.high-fidelity-two {
+  margin-bottom: 4rem;
+}
 
 .user-persona-container {
   text-align: center;
+}
+
+.user-testing-2-wrapper {
+  background-color: #FCFCFC;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 
@@ -258,20 +290,20 @@ img {
 }
 
 /*overview*/
-.hr, .hr-architecture, .hr-footer {
+.hr, .hr-architecture, .hr-footer, .hr-personas {
   border: none;
   border-top: .1rem solid #DEDADA;
   width: 80%;
 }
 
 .hr {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.hr-architecture {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.hr-architecture, .hr-personas {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 /*problem*/
@@ -401,11 +433,11 @@ img {
 }
 
 .carousel-item img {
-    display: block;
-    height: 24rem;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center;
+  display: block;
+  height: 19rem;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .carousel-control {
@@ -557,7 +589,7 @@ p.footer-copy{
     width: 100%;
   }
 
-  .hr {
+  .hr, .hr-personas {
     display: none;
   }
 
@@ -635,6 +667,29 @@ p.footer-copy{
   .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
     padding: 3rem 25%;
+  }
+
+  .high-fidelity-one, .high-fidelity-two, .user-testing-2-wrapper-one, .user-testing-2-wrapper-two {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .high-fidelity-one, .user-testing-2-wrapper-one {
+    margin-right: 1rem;
+  }
+
+  .high-fidelity-two, .user-testing-2-wrapper-two {
+    margin-left: 1rem;
+  }
+
+  .user-testing-2-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+.user-testing-wrapper {
+  display: flex;
+  flex-direction: row;
 }
 
 .digital-wireframe {
@@ -890,7 +945,6 @@ p.footer-copy{
     margin-bottom: 2rem;
     width: 100%;
   }
-
 
   img {
     margin-bottom: 2rem;
