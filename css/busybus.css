@@ -8,7 +8,8 @@ html {
 }
 
 section {
-  padding: 3rem 5rem 5rem;
+  margin: 3rem auto;
+  width: 80%;
 }
 
 /*navigation*/
@@ -83,21 +84,23 @@ b {
 
 h1 {
   font-family: "halant",Times,serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.3rem;
 }
 
 h2 {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.3em;
+  font-size: 2.5rem;
+  font-family: "halant",Times,serif;
+  color: #FF744F;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 h3 {
   color: black;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.7rem;
-  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 h4 {
@@ -107,12 +110,19 @@ h4 {
   padding-top: 1rem;
 }
 
+h6 {
+    font-family: "roboto",arial,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
 p {
   font-family: "roboto",Arial,sans-serif;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-top: 2rem;
+  margin-bottOm: 2rem;
 }
 
 /*button*/
@@ -166,6 +176,9 @@ img {
 
 /*hero*/
 .busybus-container {
+  background-color: #CAEFE8;
+  padding: 10rem 5rem 1rem 5rem;
+  text-align: center;
   width: 100%;
 }
 
@@ -174,22 +187,23 @@ img {
   position: absolute;
   padding: 3rem;
   text-align: center;
-  top: 9%;
+  top: 16%;
   width: 100%;
 }
 
 .busybus-image {
-  background-image: url("../Images/BusyBus/busybus-hero.png");
+  background-image: url("../Images/BusyBus/Busybus-hero-image.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 30rem;
+  height: 35rem;
   width: 100%;
 }
 
 /*problem*/
-.problem {
+.problem, .competitive-analysis {
   background-color: #F9F7F3;
+  padding: 3rem 5rem ;
 }
 
 .discovery-image {
@@ -442,12 +456,18 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 17rem;
+    margin: 5rem auto;
+    width: 50%;
   }
 
   .overview {
     display: flex;
     margin-top: 5rem;
+  }
+
+  .problem, .competitive-analysis {
+    background-color: #F9F7F3;
+    padding: 3rem 25%;
   }
 
   h1 {
@@ -458,23 +478,26 @@ p.footer-copy{
 
   p {
     font-family: "roboto",Arial,sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.5rem;
-    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    line-height: 3rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   h2 {
-    font-family: "roboto",arial,sans-serif;
-    font-size: 1.8rem;
-    line-height: 1.3em;
+    font-size: 3rem;
+    font-family: "halant",Times,serif;
+    color: #FF744F;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   h3 {
     color: black;
     font-family: "roboto",arial,sans-serif;
-    font-size: 2rem;
-    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
   }
 
   h4 {
@@ -493,11 +516,11 @@ p.footer-copy{
   }
 
   .busybus-image {
-    background-image: url("../Images/BusyBus/busybus-hero.png");
-    background-size:cover;
+    background-image: url("../Images/BusyBus/Busybus-hero-image.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 36rem;
+    background-position: 0 15%;
+    height: 27rem;
     width: 100%;
   }
 
@@ -512,8 +535,9 @@ p.footer-copy{
   }
 
   .busybus-container {
-    position: relative;
-    height: 30rem;
+    background-color: #CAEFE8;
+    padding: 14rem 5rem 1rem 5rem;
+    text-align: center;
     width: 100%;
   }
 
@@ -662,8 +686,19 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 36rem;
+    margin: 5rem auto;
+    width: 60%;
   }
+
+  .busybus-image {
+    background-image: url("../Images/BusyBus/Busybus-hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 15%;
+    height: 46rem;
+    width: 100%;
+  }
+
   .testing-1 {
     background-image: url("../Images/BusyBus/BusyBus1.png");
     background-repeat: no-repeat;
@@ -688,6 +723,11 @@ p.footer-copy{
     width: 100%;
   }
 
+  .problem, .competitive-analysis {
+    background-color: #F9F7F3;
+    padding: 3rem 20%;
+  }
+
   .testing-3 {
     background-image: url("../Images/BusyBus/BusyBus3.png");
     background-size: contain;
@@ -702,7 +742,13 @@ p.footer-copy{
 /*max-width desktop*/
   @media screen and (min-width: 1400px) {
     section {
-      padding: 3rem 45rem;
+      margin: 5rem auto;
+      width: 45%;
+    }
+
+    .problem, .competitive-analysis {
+      background-color: #F9F7F3;
+      padding: 3rem 27%;
     }
   }
 }
