@@ -601,6 +601,7 @@ p.footer-copy{
     text-align: center;
     width: 230px;
     height: 19rem;
+    z-index: 1;
 }
 
   .logo:hover, .nav-links:hover {
