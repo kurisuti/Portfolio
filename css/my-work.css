@@ -76,10 +76,16 @@ p {
 }
 
 /*links*/
+.main-nav .current {
+  color: #FF744F;
+}
+
 a {
   color: black;
-  font-size: 1.4rem;
+  cursor: pointer;
+  display: block;
   font-family: "roboto",arial,sans-serif;
+  font-size: 1.6rem;
   text-decoration: none;
 }
 
@@ -203,7 +209,7 @@ li {
 .navbar-toggle {
   cursor: pointer;
   font-size: 2.5rem;
-  margin: 1.6rem 2rem 0rem 2rem;
+  margin: 2rem 2rem 0rem 2rem;
   position: absolute;
   right: 20px;
 }

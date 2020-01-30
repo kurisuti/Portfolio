@@ -48,10 +48,6 @@ section {
     text-align: center;
 }
 
-.nav-links {
-  font-size: 1.4rem;
-}
-
 li {
     line-height: 4.3rem;
     display: block;
@@ -67,7 +63,7 @@ ul {
   cursor: pointer;
   font-size: 2.5rem;
   position: absolute;
-  margin: 1.6rem 2rem 0rem 2rem;
+  margin: 2rem 2rem 0rem 2rem;
   right: 20px;
 }
 
@@ -143,13 +139,19 @@ p {
 }
 
 /*links*/
+.main-nav .current {
+  color: #FF744F;
+}
+
 a {
-  color: #F06F54;
-  cursor: pointer;
-  display: block;
+  color: black;
+  font-size: 1.6rem;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
   text-decoration: none;
+}
+
+.nav-links:hover, .fab:hover {
+  color: #F06F54;
 }
 
 /*image styling*/
@@ -565,7 +567,7 @@ p.footer-copy{
     margin-right: 40px;
   }
 
-  .main-nav .current {
+  li .current {
     color: #FF744F;
   }
 

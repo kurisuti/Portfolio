@@ -78,15 +78,28 @@ p {
   text-decoration: none;
 }
 
+.main-nav .current {
+  color: #FF744F;
+}
+
+a {
+  color: #F06F54;
+  cursor: pointer;
+  display: block;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
 
 .nav-links:hover, .fab:hover {
   color: #F06F54;
 }
 
 .main-nav li {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: .5rem;
+  text-align: center;
 }
 
 li {
@@ -106,16 +119,6 @@ ul {
   position: absolute;
   margin: 1.6rem 2rem 0rem 2rem;
   right: 20px;
-}
-
-
-a {
-  color: #F06F54;
-  cursor: pointer;
-  display: block;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
-  text-decoration: none;
 }
 
 .active {

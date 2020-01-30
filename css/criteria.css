@@ -158,8 +158,19 @@ a {
   cursor: pointer;
   display: block;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-decoration: none;
+}
+
+.nav-links:hover, .fab:hover {
+  color: #F06F54;
+}
+
+.main-nav li {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: .5rem;
+  text-align: center;
 }
 
 #link {
