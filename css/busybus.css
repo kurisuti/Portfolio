@@ -50,7 +50,6 @@ section {
 
 .nav-links {
   font-size: 1.4rem;
-  margin-right: 40px;
 }
 
 li {
@@ -353,7 +352,6 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 40rem;
   margin: auto;
   margin-bottom: 2rem;
 }
@@ -373,7 +371,7 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 40rem;
+  height: 50rem;
   margin: auto;
   margin-bottom: 2rem;
   width: 100%;
