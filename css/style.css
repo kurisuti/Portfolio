@@ -247,6 +247,7 @@ section.hero {
 /*recent work*/
 .featured-project {
   position: relative;
+  margin-top: 1rem;
 }
 
 .featured-project-copy {
