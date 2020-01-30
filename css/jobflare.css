@@ -8,7 +8,8 @@ html {
 }
 
 section {
-  padding: 3rem 5rem 3rem;
+  margin: 3rem auto;
+  width: 80%;
 }
 
 /*navigation*/
@@ -86,21 +87,23 @@ b {
 
 h1 {
   font-family: "halant",Times,serif;
-  font-size: 2rem;
-  line-height: 1.3rem;
-}
-
-h2 {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   line-height: 1.3em;
 }
 
+h2 {
+    font-size: 2.5rem;
+    font-family: "halant",Times,serif;
+    color: #FF744F;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 h3 {
-  color: black;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.7rem;
-  padding-top: 1rem;
+    color: black;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 
@@ -111,15 +114,21 @@ h4 {
   padding-top: 1rem;
 }
 
+h6 {
+    font-family: "roboto",arial,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
 
 p {
   font-family: "roboto",Arial,sans-serif;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-top: 2rem;
+  margin-bottOm: 2rem;
 }
-
 
 /*button*/
 .button {
@@ -181,7 +190,7 @@ img {
 }
 
 .jobflare-image {
-  background-image: url("../Images/JobFlare/JobFlare-image.png");
+  background-image: url("../Images/JobFlare/jf-heroimage copy.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -230,6 +239,7 @@ video {
 /*problem*/
 .challenges {
   background-color: #F9F7F3;
+  padding: 3rem 5rem;
 }
 
 /*sketch*/
@@ -297,7 +307,8 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 17rem;
+    margin: 5rem auto;
+    width: 50%;
   }
 
   h1 {
@@ -307,16 +318,19 @@ p.footer-copy{
   }
 
   h2 {
-    font-family: "roboto",arial,sans-serif;
-    font-size: 1.8rem;
-    line-height: 1.5em;
+      font-size: 3rem;
+      font-family: "halant",Times,serif;
+      color: #FF744F;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
   }
 
   h3 {
     color: black;
     font-family: "roboto",arial,sans-serif;
-    font-size: 2rem;
-    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
   }
 
 
@@ -328,16 +342,21 @@ p.footer-copy{
   }
 
   p {
-    font-family: "roboto",Arial,sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.5rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+      font-family: "roboto",Arial,sans-serif;
+      font-size: 1.7rem;
+      line-height: 3rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
   }
 
   .overview {
     display: flex;
     margin-top: 5rem;
+  }
+
+  .challenges {
+    background-color: #F9F7F3;
+    padding: 3rem 25%;
   }
 
   .column-1 {
@@ -352,7 +371,6 @@ p.footer-copy{
 
   .jobflare-container {
     position: relative;
-    height: 30rem;
     width: 100%;
   }
 
@@ -360,7 +378,7 @@ p.footer-copy{
     position: absolute;
     margin: auto;
     text-align: center;
-    top: 38%;
+    top: 44%;
     width: 100%;
   }
 
@@ -447,21 +465,12 @@ p.footer-copy{
     width: 50%;
   }
 
-  .jobflare-copy {
-    color: white;
-    top: 53%;
-    position: absolute;
-    margin: auto;
-    text-align: center;
-    width: 100%;
-  }
-
   .jobflare-image {
-    background-image: url("../Images/JobFlare/JobFlare-image.png");
-    background-size:cover;
+    background-image: url("../Images/JobFlare/jf-heroimage copy.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 36rem;
+    height: 45rem;
     width: 100%;
   }
 }
@@ -470,13 +479,22 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 36rem;
+    margin: 5rem auto;
+    width: 60%;
   }
-
+  .challenges {
+    background-color: #F9F7F3;
+    padding: 3rem 20% ;
+  }
+}
 /*max-width desktop*/
 @media screen and (min-width: 1400px) {
   section {
-    padding: 3rem 45rem;
-    }
+    margin: 5rem auto;
+    width: 45%;
+  }
+  .challenges {
+    background-color: #F9F7F3;
+    padding: 3rem 27% ;
   }
 }

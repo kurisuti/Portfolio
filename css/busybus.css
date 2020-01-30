@@ -97,10 +97,10 @@ h2 {
 }
 
 h3 {
-  color: black;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.3rem;
-  font-weight: 500;
+    color: black;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 h4 {
@@ -177,7 +177,7 @@ img {
 /*hero*/
 .busybus-container {
   background-color: #CAEFE8;
-  padding: 10rem 5rem 1rem 5rem;
+  padding: 12rem 5rem 1rem 5rem;
   text-align: center;
   width: 100%;
 }
@@ -196,7 +196,7 @@ img {
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 35rem;
+  height: 32rem;
   width: 100%;
 }
 
@@ -536,7 +536,7 @@ p.footer-copy{
 
   .busybus-container {
     background-color: #CAEFE8;
-    padding: 14rem 5rem 1rem 5rem;
+    padding: 17rem 5rem 1rem 5rem;
     text-align: center;
     width: 100%;
   }

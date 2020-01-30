@@ -8,7 +8,8 @@ html {
 }
 
 section {
-  padding: 3rem 5rem 5rem;
+  margin: 3rem auto;
+  width: 80%;
 }
 
 /*navigation*/
@@ -86,22 +87,24 @@ b {
 }
 
 h1 {
-  font-family: "halant",Times,serif;
-  font-size: 2rem;
-  line-height: 1.3rem;
+    font-family: "halant",Times,serif;
+    font-size: 2.5rem;
+    line-height: 1.3em;
 }
 
 h2 {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.3em;
+    font-size: 2.5rem;
+    font-family: "halant",Times,serif;
+    color: #FF744F;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 h3 {
   color: black;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.7rem;
-  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 h4 {
@@ -117,12 +120,19 @@ h5 {
   line-height: 1.3em;
 }
 
+h6 {
+    font-family: "roboto",arial,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
 p {
   font-family: "roboto",Arial,sans-serif;
-  font-size: 1.6rem;
-  line-height: 2.5rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-top: 2rem;
+  margin-bottOm: 2rem;
 }
 
 /*button*/
@@ -171,13 +181,14 @@ img {
 
 /*hero*/
 .criteria-container {
+  text-align: center;
   width: 100%;
 }
 
 .criteria-copy {
-  top: 10%;
+  top: 8%;
   position: absolute;
-  margin: auto;
+  padding: 2rem;
   text-align: center;
   width: 100%;
 }
@@ -194,6 +205,7 @@ img {
 /*problem*/
 .challenges {
   background-color: #F9F7F3;
+  padding: 3rem 5rem;
 }
 
 /**back to top**/
@@ -258,7 +270,13 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 17rem;
+    margin: 10rem auto;
+    width: 50%;
+  }
+
+  .challenges {
+    background-color: #F9F7F3;
+    padding: 3rem 25%;
   }
 
   .criteria-copy {
@@ -285,16 +303,19 @@ p.footer-copy{
   }
 
   h2 {
-    font-family: "roboto",arial,sans-serif;
-    font-size: 2.5rem;
-    line-height: 1.5em;
+    font-size: 3rem;
+    font-family: "halant",Times,serif;
+    color: #FF744F;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   h3 {
     color: black;
     font-family: "roboto",arial,sans-serif;
-    font-size: 2rem;
-    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
   }
 
   h4 {
@@ -335,7 +356,6 @@ p.footer-copy{
 
   .criteria-container {
     position: relative;
-    height: 30rem;
     width: 100%;
   }
 
@@ -393,13 +413,23 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 36rem;
+    margin: 10rem auto;
+    width: 60%;
   }
+  .challenges {
+    background-color: #F9F7F3;
+    padding: 3rem 20% ;
+  }
+}
 
 /*max-width desktop*/
 @media screen and (min-width: 1400px) {
   section {
-    padding: 3rem 45rem;
-    }
+    margin: 10rem auto;
+    width: 45%;
+  }
+  .challenges {
+    background-color: #F9F7F3;
+    padding: 3rem 27% ;
   }
 }
