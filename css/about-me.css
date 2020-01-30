@@ -224,18 +224,32 @@ p.footer-copy{
     line-height: 2.5rem;
   }
 
+  .hr {
+    border: none;
+    border-top: .1rem solid #DEDADA;
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
   .about-me-container {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
   }
 
   .about-me-copy {
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
   }
 
-  .part-one, .part-two {
-    width: 50%;
+  .part-one {
+    width: 70%;
+  }
+
+  .part-two {
+    width: 30%;
   }
 
   .work {
