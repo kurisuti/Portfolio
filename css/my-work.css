@@ -95,6 +95,15 @@ a {
   color: #F06F54;
 }
 
+.img-wrap .project-one-image:hover {
+ background-color: white;
+}
+
+.project-one-image:hover img {
+   opacity: 0.7;
+}
+
+
 .newanchor-2:link {
   color: #FF744F;
 }
