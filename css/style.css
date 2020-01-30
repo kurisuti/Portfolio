@@ -73,12 +73,32 @@ section {
   color: #F06F54;
 }
 
+ .img-wrap .project-one-image:hover {
+  background-color: white;
+}
+
+.project-one-image:hover img {
+    opacity: 0.7;
+}
+
+
+.img-wrap .project-image:hover {
+  background-color: white;
+}
+
+.project-image:hover img {
+  opacity: 0.7;
+}
+
 .main-nav li {
   margin-left: auto;
   margin-right: auto;
   padding-top: .5rem;
   text-align: center;
 }
+
+
+
 
 li {
     line-height: 4.3rem;
@@ -274,7 +294,6 @@ section.hero {
 
 /*recent work*/
 .featured-project {
-  margin-top: 1.5rem;
   position: relative;
 }
 
@@ -653,6 +672,7 @@ p.footer-copy{
   }
 
   .project-container-2 {
+    position: relative;
     padding-right: 1rem;
     width: 100%;
   }
