@@ -426,10 +426,6 @@ p.footer-copy{
     display: flex;
   }
 
-  .main-nav li {
-    margin: 0;
-  }
-
   .button-header {
     background-color: #F5896C;
     border-radius: .5rem;
