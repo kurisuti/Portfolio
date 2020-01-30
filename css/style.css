@@ -289,7 +289,7 @@ section.hero {
   text-align: center;
   width: 230px;
   height: 16rem;
-  src: z-index: 1;
+  z-index: 1;
 }
 
 .img-wrap .project-image:hover {
