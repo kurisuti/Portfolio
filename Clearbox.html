@@ -70,39 +70,28 @@
       <h2>Discovery Phase</h2>
         <p>At the start of the project, I wanted to learn more about my users and their involvement with cloud storage services. The results showed that a majority of my survey participants were full-time professionals between the ages of twenty to thirty. Google Drive was heavily favored as their product of choice. Participants preferred it because Google Drive was easy to use and worked seamlessly on multiple devices. After establishing my participant’s demographic, I wanted to look into how they were engaging with cloud storage services. Understanding their usage would help me create my user stories. Results showed that half of participants used it for personal reasons while 40% of users used it for work. This gave me the idea of creating a service that would serve as a project management platform.</p>
         <p>While going over the project brief with the client, the client had features that they wanted to include in the product. They believed that these features were important for users to have. Therefore I created a separate section in my survey that tested out these features. Some of the features that the client wanted to include were the ability to create files, organize files, share files, and collaborate. </p>
-      <article class="carousel">
-        <div class="carousel-inner">
-          <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-          <div class="carousel-item">
-              <img src="Images/Clearbox/Discovery-image-one.png" alt="carousel">
+
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="Images/Clearbox/Discovery-image-one.png" alt="carousel">
+
           </div>
-          <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-          <div class="carousel-item">
-              <img src="Images/Clearbox/Discovery-image-two.png" alt="carousel">
+
+          <div class="mySlides fade">
+            <img src="Images/Clearbox/Discovery-image-two.png" alt="carousel">
           </div>
-          <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-          <div class="carousel-item">
-              <img src="Images/Clearbox/Discovery-image-three.png" alt="carousel">
+
+          <div class="mySlides fade">
+            <img src="Images/Clearbox/Discovery-image-three.png" alt="carousel">
           </div>
-          <label for="carousel-3" class="carousel-control prev control-1">‹</label>
-          <label for="carousel-2" class="carousel-control next control-1">›</label>
-          <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-          <label for="carousel-3" class="carousel-control next control-2">›</label>
-          <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-          <label for="carousel-1" class="carousel-control next control-3">›</label>
-          <ol class="carousel-indicators">
-            <li>
-                <label for="carousel-1" class="carousel-bullet">•</label>
-            </li>
-            <li>
-                <label for="carousel-2" class="carousel-bullet">•</label>
-            </li>
-            <li>
-                <label for="carousel-3" class="carousel-bullet">•</label>
-            </li>
-          </ol>
         </div>
-      </article>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
         <p>Apart from just looking at positive experiences that participants had with cloud storage services, I also wanted to look at the negatives. The biggest complaint from participants was not having enough storage space, and not enjoying monthly subscription plans. By researching on market competitors, I looked into creating plans that would provide users with more free storage space, and allowed users to sign up with annual subscriptions.</p>
     </section>
     <!--user personas-->
@@ -354,5 +343,35 @@
       document.documentElement.scrollTop = 0;
     }
     </script>
+    <!--chart-->
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
   </body>
 </html>
