@@ -87,9 +87,9 @@ b {
 }
 
 h1 {
-    font-family: "halant",Times,serif;
-    font-size: 2.5rem;
-    line-height: 1.3em;
+  font-family: "halant",Times,serif;
+  font-size: 3rem;
+  line-height: 1.3em;
 }
 
 h2 {
@@ -121,18 +121,19 @@ h5 {
 }
 
 h6 {
-    font-family: "roboto",arial,sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 1.3em;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3em;
+  order: -1;
 }
 
 p {
   font-family: "roboto",Arial,sans-serif;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  margin-top: 2rem;
-  margin-bottOm: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 /*button*/
@@ -142,9 +143,10 @@ p {
   color: white;
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.4rem;
-  padding: 1.5rem 3.5rem;
+  font-size: 1.6rem;
+  margin-top: 0rem;
   margin-bottom: 2.5rem;
+  padding: 1.5rem 3.5rem;
   text-decoration: none;
 }
 
@@ -197,9 +199,9 @@ img {
 }
 
 .criteria-copy {
-  top: 8%;
+  top: 9%;
   position: absolute;
-  padding: 2rem;
+  padding: 4rem;
   text-align: center;
   width: 100%;
 }
@@ -209,7 +211,7 @@ img {
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 30rem;
+  height: 40rem;
   width: 100%;
 }
 
@@ -281,19 +283,19 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    margin: 10rem auto;
-    width: 50%;
+    margin: 5rem auto;
+    width: 70%;
   }
 
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 25%;
+    padding: 3rem 15%;
   }
 
   .criteria-copy {
-    top: 42%;
+    top: 18%;
     position: absolute;
-    margin: auto;
+    padding: 3rem 9rem;
     text-align: center;
     width: 100%;
   }
@@ -303,18 +305,19 @@ p.footer-copy{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 36rem;
+    height: 40rem;
     width: 100%;
   }
 
   h1 {
     font-family: "halant",Times,serif;
-    font-size: 3rem;
-    line-height: 1.5rem;
+    font-size: 3.6rem;
+    line-height: 1.5em;
+    padding-top: 2rem;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-family: "halant",Times,serif;
     color: #FF744F;
     margin-top: 2rem;
@@ -336,10 +339,16 @@ p.footer-copy{
     padding-top: 1rem;
   }
 
+  h6 {
+    font-family: "roboto", arial, sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.3em;
+  }
+
   p {
     font-family: "roboto",Arial,sans-serif;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
@@ -424,23 +433,23 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    margin: 10rem auto;
-    width: 60%;
+    margin: 5rem auto;
+    width: 55%;
   }
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 20% ;
+    padding: 3rem 22% ;
   }
 }
 
 /*max-width desktop*/
 @media screen and (min-width: 1400px) {
   section {
-    margin: 10rem auto;
-    width: 45%;
+    margin: 5rem auto;
+    width: 38%;
   }
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 27% ;
+    padding: 3rem 31% ;
   }
 }
