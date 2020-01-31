@@ -78,7 +78,7 @@ b {
 
 h1 {
   font-family: "halant",Times,serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1.3em;
 }
 
@@ -117,14 +117,15 @@ h6 {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.3em;
+  order: -1;
 }
 
 p {
   font-family: "roboto",Arial,sans-serif;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  margin-top: 2rem;
-  margin-bottOm: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 /*button*/
@@ -134,9 +135,9 @@ p {
   color: white;
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-top: 0rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   padding: 1.5rem 3.5rem;
   text-decoration: none;
 }
@@ -577,7 +578,7 @@ p.footer-copy{
 @media screen and (min-width: 768px) {
   section {
     margin: 5rem auto;
-    width: 50%;
+    width: 70%;
   }
 
   #logo {
@@ -616,13 +617,13 @@ p.footer-copy{
 
   h1 {
     font-family: "halant",Times,serif;
-    font-size: 3rem;
+    font-size: 3.6rem;
     line-height: 1.5em;
     padding-top: 2rem;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-family: "halant",Times,serif;
     color: #FF744F;
     margin-top: 2rem;
@@ -642,14 +643,20 @@ p.footer-copy{
     font-family: "roboto", arial, sans-serif;
     font-size: 2rem;
     padding-top: 1rem;
-}
+  }
+
+  h6 {
+    font-family: "roboto", arial, sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.3em;
+  }
 
   p {
     font-family: "roboto",Arial,sans-serif;
-    font-size: 1.7rem;
-    line-height: 3rem;
-    margin-top: 2rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 
   .button-wireframes {
@@ -677,7 +684,7 @@ p.footer-copy{
 
   .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 25%;
+    padding: 3rem 15%;
   }
 
   .high-fidelity-one, .high-fidelity-two, .user-testing-2-wrapper-one, .user-testing-2-wrapper-two {
@@ -929,7 +936,7 @@ p.footer-copy{
 @media screen and (min-width: 1200px) {
   section {
     margin: 5rem auto;
-    width: 60%;
+    width: 55%;
   }
 
   .clearbox-image {
@@ -964,7 +971,7 @@ p.footer-copy{
 
   .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 20%;
+    padding: 3rem 22%;
   }
 
 }
@@ -973,7 +980,7 @@ p.footer-copy{
   @media screen and (min-width: 1400px) {
     section {
       margin: 5rem auto;
-      width: 45%;
+      width: 38%;
     }
 
     img {
@@ -983,7 +990,7 @@ p.footer-copy{
 
     .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 27%;
+    padding: 3rem 31%;
     }
   }
 }
