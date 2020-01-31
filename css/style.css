@@ -449,7 +449,8 @@ p.footer-copy{
   }
 
   .mySlides {
-    padding: 0rem 9rem;
+    margin: 0 auto;
+    width: 90%;
   }
 
   #logo {
@@ -645,6 +646,11 @@ p.footer-copy{
 @media screen and (min-width: 1025px) {
   section {
     padding: 3rem 18rem;
+  }
+
+  .mySlides {
+    margin: 0 auto;
+    width: 60%;
   }
 
   .about-me-copy {
