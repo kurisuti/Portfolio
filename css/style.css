@@ -28,7 +28,7 @@ section {
 }
 
 .main-nav {
-  background-color:#FAF8F0;
+  background-color: #FAF8F0;
   list-style-type: none;
   display: none;
   padding: 2rem;
@@ -357,6 +357,10 @@ section.hero {
 
 .active, .dot:hover {
   background-color: #F06F54;
+}
+
+.main-nav {
+  background-color: #FAF8F0;
 }
 
 /* Fading animation */

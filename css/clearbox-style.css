@@ -448,6 +448,11 @@ img {
   background-color: #F06F54;
 }
 
+.main-nav {
+  background-color: #FAF8F0;
+}
+
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
