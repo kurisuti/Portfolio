@@ -92,11 +92,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5rem;
-    font-family: "halant",Times,serif;
-    color: #FF744F;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-family: "halant",Times,serif;
+  color: #FF744F;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 h3 {
@@ -115,19 +115,20 @@ h4 {
 }
 
 h6 {
-    font-family: "roboto",arial,sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 1.3em;
+  font-family: "roboto",arial,sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3em;
+  order: -1;
 }
 
 
 p {
   font-family: "roboto",Arial,sans-serif;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  margin-top: 2rem;
-  margin-bottOm: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 /*button*/
@@ -204,9 +205,14 @@ img {
   background-image: url("../Images/JobFlare/jf-heroimage copy.jpg");
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 30rem;
+  background-position: top;
+  height: 32rem;
+  transform: scale(1.4);
   width: 100%;
+}
+
+.overview {
+  margin-top: 10rem;
 }
 
 .image-one {
@@ -319,7 +325,7 @@ p.footer-copy{
 @media screen and (min-width: 768px) {
   section {
     margin: 5rem auto;
-    width: 50%;
+    width: 70%;
   }
 
   h1 {
@@ -352,6 +358,12 @@ p.footer-copy{
     padding-top: 1rem;
   }
 
+  h6 {
+    font-family: "roboto", arial, sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.3em;
+  }
+
   p {
       font-family: "roboto",Arial,sans-serif;
       font-size: 1.7rem;
@@ -367,7 +379,7 @@ p.footer-copy{
 
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 25%;
+    padding: 3rem 15%;
   }
 
   .column-1 {
@@ -480,9 +492,13 @@ p.footer-copy{
     background-image: url("../Images/JobFlare/jf-heroimage copy.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 45rem;
+    background-position: 0 35%;
+    height: 40rem;
     width: 100%;
+  }
+
+  .overview {
+    margin-top: 13rem;
   }
 }
 
@@ -491,21 +507,21 @@ p.footer-copy{
 @media screen and (min-width: 1200px) {
   section {
     margin: 5rem auto;
-    width: 60%;
+    width: 55%;
   }
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 20% ;
+    padding: 3rem 22% ;
   }
 }
 /*max-width desktop*/
 @media screen and (min-width: 1400px) {
   section {
     margin: 5rem auto;
-    width: 45%;
+    width: 38%;
   }
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 27% ;
+    padding: 3rem 31% ;
   }
 }
