@@ -119,34 +119,30 @@
       <img src="Images/Homepage/design-process-chart.png" id="design-chart-image" alt="design-chart">
     </section>
     <!--testimonial-->
-    <article class="slider">
-        <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
-        <input type="radio" name="slider" title="slide2" class="slider__nav"/>
-        <input type="radio" name="slider" title="slide3" class="slider__nav"/>
-        <article class="slider__inner">
-          <div class="slider__contents">
-            <div class="slider__header">
-                <h2>What people think of me</h2>
-            </div>
-            <p class="slider__txt">"I have had the pleasure of working with Christie at Bloc. She exhibits great attention to detail and it is reflected in the work she produces. She is easy to work with and her communication skills help in identifying challenges early. Christie has exhibited working habits that would benefit any company. I enjoy how motivated she is in continually learning, as it is truly an asset to be consciously aware and the enhancement of skills in this ever-changing landscape in design and technology."</p>
-            <h6>Grace Cupat, MBA | Lead UX/UI Engineer at Q-Centrix</h6>
-          </div>
-          <div class="slider__contents">
-            <div class="slider__header">
-              <h2>What people think of me</h2>
-            </div>
-            <p class="slider__txt">"Christie is a rare gem! I have had the privilege of working with Christie for the last two years. We frequently work in tandem with each other, as is essential for marketing and design to do. She is a wonderful coworker who brings creativity and positivity to our team. I have seen her grow - becoming our team's lead designer - as key contributor to our development. She is cooperative, have excellent communication skills, and is a pleasure to work with.</p>
-            <h6>Meg Nicol | Marketing Coordinator at JobFlare</h6>
-          </div>
-          <div class="slider__contents">
-            <div class="slider__header">
-                <h2>What people think of me</h2>
-            </div>
-            <p class="slider__txt">"Christie approaches her work with an openness and verve that makes her a joy to work with. During the year we worked together, I relied heavily on her creative direction, precision, and speed to scale marketing operations across online and offline channels. Without Christie's partnership, my team and I would not have been able to achieve our marketing department's aggressive goals. I'm eager to see what she tackles next and hope that one day our paths cross again!"</p>
-            <h6>Lani Shotlow | Solutions Consultant at Adobe</h6>
-          </div>
-        </article>
-    </article>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+          <h5>What people think of me</h5>
+          <p class="slider__txt">"I have had the pleasure of working with Christie at Bloc. She exhibits great attention to detail and it is reflected in the work she produces. She is easy to work with and her communication skills help in identifying challenges early. Christie has exhibited working habits that would benefit any company. I enjoy how motivated she is in continually learning, as it is truly an asset to be consciously aware and the enhancement of skills in this ever-changing landscape in design and technology."</p>
+          <h6>Grace Cupat, MBA | Lead UX/UI Engineer at Q-Centrix</h6>
+      </div>
+
+      <div class="mySlides fade">
+          <h5>What people think of me</h5>
+          <p class="slider__txt">"Christie is a rare gem! I have had the privilege of working with Christie for the last two years. We frequently work in tandem with each other, as is essential for marketing and design to do. She is a wonderful coworker who brings creativity and positivity to our team. I have seen her grow - becoming our team's lead designer - as key contributor to our development. She is cooperative, have excellent communication skills, and is a pleasure to work with."</p>
+          <h6>Meg Nicol | Marketing Coordinator at JobFlare</h6>
+      </div>
+
+      <div class="mySlides fade">
+          <h5>What people think of me</h5>
+          <p class="slider__txt">"Christie approaches her work with an openness and verve that makes her a joy to work with. During the year we worked together, I relied heavily on her creative direction, precision, and speed to scale marketing operations across online and offline channels. Without Christie's partnership, my team and I would not have been able to achieve our marketing department's aggressive goals. I'm eager to see what she tackles next and hope that one day our paths cross again!"</p>
+          <h6>Lani Shotlow | Solutions Consultant at Adobe</h6>
+      </div>
+    </div>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
     <footer>
       <h2>Let's Connect</h2>
       <p class="footer-copy">Feel free to reach out to me if you think I’d be a great addition to your team.</p>
@@ -177,6 +173,34 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-155353267-1');
+    </script>
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
     </script>
   </body>
 </html>
