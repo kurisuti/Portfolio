@@ -207,12 +207,12 @@ img {
   background-repeat: no-repeat;
   background-position: top;
   height: 32rem;
-  transform: scale(1.4);
+  transform: scale(1.5);
   width: 100%;
 }
 
 .overview {
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 
 .image-one {
