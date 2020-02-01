@@ -635,7 +635,20 @@ p.footer-copy{
 
   .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 15%;
+    padding: 3rem 13%;
+    padding-bottom: 5rem;
+  }
+
+  .motivation {
+    margin-top: 2rem;
+}
+
+  .frustration {
+    margin-top: 1rem;
+  }
+
+  .frustration-meg {
+    margin-top: 8rem;
   }
 
   .high-fidelity-one, .high-fidelity-two, .user-testing-2-wrapper-one, .user-testing-2-wrapper-two {
@@ -897,6 +910,10 @@ p.footer-copy{
   #preference {
     width: 95%;
     object-fit: cover;
+  }
+
+  .frustration-meg {
+    margin-top: 10rem;
   }
 
   #information-architecture {
