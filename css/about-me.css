@@ -208,7 +208,7 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 13rem;
+    padding: 3rem 18rem;
   }
   h3 {
     font-family: "halant",Times,serif;

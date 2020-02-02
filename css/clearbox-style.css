@@ -593,7 +593,6 @@ p.footer-copy{
     color: black;
     font-family: "roboto", arial, sans-serif;
     font-size: 2.5rem;
-    padding-top: 1rem;
   }
 
   h6 {
@@ -638,10 +637,6 @@ p.footer-copy{
     padding: 3rem 13%;
     padding-bottom: 5rem;
   }
-
-  .motivation {
-    margin-top: 2rem;
-}
 
   .frustration {
     margin-top: 1rem;
