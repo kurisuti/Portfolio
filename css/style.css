@@ -260,7 +260,7 @@ section.hero {
   z-index: 1;
 }
 
- .img-wrap .project-one-image:hover {
+ article:hover .img-wrap .project-one-image:hover .project-image:hover {
   background-color: white;
 }
 
@@ -288,10 +288,6 @@ section.hero {
   width: 230px;
   height: 17rem;
   z-index: 1;
-}
-
-.img-wrap .project-image:hover {
-  background-color: white;
 }
 
 .project-image:hover img {
@@ -413,7 +409,7 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 13rem;
+    padding: 3rem 6rem;
   }
 
   .navbar {
