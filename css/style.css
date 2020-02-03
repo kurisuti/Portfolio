@@ -413,7 +413,8 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 8rem;
+    width: 75%;
+    margin: 0 auto;
   }
 
   .navbar {
@@ -645,14 +646,15 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 25rem;
+    width: 60%;
+    margin: 0 auto;
   }
 
   h1 {
   font-family: "halant",Times,serif;
   font-size: 3.8rem;
   line-height: 5.6rem;
-  margin: 2rem 20rem;
+  margin: 2rem 10rem;
   }
 
   .mySlides {

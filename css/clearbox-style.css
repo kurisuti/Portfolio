@@ -890,9 +890,17 @@ p.footer-copy{
     width: 55%;
   }
 
+  h3 {
+    color: black;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+
   .clearbox-image {
     background-image: url("../Images/ClearBox/clearbox-hero-mobile.png");
-    height: 54rem;
+    height: 75rem;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -926,7 +934,7 @@ p.footer-copy{
 
   .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 22%;
+    padding: 3rem 23%;
   }
 
 }
