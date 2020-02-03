@@ -284,12 +284,13 @@ p.footer-copy{
 @media screen and (min-width: 768px) {
   section {
     margin: 5rem auto;
-    width: 70%;
+    width: 50%;
   }
 
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 15%;
+    padding: 3rem 25%;
+    padding-bottom: 5rem;
   }
 
   .criteria-copy {
@@ -304,8 +305,8 @@ p.footer-copy{
     background-image: url("../Images/Criteria/criteria-hero.png");
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 40rem;
+    background-position: bottom;
+    height: 50rem;
     width: 100%;
   }
 
@@ -434,11 +435,26 @@ p.footer-copy{
 @media screen and (min-width: 1200px) {
   section {
     margin: 5rem auto;
-    width: 55%;
+    width: 45%;
   }
+
+  h1 {
+    font-family: "halant",Times,serif;
+    font-size: 3.5rem;
+    line-height: 1.3em;
+  }
+
+  h3 {
+    color: black;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 22% ;
+    padding: 3rem 28% ;
   }
 }
 
@@ -446,10 +462,10 @@ p.footer-copy{
 @media screen and (min-width: 1400px) {
   section {
     margin: 5rem auto;
-    width: 38%;
+    width: 30%;
   }
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 31% ;
+    padding: 3rem 35% ;
   }
 }

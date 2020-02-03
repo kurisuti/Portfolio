@@ -136,7 +136,7 @@ p {
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
   font-size: 1.6rem;
-  margin-top: 0rem;
+  margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   padding: 1.5rem 3.5rem;
   text-decoration: none;
@@ -279,6 +279,7 @@ img {
 /*hero*/
 .clearbox-container {
   padding: 10rem 5rem 0rem 5rem;
+  margin-bottom: 2rem;
   text-align: center;
   width: 100%;
 }
@@ -529,7 +530,7 @@ p.footer-copy{
 @media screen and (min-width: 768px) {
   section {
     margin: 5rem auto;
-    width: 70%;
+    width: 50%;
   }
 
   #logo {
@@ -546,7 +547,7 @@ p.footer-copy{
 
   .clearbox-image {
     background-image: url("../Images/ClearBox/clearbox-hero-mobile.png");
-    height: 38rem;
+    height: 42rem;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -584,8 +585,8 @@ p.footer-copy{
   h3 {
     color: black;
     font-family: "roboto",arial,sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 1.8rem;
+    font-weight: 500;
     margin-bottom: 2rem;
   }
 
@@ -634,7 +635,7 @@ p.footer-copy{
 
   .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 13%;
+    padding: 3rem 25%;
     padding-bottom: 5rem;
   }
 
@@ -698,6 +699,7 @@ p.footer-copy{
   .clearbox-container {
     position: relative;
     height: 30rem;
+    margin-bottom: 2rem;
     width: 100%;
   }
 
@@ -887,7 +889,13 @@ p.footer-copy{
 @media screen and (min-width: 1200px) {
   section {
     margin: 5rem auto;
-    width: 55%;
+    width: 45%;
+  }
+
+  h1 {
+    font-family: "halant",Times,serif;
+    font-size: 3.5rem;
+    line-height: 1.3em;
   }
 
   h3 {
@@ -898,9 +906,22 @@ p.footer-copy{
     margin-bottom: 2rem;
   }
 
+  .button, .button-wireframes {
+    background-color: #FF744F;
+    border-radius: .5rem;
+    color: white;
+    display: inline-block;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem 3.5rem;
+    text-decoration: none;
+  }
+
   .clearbox-image {
     background-image: url("../Images/ClearBox/clearbox-hero-mobile.png");
-    height: 75rem;
+    height: 70rem;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -934,7 +955,7 @@ p.footer-copy{
 
   .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 23%;
+    padding: 3rem 28%;
   }
 
 }
@@ -943,12 +964,12 @@ p.footer-copy{
   @media screen and (min-width: 1400px) {
     section {
       margin: 5rem auto;
-      width: 38%;
+      width: 30%;
     }
 
 
     .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 31%;
+    padding: 3rem 35%;
     }
 }

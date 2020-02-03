@@ -325,7 +325,7 @@ p.footer-copy{
 @media screen and (min-width: 768px) {
   section {
     margin: 5rem auto;
-    width: 70%;
+    width: 50%;
   }
 
   h1 {
@@ -366,10 +366,10 @@ p.footer-copy{
 
   p {
       font-family: "roboto",Arial,sans-serif;
-      font-size: 1.7rem;
-      line-height: 3rem;
-      margin-top: 2rem;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
       margin-bottom: 2rem;
+      margin-top: 2rem;
   }
 
   .overview {
@@ -379,7 +379,7 @@ p.footer-copy{
 
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 15%;
+    padding: 3rem 25%;
   }
 
   .column-1 {
@@ -507,21 +507,37 @@ p.footer-copy{
 @media screen and (min-width: 1200px) {
   section {
     margin: 5rem auto;
-    width: 55%;
+    width: 45%;
   }
+
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 22% ;
+    padding: 3rem 28% ;
   }
+
+  h1 {
+    font-family: "halant",Times,serif;
+    font-size: 3.5rem;
+    line-height: 1.3em;
+  }
+
+  h3 {
+    color: black;
+    font-family: "roboto",arial,sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+
 }
 /*max-width desktop*/
 @media screen and (min-width: 1400px) {
   section {
     margin: 5rem auto;
-    width: 38%;
+    width: 30%;
   }
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 31% ;
+    padding: 3rem 35% ;
   }
 }
