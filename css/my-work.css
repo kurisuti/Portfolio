@@ -367,7 +367,8 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 13rem;
+    width: 75%;
+    margin: 0 auto;
   }
 
   h1 {
@@ -499,12 +500,13 @@ p.footer-copy{
 
 
 /*desktop*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1200px) {
   .container {
     margin: 0 auto;
     padding-bottom: 100px
   }
   section {
-    padding: 3rem 18rem;
+    width: 60%;
+    margin: 0 auto;
   }
 }
