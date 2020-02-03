@@ -216,7 +216,8 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 8rem;
+    width: 75%;
+    margin: 0 auto;
   }
 
   .navbar {
@@ -282,9 +283,8 @@ p.footer-copy{
 
   .form-container {
     padding-top: 13rem;
-    margin-left: 12rem;
-    margin-right: 12rem;
     margin-bottom: 9rem;
+    width: 65%;
   }
 
   .form {
@@ -297,7 +297,8 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 30rem;
+    width: 30%;
+    margin: 0 auto;
   }
   h1 {
     color: #FF744F;
@@ -307,6 +308,12 @@ p.footer-copy{
     font-weight: bold;
     margin-top: 2.5rem;
     margin-bottom: 5rem;
+  }
+
+  .form-container {
+    padding-top: 13rem;
+    margin-bottom: 9rem;
+    width: 30%;
   }
 
 }
