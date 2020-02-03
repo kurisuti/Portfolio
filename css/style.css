@@ -413,7 +413,7 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 6rem;
+    padding: 3rem 8rem;
   }
 
   .navbar {
@@ -444,7 +444,7 @@ p.footer-copy{
 
   .slideshow-container {
     background-color: #F9F7F3;
-    padding: 7rem;
+    padding: 7rem 15rem;
     text-align: center;
   }
 
@@ -643,14 +643,27 @@ p.footer-copy{
 
 
 /*desktop*/
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 18rem;
+    padding: 3rem 25rem;
+  }
+
+  h1 {
+  font-family: "halant",Times,serif;
+  font-size: 3.8rem;
+  line-height: 5.6rem;
+  margin: 2rem 20rem;
   }
 
   .mySlides {
     margin: 0 auto;
     width: 60%;
+  }
+
+  .slideshow-container {
+    background-color: #F9F7F3;
+    padding: 7rem 30rem;
+    text-align: center;
   }
 
   .about-me-copy {
