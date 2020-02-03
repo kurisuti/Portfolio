@@ -208,7 +208,8 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 18rem;
+    width: 75%;
+    margin: 0 auto;
   }
   h3 {
     font-family: "halant",Times,serif;
@@ -339,6 +340,27 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    padding: 3rem 35rem;
+    width: 40%;
+    margin: 0 auto;
   }
+  img {
+    height: 80rem;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+  h3 {
+    font-family: "halant",Times,serif;
+    font-size: 3.7rem;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 1.5rem;
+  }
+  p {
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
 }
