@@ -260,12 +260,12 @@ section.hero {
   z-index: 1;
 }
 
- article:hover .img-wrap .project-one-image:hover .project-image:hover {
+ article:hover .img-wrap .project-one-image:hover {
   background-color: white;
 }
 
 .project-one-image:hover img {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /*other projects*/
@@ -288,6 +288,10 @@ section.hero {
   width: 230px;
   height: 17rem;
   z-index: 1;
+}
+
+article:hover .img-wrap .project-image:hover {
+  background-color: white;
 }
 
 .project-image:hover img {
