@@ -466,7 +466,7 @@ p.footer-copy{
   h1 {
     font-family: "halant",Times,serif;
     font-size: 3.8rem;
-    line-height: 5.6rem;
+    line-height: 5rem;
     margin: 2rem 15rem;
   }
 
@@ -646,13 +646,6 @@ p.footer-copy{
   section {
     width: 60%;
     margin: 0 auto;
-  }
-
-  h1 {
-  font-family: "halant",Times,serif;
-  font-size: 3.8rem;
-  line-height: 5.6rem;
-  margin: 2rem 10rem;
   }
 
   .mySlides {
