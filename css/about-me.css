@@ -179,6 +179,11 @@ img {
   width: 100%;
 }
 
+.about-me-image {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
 /*footer*/
 footer {
   margin-top: 6rem;
@@ -247,6 +252,11 @@ p.footer-copy{
     line-height: 2.8rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+  }
+
+  .about-me-image {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
   }
 
   .hr {
