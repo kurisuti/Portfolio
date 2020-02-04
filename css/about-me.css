@@ -20,10 +20,18 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+h3 {
+  font-family: "halant",Times,serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.3em;
+  margin-bottom: 1.5rem;
+}
+
 h4 {
   font-family: "roboto",arial,sans-serif;
   color: #FF744F;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 400;
   margin-bottom: .5rem;
 }
@@ -222,7 +230,7 @@ p.footer-copy{
   h4 {
     font-family: "roboto",arial,sans-serif;
     color: #FF744F;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 2rem;
   }
@@ -252,7 +260,7 @@ p.footer-copy{
   .about-me-container {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -351,7 +359,7 @@ p.footer-copy{
   }
   h3 {
     font-family: "halant",Times,serif;
-    font-size: 3.7rem;
+    font-size: 3rem;
     font-weight: 400;
     line-height: 1.3em;
     margin-bottom: 1.5rem;
