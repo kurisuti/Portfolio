@@ -521,23 +521,15 @@ p.footer-copy{
     line-height: 1.3em;
   }
 
-  h3 {
-    color: black;
-    font-family: "roboto",arial,sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-  }
-
 }
 /*max-width desktop*/
 @media screen and (min-width: 1400px) {
   section {
     margin: 5rem auto;
-    width: 30%;
+    width: 50%;
   }
   .challenges {
     background-color: #F9F7F3;
-    padding: 3rem 35% ;
+    padding: 3rem 25% ;
   }
 }
