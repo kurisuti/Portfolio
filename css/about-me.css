@@ -12,7 +12,7 @@ section {
 
 
 /*heading*/
-h3 {
+h1 {
   font-family: "halant",Times,serif;
   font-size: 3rem;
   font-weight:400;
@@ -211,9 +211,9 @@ p.footer-copy{
     width: 75%;
     margin: 0 auto;
   }
-  h3 {
+  h1 {
     font-family: "halant",Times,serif;
-    font-size: 3.4rem;
+    font-size: 3.8rem;
     font-weight:400;
     line-height: 1.3em;
     margin-bottom: 1.5rem;
