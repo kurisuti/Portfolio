@@ -140,7 +140,6 @@ ul {
 #logo {
   height: 58px;
   margin-left: 2rem;
-  margin-bottom: 0rem;
   object-fit: contain;
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
@@ -364,9 +363,9 @@ p.footer-copy{
   img {
     height: 45rem;
     object-fit: cover;
-    object-position: 0 78%;
     width: 100%;
   }
+
   h3 {
     font-family: "halant",Times,serif;
     font-size: 3rem;
