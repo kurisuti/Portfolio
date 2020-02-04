@@ -769,11 +769,11 @@ p.footer-copy{
   @media screen and (min-width: 1400px) {
     section {
       margin: 5rem auto;
-      width: 50%;
+      width: 45%;
     }
 
     .problem, .competitive-analysis {
       background-color: #F9F7F3;
-      padding: 3rem 25%;
+      padding: 3rem 28%;
     }
   }

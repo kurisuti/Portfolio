@@ -890,11 +890,11 @@ p.footer-copy{
   @media screen and (min-width: 1400px) {
     section {
       margin: 5rem auto;
-      width: 50%;
+      width: 45%;
     }
 
     .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 25%;
+    padding: 3rem 28%;
     }
 }
