@@ -344,9 +344,9 @@ p.footer-copy{
     margin: 0 auto;
   }
   img {
-    height: 80rem;
+    height: 45rem;
     object-fit: cover;
-    object-position: center;
+    object-position: 0 78%;
     width: 100%;
   }
   h3 {
@@ -356,6 +356,15 @@ p.footer-copy{
     line-height: 1.3em;
     margin-bottom: 1.5rem;
   }
+
+  h4 {
+    font-family: "roboto",arial,sans-serif;
+    color: #FF744F;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+
   p {
     font-family: "roboto",Arial,sans-serif;
     font-size: 2rem;
