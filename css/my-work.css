@@ -119,12 +119,9 @@ a {
   z-index: 1;
 }
 
- .img-wrap .project-one-image:hover {
+.featured-project:hover, .project-one-image:hover {
   background-color: white;
-}
-
-.project-one-image:hover img {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /*other projects*/
@@ -149,11 +146,8 @@ a {
   z-index: 1;
 }
 
-.img-wrap .project-image:hover {
+.project-image:hover, .project-one-image:hover, .project-container-2:hover, .project-container-3:hover {
   background-color: white;
-}
-
-.project-image:hover img {
   opacity: 0.7;
 }
 
