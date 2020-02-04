@@ -493,12 +493,12 @@ p.footer-copy{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 35%;
-    height: 40rem;
+    height: 50rem;
     width: 100%;
   }
 
   .overview {
-    margin-top: 13rem;
+    margin-top: 17rem;
   }
 }
 
