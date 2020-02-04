@@ -322,7 +322,7 @@ img {
 /*problem*/
 .problem, .user-personas, .information-architecture {
   background-color: #F9F7F3;
-  padding: 3rem 5rem ;
+  padding: 3rem 5rem 5rem 5rem;
 }
 
 .clearbox-mockup {
@@ -339,7 +339,7 @@ img {
 }
 
 #persona {
-  max-height: 20rem;
+  max-height:15rem;
   object-fit: contain;
   margin-bottom: 2rem;
   width: 100%;
@@ -755,7 +755,7 @@ p.footer-copy{
   }
 
   #persona {
-    height: 30rem;
+    height: 15rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     object-fit: contain;
