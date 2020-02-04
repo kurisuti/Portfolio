@@ -358,7 +358,7 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
   }
   img {
