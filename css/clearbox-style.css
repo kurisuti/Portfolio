@@ -365,7 +365,8 @@ img {
 }
 
 .preference-wrapper {
-  padding: 0rem !important;
+  display: flex;
+  flex-direction: row;
 }
 
 .image-one {
