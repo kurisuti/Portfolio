@@ -476,9 +476,9 @@ p.footer-copy{
   }
 
   h4 {
-      color: #FF744F;
-      font-family: "lato",sans-serif;
-      font-size: 2rem;
+    color: #FF744F;
+    font-family: "lato",sans-serif;
+    font-size: 2rem;
   }
 
   h5 {
@@ -635,7 +635,7 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
   }
 

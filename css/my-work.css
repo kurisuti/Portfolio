@@ -25,7 +25,7 @@ section {
 
 h1 {
   font-family: "work-sans",sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 300;
   line-height: 1.3em;
   margin-top: 8rem;
@@ -58,9 +58,9 @@ h4 {
 }
 
 p {
-  font-family: "lato", sans-serif;
+  font-family: "open-sans",Arial,sans-serif;
   font-size: 1.6rem;
-  line-height: 2.2rem;
+  line-height: 2.4rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -92,7 +92,7 @@ a {
   color: black;
   cursor: pointer;
   display: block;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "work-sans",arial,sans-serif;
   font-size: 1.6rem;
   text-decoration: none;
 }
@@ -119,7 +119,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  height: 16rem;
+  height: 17rem;
   width: 230px;
   z-index: 1;
 }
@@ -133,6 +133,12 @@ a {
 
 .project-container-2, .project-container-3 {
   position: relative;
+  margin-top: 2rem;
+}
+
+.project-container-4 {
+  position: relative;
+  width: 100%;
   margin-top: 2rem;
 }
 
@@ -324,44 +330,43 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
   }
 
   h1 {
-    font-family: "halant",Times,serif;
-    font-size: 3.4rem;
-    font-weight: 400;
-    line-height: 1.3em;
-    padding-top: 5rem;
+    font-family: "work-sans",sans-serif;
+    font-weight: 300;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    margin: 4rem 8rem;
   }
 
   h2 {
-    font-family: "roboto",arial,sans-serif;
-    font-size: 2.4rem;
+    font-family: "work-sans",sans-serif;
+    font-size: 2.2rem;
     line-height: 1.3em;
   }
 
   p {
-    font-family: "roboto",Arial,sans-serif;
-    font-size: 1.8rem;
-    line-height: 2.8rem;
+    font-family: "open-sans",Arial,sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
   }
 
   h3 {
     color: black;
-    font-family: "halant",Times,serif;
-    font-size: 2.6rem;
+    font-family: "work-sans",sans-serif;
+    font-size: 2.3rem;
     padding-top: 1rem;
   }
 
   h4 {
     color: black;
-    font-family: "halant",Times,serif;
-    font-size: 2.6rem;
-    padding-top: 1rem;
+    font-family: "lato",sans-serif;
+    font-size: 2rem;
 }
 
   .navbar {
@@ -447,7 +452,15 @@ p.footer-copy{
   }
 
   .project-container-3 {
-    width: 48%;
+    margin-top: 2rem;
+    width: 49%;
+    position: relative;
+  }
+
+  .project-container-4 {
+    position: relative;
+    width: 49%;
+    margin-top: 2rem;
   }
 
   #thumbnail {

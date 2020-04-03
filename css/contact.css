@@ -62,7 +62,7 @@ h1 {
 a {
   color: black;
   font-size: 1.6rem;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "work-sans",arial,sans-serif;
   text-decoration: none;
 }
 
@@ -218,18 +218,18 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
   }
 
   h1 {
     color: #FF744F;
     text-align: center;
-    font-family: "halant",Times,serif;
-    font-size: 4rem;
-    font-weight: bold;
+    font-family: "work-sans",sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.3em;
     margin-top: 2.5rem;
-    margin-bottom: 5rem;
   }
 
   .navbar {
@@ -309,14 +309,25 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    width: 30%;
+    width: 60%;
     margin: 0 auto;
   }
 
   .form-container {
     padding-top: 13rem;
     margin-bottom: 9rem;
-    width: 30%;
+    width: 40%;
+  }
+
+  h1 {
+    color: #FF744F;
+    text-align: center;
+    font-family: "work-sans",sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
   }
 
 }
