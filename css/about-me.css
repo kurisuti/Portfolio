@@ -12,24 +12,16 @@ section {
 
 
 /*heading*/
-h1 {
-  font-family: "halant",Times,serif;
-  font-size: 3rem;
-  font-weight:400;
-  line-height: 1.3em;
-  margin-bottom: 1.5rem;
-}
-
-h3 {
-  font-family: "halant",Times,serif;
+h1, h3 {
+  font-family: "work-sans",sans-serif;
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.3em;
   margin-bottom: 1.5rem;
 }
 
 h4 {
-  font-family: "roboto",arial,sans-serif;
+  font-family: "lato",arial,sans-serif;
   color: #FF744F;
   font-size: 1.6rem;
   font-weight: 400;
@@ -37,17 +29,18 @@ h4 {
 }
 
 h5 {
-  font-family: "roboto",arial,sans-serif;
+  font-family: "work-sans",sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
-  line-height: 1.3em;
+  letter-spacing: -.5px;
+  line-height: 1.7rem;
   order: -1;
 }
 
 p {
-  font-family: "roboto", Arial, sans-serif;
+  font-family: "lato",sans-serif;
   font-size: 1.6rem;
-  line-height: 2.6rem;
+  line-height: 2.2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -152,7 +145,7 @@ ul {
   border-radius: .5rem;
   color: white;
   display: inline-block;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "open-sans",arial,sans-serif;
   font-size: 1.6rem;
   margin-top: 0rem;
   margin-bottom: 2.5rem;
@@ -174,7 +167,7 @@ img {
   margin-bottom: 1rem;
   object-fit: cover;
   object-position: center;
-  padding-top: 6rem;
+  padding-top: 8rem;
   width: 100%;
 }
 
@@ -240,9 +233,11 @@ p.footer-copy{
   }
 
   h5 {
-    font-family: "roboto",arial,sans-serif;
-    font-size: 2.4rem;
-    line-height: 1.3em;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: -.5px;
+    line-height: 1.7rem;
+    order: -1;
   }
 
   p {

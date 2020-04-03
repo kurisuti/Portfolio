@@ -36,6 +36,7 @@ section {
 }
 
 .nav-links, .logo {
+  font-family:  "work-sans",sans-serif;
   color: black;
   text-decoration: none;
 }
@@ -108,7 +109,7 @@ h1 {
 
 h2 {
   font-family: "work-sans",sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: -.5px;
   line-height: 1.7rem;
@@ -119,7 +120,7 @@ h2 {
 h3 {
   color: black;
   font-family: "work-sans",sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   letter-spacing: -.5px;
   padding-top: 1rem;
 }
@@ -127,7 +128,7 @@ h3 {
 h4 {
   color:  #FF744F;
   font-family: "lato",sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   padding-top: 2rem;
 }
 
@@ -137,7 +138,7 @@ h5 {
   font-size: 2rem;
   line-height: 1.8rem;
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .hero {
@@ -156,7 +157,7 @@ h6 {
 
 p {
   font-family: "lato",sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 2.2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -164,7 +165,7 @@ p {
 
 .about {
   padding-bottom: 2.5rem;
-  margin-top: 3.5rem;
+  margin-top: 2.5rem;
 }
 
 
@@ -187,7 +188,8 @@ p {
   border-radius: .5rem;
   color: white;
   display: inline-block;
-  font-family: "open-sans",arial,sans-serif;
+  font-family: "work-sans",sans-serif;
+  font-weight:400;
   font-size: 1.6rem;
   margin-top: 2rem;
   margin-bottom: 2.5rem;
@@ -400,7 +402,7 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }
 
@@ -462,14 +464,14 @@ p.footer-copy{
 
   h2 {
     font-family: "work-sans",sans-serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 1.3em;
   }
 
   h3 {
     color: black;
     font-family: "work-sans",sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     padding-top: 1rem;
   }
 
@@ -497,8 +499,8 @@ p.footer-copy{
 
   p {
     font-family: "open-sans",Arial,sans-serif;
-    font-size: 1.7rem;
-    line-height: 2.5rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
   }
@@ -571,7 +573,6 @@ p.footer-copy{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 1.5rem;
   }
 
 
@@ -600,7 +601,7 @@ p.footer-copy{
   .profile-image {
     background-position: center;
     background-image: url(../Images/Christie-ProfilePicture.jpg);
-    height: 58rem;
+    height: 50rem;
     width: 60%;
   }
 
@@ -634,14 +635,22 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
+  }
+
+  h1 {
+    font-family: "work-sans",sans-serif;
+    font-weight: 300;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    margin: 2rem 10rem;
   }
 
   h3 {
     color: black;
     font-family: "work-sans", Times, serif;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     padding-top: 1rem;
   }
 
@@ -652,7 +661,7 @@ p.footer-copy{
 
   .slideshow-container {
     background-color: #F9F7F3;
-    padding: 7rem 10rem;
+    padding: 7rem 20rem;
     text-align: center;
   }
 
@@ -662,9 +671,14 @@ p.footer-copy{
     max-width: 40%;
   }
 
+  .design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
   .design-copy {
-    margin-right: 3rem;
-    max-width: 40%;
+    max-width: 50%;
     }
   }
 }
