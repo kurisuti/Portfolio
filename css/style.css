@@ -19,7 +19,7 @@ section {
 .navbar {
   background-color: white;
   border: 1px solid #EEEDE9;
-  font-family: "roboto",sans-serif;
+  font-family: "open-sans",sans-serif;
   font-size: 1.4rem;
   margin: auto;
   position: fixed;
@@ -66,7 +66,7 @@ a {
   color: black;
   cursor: pointer;
   display: block;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "open-sans",arial,sans-serif;
   font-size: 1.6rem;
   text-decoration: none;
 }
@@ -98,39 +98,42 @@ b {
 }
 
 h1 {
-  font-family: "halant",Times,serif;
-  font-size: 3.2rem;
-  line-height: 4.2rem;
+  font-family: "work-sans",sans-serif;
+  font-weight: 300;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
   margin: 2rem 4rem;
 }
 
 
 h2 {
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.8rem;
+  font-family: "work-sans",sans-serif;
+  font-size: 1.7rem;
   font-weight: 400;
-  line-height: 1.3em;
+  letter-spacing: -.5px;
+  line-height: 1.7rem;
   order: -1;
 }
 
 
 h3 {
   color: black;
-  font-family: "halant",Times,serif;
-  font-size: 2.3rem;
+  font-family: "work-sans",sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: -.5px;
   padding-top: 1rem;
 }
 
 h4 {
   color:  #FF744F;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "lato",sans-serif;
   font-size: 1.6rem;
   padding-top: 2rem;
 }
 
 h5 {
   color: black;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "work-sans",sans-serif;
   font-size: 2rem;
   line-height: 1.8rem;
   padding-top: 1rem;
@@ -145,16 +148,16 @@ h5 {
 
 h6 {
   color: #8E8E8E;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "lato",sans-serif;
   font-size: 1.3rem;
   margin-top: 1.5rem;
 }
 
 
 p {
-  font-family: "roboto",Arial,sans-serif;
-  font-size: 1.6rem;
-  line-height: 2.6rem;
+  font-family: "lato",sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -171,7 +174,7 @@ p {
   border-radius: .5rem;
   color: white;
   display: inline-block;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "open-sans",arial,sans-serif;
   font-size: 1.6rem;
   margin-top: 0rem;
   margin-bottom: 2.5rem;
@@ -184,7 +187,7 @@ p {
   border-radius: .5rem;
   color: white;
   display: inline-block;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "open-sans",arial,sans-serif;
   font-size: 1.6rem;
   margin-top: 2rem;
   margin-bottom: 2.5rem;
@@ -197,7 +200,7 @@ p {
   border-radius: .5rem;
   color: #FF744F;
   display: inline-block;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "open-sans",arial,sans-serif;
   font-size: 1.6rem;
   margin: 2rem .2rem;
   padding: 1.3rem 3.5rem;
@@ -225,7 +228,7 @@ p {
 
 .casestudy-link {
   color: #F06F54;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "open-sans",arial,sans-serif;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
@@ -248,7 +251,7 @@ section.hero {
   margin-top: 1rem;
 }
 
-.featured-project-copy {
+.featured-project-copy, .project-copy {
   background-color: white;
   padding: 20px 20px 20px 20px;
   text-align: center;
@@ -256,8 +259,8 @@ section.hero {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  height: 17rem;
-  width: 280px;
+  height: 16rem;
+  width: 230px;
   z-index: 1;
 }
 /*
@@ -275,21 +278,6 @@ section.hero {
 .project-container-2, .project-container-3 {
   position: relative;
   margin-top: 2rem;
-}
-
-.project-copy {
-  background-color: white;
-  color: black;
-  display: block;
-  padding: 10px 20px 20px 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-  width: 230px;
-  height: 17rem;
-  z-index: 1;
 }
 
 .project-image:hover, .project-one-image:hover, .project-container-2:hover, .project-container-3:hover {
@@ -412,7 +400,7 @@ p.footer-copy{
 /*tablet*/
 @media screen and (min-width: 768px) {
   section {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -465,34 +453,35 @@ p.footer-copy{
   }
 
   h1 {
-    font-family: "halant",Times,serif;
+    font-family: "work-sans",sans-serif;
+    font-weight: 300;
     font-size: 3.8rem;
-    line-height: 5rem;
-    margin: 2rem 15rem;
+    line-height: 4.8rem;
+    margin: 2rem 8rem;
   }
 
   h2 {
-    font-family: "roboto",arial,sans-serif;
-    font-size: 2.4rem;
+    font-family: "work-sans",sans-serif;
+    font-size: 2rem;
     line-height: 1.3em;
   }
 
   h3 {
     color: black;
-    font-family: "halant",Times,serif;
-    font-size: 2.6rem;
+    font-family: "work-sans",sans-serif;
+    font-size: 2.2rem;
     padding-top: 1rem;
   }
 
   h4 {
       color: #FF744F;
-      font-family: "roboto", arial, sans-serif;
-      font-size: 1.7rem;
+      font-family: "lato",sans-serif;
+      font-size: 2rem;
   }
 
   h5 {
     color: black;
-    font-family: "roboto",arial,sans-serif;
+    font-family: "work-sans",sans-serif;
     font-size: 2.5rem;
     line-height: 1.8rem;
     padding-top: 1rem;
@@ -501,15 +490,15 @@ p.footer-copy{
 
   h6 {
     color: rgb(142, 142, 142);
-    font-family: "roboto", arial, sans-serif;
+    font-family: "lato", sans-serif;
     font-size: 1.5rem;
     margin-top: 1.5rem;
   }
 
   p {
-    font-family: "roboto",Arial,sans-serif;
-    font-size: 1.8rem;
-    line-height: 2.8rem;
+    font-family: "open-sans",Arial,sans-serif;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
   }
@@ -645,13 +634,13 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
   }
 
   h3 {
     color: black;
-    font-family: halant, Times, serif;
+    font-family: "work-sans", Times, serif;
     font-size: 2.8rem;
     padding-top: 1rem;
   }
