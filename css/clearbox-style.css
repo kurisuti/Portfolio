@@ -77,14 +77,15 @@ b {
 }
 
 h1 {
-  font-family: "halant",Times,serif;
+  font-family: "work-sans",sans-serif;
+  font-weight: 300;
   font-size: 3rem;
   line-height: 1.3em;
 }
 
 h2 {
   font-size: 2.5rem;
-  font-family: "halant",Times,serif;
+  font-family: "work-sans",sans-serif;
   color: #FF744F;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -92,38 +93,39 @@ h2 {
 
 h3 {
   color: black;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "work-sans",sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 h4 {
   color: black;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "work-sans",sans-serif;
   font-size: 2rem;
   padding-top: 1rem;
 }
 
 h5 {
   color: #FF744F;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "lato",sans-serif;
   font-size: 1.7rem;
   line-height: 2.2rem;
   padding-top: 1rem;
 }
 
 h6 {
-  font-family: "roboto",arial,sans-serif;
+  font-family: "work-sans",sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
-  line-height: 1.3em;
+  letter-spacing: -.5px;
+  line-height: 1.7rem;
   order: -1;
 }
 
 p {
-  font-family: "roboto",Arial,sans-serif;
+  font-family: "lato",sans-serif;
   font-size: 1.6rem;
-  line-height: 2.6rem;
+  line-height: 2.2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -134,9 +136,9 @@ p {
   border-radius: .5rem;
   color: white;
   display: inline-block;
-  font-family: "roboto",arial,sans-serif;
+  font-family: "open-sans",arial,sans-serif;
   font-size: 1.6rem;
-  margin-top: 2.5rem;
+  margin-top: 0rem;
   margin-bottom: 2.5rem;
   padding: 1.5rem 3.5rem;
   text-decoration: none;
@@ -531,7 +533,7 @@ p.footer-copy{
 @media screen and (min-width: 768px) {
   section {
     margin: 5rem auto;
-    width: 50%;
+    width: 65%;
   }
 
   #logo {
@@ -570,15 +572,16 @@ p.footer-copy{
   }
 
   h1 {
-    font-family: "halant",Times,serif;
-    font-size: 3.6rem;
+    font-family: "work-sans",sans-serif;
+    font-size: 3.8rem;
     line-height: 1.5em;
     padding-top: 2rem;
   }
 
   h2 {
-    font-size: 3.2rem;
-    font-family: "halant",Times,serif;
+    font-size: 3rem;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
     color: #FF744F;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -586,28 +589,27 @@ p.footer-copy{
 
   h3 {
     color: black;
-    font-family: "roboto",arial,sans-serif;
+    font-family: "lato",sans-serif;
     font-size: 1.5rem;
-    font-weight: 500;
     margin-bottom: 2rem;
   }
 
   h4 {
     color: black;
-    font-family: "roboto", arial, sans-serif;
+    font-family: "work-sans", sans-serif;
     font-size: 2.5rem;
   }
 
   h6 {
-    font-family: "roboto", arial, sans-serif;
-    font-size: 2.4rem;
+    font-family: "work-sans",sans-serif;
+    font-size: 2.2rem;
     line-height: 1.3em;
   }
 
   p {
-    font-family: "roboto",Arial,sans-serif;
-    font-size: 1.8rem;
-    line-height: 2.8rem;
+    font-family: "open-sans",Arial,sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
@@ -637,7 +639,7 @@ p.footer-copy{
 
   .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 25%;
+    padding: 3rem 17%;
     padding-bottom: 5rem;
   }
 
@@ -841,11 +843,12 @@ p.footer-copy{
     border-radius: .5rem;
     color: white;
     display: inline-block;
-    font-family: "roboto",arial,sans-serif;
-    font-size: 1.8rem;
-    margin-top: 2.5rem;
+    font-family: "work-sans",sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-top: 2rem;
     margin-bottom: 2.5rem;
-    padding: 1.5rem 3.5rem;
+    padding: 1.3rem 3.5rem;
     text-decoration: none;
   }
 
