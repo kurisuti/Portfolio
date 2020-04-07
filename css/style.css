@@ -171,15 +171,16 @@ p {
 
 /*button*/
 .button {
-  background-color: #FF744F;
-  border-radius: .5rem;
+  background-color: rgb(255, 116, 79);
   color: white;
   display: inline-block;
-  font-family: "open-sans",arial,sans-serif;
+  font-family: "work-sans", sans-serif;
+  font-weight: 400;
   font-size: 1.6rem;
-  margin-top: 0rem;
+  margin-top: 2rem;
   margin-bottom: 2.5rem;
-  padding: 1.5rem 3.5rem;
+  border-radius: 0.5rem;
+  padding: 1.3rem 3.5rem;
   text-decoration: none;
 }
 
@@ -428,7 +429,7 @@ p.footer-copy{
   }
 
   .nav-links {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-right: 40px;
   }
 

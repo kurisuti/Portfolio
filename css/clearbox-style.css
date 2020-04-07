@@ -16,7 +16,7 @@ section {
 .navbar {
   background-color: white;
   border: 1px solid #EEEDE9;
-  font-family: "roboto",sans-serif;
+  font-family: "work-sans",sans-serif;
   font-size: 1.4rem;
   margin: auto;
   position: fixed;
@@ -79,7 +79,7 @@ b {
 h1 {
   font-family: "work-sans",sans-serif;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.3em;
 }
 
@@ -125,7 +125,7 @@ h6 {
 p {
   font-family: "lato",sans-serif;
   font-size: 1.6rem;
-  line-height: 2.2rem;
+  line-height: 2.6rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -136,9 +136,9 @@ p {
   border-radius: .5rem;
   color: white;
   display: inline-block;
-  font-family: "open-sans",arial,sans-serif;
+  font-family: "work-sans",arial,sans-serif;
   font-size: 1.6rem;
-  margin-top: 0rem;
+  margin-top: 1rem;
   margin-bottom: 2.5rem;
   padding: 1.5rem 3.5rem;
   text-decoration: none;
@@ -190,8 +190,8 @@ a {
   color: #F06F54;
   cursor: pointer;
   display: block;
-  font-family: "roboto",arial,sans-serif;
-  font-size: 1.6rem;
+  font-family: "work-sans",arial,sans-serif;
+  font-size: 1.7rem;
   text-decoration: none;
 }
 
@@ -207,7 +207,7 @@ a {
 }
 
 .link-secondary {
-  font-family: "roboto",arial,sans-serif;
+  font-family: "work-sans",arial,sans-serif;
   font-size: 1.5rem;
 }
 
@@ -722,7 +722,7 @@ p.footer-copy{
   }
 
   .main-nav a {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-right: 40px;
   }
 
@@ -833,9 +833,46 @@ p.footer-copy{
   }
 
   h1 {
-    font-family: "halant",Times,serif;
-    font-size: 3.5rem;
+    font-family: "work-sans",sans-serif;;
+    font-size: 4.5rem;
     line-height: 1.3em;
+    padding-top: 3rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    color: #FF744F;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    color: black;
+    font-family: "lato",sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  h4 {
+    color: black;
+    font-family: "work-sans", sans-serif;
+    font-size: 2.5rem;
+  }
+
+  h6 {
+    font-family: "work-sans",sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.3em;
+  }
+
+  p {
+    font-family: "open-sans",Arial,sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 
   .button, .button-wireframes {
@@ -884,7 +921,7 @@ p.footer-copy{
 
   .problem, .user-personas, .information-architecture {
     background-color: rgb(249, 247, 243);
-    padding: 3rem 28%;
+    padding: 3rem 27%;
   }
 
 }
