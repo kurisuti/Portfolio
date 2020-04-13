@@ -84,11 +84,11 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-family: "work-sans",sans-serif;
   color: #FF744F;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -96,6 +96,8 @@ h3 {
   font-family: "work-sans",sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 h4 {
@@ -108,7 +110,7 @@ h4 {
 h5 {
   color: #FF744F;
   font-family: "lato",sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.2rem;
   padding-top: 1rem;
 }
@@ -123,8 +125,9 @@ h6 {
 }
 
 p {
-  font-family: "lato",sans-serif;
-  font-size: 1.6rem;
+  font-family: "roboto",sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
   line-height: 2.6rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -213,6 +216,8 @@ a {
 
 /*image styling*/
 img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   width: 100%;
 }
 
@@ -280,17 +285,17 @@ img {
 
 /*hero*/
 .unicart-container {
-  padding: 12rem 5rem 0rem 5rem;
+  padding: 10rem 5rem 0rem 5rem;
   text-align: center;
   width: 100%;
 }
 
 .unicart-image {
-  background-image: url("../Images/UniCart/unicart-casestudy-home.jpg");
+  background-image: url("../Images/UniCart/unicart-homepage-mobile copy.png");
   height: 45rem;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center 10rem;
+  background-position: center -5rem;
   width: 100%;
 }
 
@@ -366,14 +371,7 @@ img {
   padding: 0rem 5rem 0rem 5rem;;
 }
 
-.preference-wrapper {
-  display: flex;
-  flex-direction: row;
-}
-
 .image-one {
-  margin-bottom: 1rem;
-  margin-right: 1rem;
   width: 100%;
 }
 
@@ -534,6 +532,11 @@ p.footer-copy{
   section {
     margin: 5rem auto;
     width: 65%;
+  }
+
+  .preference-wrapper {
+    display: flex;
+    flex-direction: row;
   }
 
   #logo {
@@ -869,6 +872,7 @@ p.footer-copy{
     font-family: "work-sans", sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
+    margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     border-radius: 0.5rem;
     padding: 1.3rem 3.5rem;
