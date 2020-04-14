@@ -14,18 +14,18 @@ section {
 /*heading*/
 h1, h3 {
   font-family: "work-sans",sans-serif;
-  font-size: 2.5rem;
   font-weight: 300;
-  line-height: 1.3em;
-  margin-bottom: 1.5rem;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
 }
 
 h4 {
-  font-family: "lato",arial,sans-serif;
+  font-family: "roboto",arial,sans-serif;
   color: #FF744F;
   font-size: 1.6rem;
   font-weight: 400;
   margin-bottom: .5rem;
+  margin-top: 1rem;
 }
 
 h5 {
@@ -37,10 +37,17 @@ h5 {
   order: -1;
 }
 
+h6 {
+  font-family:  "roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+}
+
 p {
-  font-family: "lato",sans-serif;
-  font-size: 1.6rem;
-  line-height: 2.2rem;
+  font-family: "roboto",sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 2.4rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -141,15 +148,16 @@ ul {
 
 /*button*/
 .button {
-  background-color: #FF744F;
-  border-radius: .5rem;
+  background-color: rgb(255, 116, 79);
   color: white;
   display: inline-block;
-  font-family: "work-sans",arial,sans-serif;
+  font-family: "work-sans", sans-serif;
+  font-weight: 400;
   font-size: 1.6rem;
-  margin-top: 0rem;
+  margin-top: 2rem;
   margin-bottom: 2.5rem;
-  padding: 1.5rem 3.5rem;
+  border-radius: 0.5rem;
+  padding: 1.3rem 3.5rem;
   text-decoration: none;
 }
 
@@ -231,9 +239,9 @@ p.footer-copy{
   }
 
   h4 {
-    font-family: "work-sans",sans-serif;
+    font-family: "roboto",sans-serif;
     color: #FF744F;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 400;
     line-height: 2rem;
   }
@@ -245,10 +253,16 @@ p.footer-copy{
     order: -1;
   }
 
-  p {
-    font-family: "open-sans",Arial,sans-serif;
+  h6 {
+    font-family:  "roboto", sans-serif;
     font-size: 1.6rem;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
+  }
+
+  p {
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
   }
@@ -374,7 +388,7 @@ p.footer-copy{
   }
 
   h4 {
-    font-family: "work-sans",sans-serif;
+    font-family: "roboto",sans-serif;
     color: #FF744F;
     font-size: 1.7rem;
     font-weight: 400;

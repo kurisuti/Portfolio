@@ -89,18 +89,18 @@ b {
 }
 
 h1 {
-  font-family: work-sans, sans-serif;
+  font-family: "work-sans",sans-serif;
   font-weight: 300;
   font-size: 3.5rem;
   line-height: 1.3em;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-family: "work-sans",sans-serif;
   color: #FF744F;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -108,6 +108,8 @@ h3 {
   font-family: "work-sans",sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 h4 {
@@ -133,8 +135,9 @@ h6 {
 }
 
 p {
-  font-family: "lato",sans-serif;
-  font-size: 1.6rem;
+  font-family: "roboto",sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
   line-height: 2.6rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -142,16 +145,15 @@ p {
 
 /*button*/
 .button {
-  background-color: rgb(255, 116, 79);
+  background-color: #FF744F;
+  border-radius: .5rem;
   color: white;
   display: inline-block;
-  font-family: work-sans, sans-serif;
-  font-weight: 400;
+  font-family: "work-sans",arial,sans-serif;
   font-size: 1.6rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 2.5rem;
-  border-radius: 0.5rem;
-  padding: 1.3rem 3.5rem;
+  padding: 1.5rem 3.5rem;
   text-decoration: none;
 }
 
@@ -216,7 +218,7 @@ img {
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 45rem;
+  height: 40rem;
   width: 100%;
 }
 
@@ -310,20 +312,20 @@ p.footer-copy{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 55rem;
+    height: 40rem;
     width: 100%;
   }
 
   h1 {
-    font-family: "work-sans",sans-serif;
+    font-family: "work-sans", sans-serif;
     font-size: 3.8rem;
     line-height: 1.5em;
     padding-top: 2rem;
   }
 
   h2 {
-    font-size: 3rem;
-    font-family: "lato",sans-serif;
+    font-size: 2.6rem;
+    font-family: "work-sans",sans-serif;
     font-weight: 400;
     color: #FF744F;
     margin-top: 3rem;
@@ -332,7 +334,7 @@ p.footer-copy{
 
   h3 {
     color: black;
-    font-family: "lato",sans-serif;
+    font-family: "work-sans", sans-serif;
     font-size: 1.5rem;
     margin-bottom: 2rem;
   }
@@ -351,9 +353,9 @@ p.footer-copy{
   }
 
   p {
-    font-family: "open-sans",Arial,sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
@@ -366,7 +368,7 @@ p.footer-copy{
 
   .overview {
     display: flex;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   .column-1 {
@@ -450,20 +452,50 @@ p.footer-copy{
   }
 
   h2 {
-    font-size: 3.2rem;
-    font-family: "lato",sans-serif;
+    font-size: 3rem;
+    font-family: "work-sans", sans-serif;
     font-weight: 400;
-    color: #FF744F;
+    color: rgb(255, 116, 79);
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
 
+  h3 {
+    color: black;
+    font-family: "work-sans",sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
   p {
-    font-family: "open-sans",Arial,sans-serif;
-    font-size: 1.8rem;
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.6rem;
     line-height: 2.8rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+  }
+
+  .criteria-image {
+    background-image: url("../Images/Criteria/criteria-hero.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 45rem;
+    width: 100%;
+  }
+
+  .button, .button-wireframes {
+    background-color: rgb(255, 116, 79);
+    color: white;
+    display: inline-block;
+    font-family: "work-sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 0.5rem;
+    padding: 1.3rem 3.5rem;
+    text-decoration: none;
   }
 
   .challenges {

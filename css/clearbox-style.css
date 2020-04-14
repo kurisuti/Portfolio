@@ -84,11 +84,11 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
-  font-family: "work-sans",sans-serif;
-  color: #FF744F;
+  font-size: 2.3rem;
+  font-family: "work-sans", sans-serif;
+  color: rgb(255, 116, 79);
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -107,8 +107,8 @@ h4 {
 
 h5 {
   color: #FF744F;
-  font-family: "lato",sans-serif;
-  font-size: 1.7rem;
+  font-family: "work-sans",sans-serif;
+  font-size: 1.4rem;
   line-height: 2.2rem;
   padding-top: 1rem;
 }
@@ -123,8 +123,9 @@ h6 {
 }
 
 p {
-  font-family: "lato",sans-serif;
-  font-size: 1.6rem;
+  font-family: "roboto",sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
   line-height: 2.6rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -571,15 +572,15 @@ p.footer-copy{
   }
 
   h1 {
-    font-family: "work-sans",sans-serif;
+    font-family: "work-sans", sans-serif;
     font-size: 3.8rem;
     line-height: 1.5em;
     padding-top: 2rem;
   }
 
   h2 {
-    font-size: 3rem;
-    font-family: "lato",sans-serif;
+    font-size: 2.6rem;
+    font-family: "work-sans",sans-serif;
     font-weight: 400;
     color: #FF744F;
     margin-top: 3rem;
@@ -588,7 +589,7 @@ p.footer-copy{
 
   h3 {
     color: black;
-    font-family: "lato",sans-serif;
+    font-family: "work-sans",sans-serif;
     font-size: 1.5rem;
     margin-bottom: 2rem;
   }
@@ -606,9 +607,9 @@ p.footer-copy{
   }
 
   p {
-    font-family: "open-sans",Arial,sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
@@ -832,24 +833,24 @@ p.footer-copy{
   }
 
   h1 {
-    font-family: "work-sans",sans-serif;;
+    font-family: "work-sans", sans-serif;
     font-size: 4.5rem;
     line-height: 1.3em;
     padding-top: 3rem;
   }
 
   h2 {
-    font-size: 3.2rem;
-    font-family: "lato",sans-serif;
+    font-size: 3rem;
+    font-family: "work-sans", sans-serif;
     font-weight: 400;
-    color: #FF744F;
+    color: rgb(255, 116, 79);
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
 
   h3 {
     color: black;
-    font-family: "lato",sans-serif;
+    font-family: "work-sans", sans-serif;
     font-size: 1.5rem;
     margin-bottom: 2rem;
   }
@@ -860,6 +861,13 @@ p.footer-copy{
     font-size: 2.5rem;
   }
 
+  h5 {
+    font-family: "work-sans",sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    padding-top: 1rem;
+  }
+
   h6 {
     font-family: "work-sans",sans-serif;
     font-size: 2.2rem;
@@ -867,8 +875,8 @@ p.footer-copy{
   }
 
   p {
-    font-family: "open-sans",Arial,sans-serif;
-    font-size: 1.8rem;
+    font-family: "roboto",Arial,sans-serif;
+    font-size: 1.6rem;
     line-height: 2.8rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -889,7 +897,7 @@ p.footer-copy{
 
   .clearbox-image {
     background-image: url("../Images/ClearBox/clearbox-hero-mobile.png");
-    height: 70rem;
+    height: 55rem;
     background-size: cover;
     background-position: center;
     width: 100%;
