@@ -98,6 +98,7 @@ b {
   font-weight: bold;
 }
 
+
 h1 {
   font-family: "work-sans",sans-serif;
   font-weight: 400;
@@ -215,10 +216,11 @@ p {
   border-radius: .5rem;
   color: #FF744F;
   display: inline-block;
-  font-family: "open-sans",arial,sans-serif;
-  font-size: 1.6rem;
+  font-family: "roboto",arial,sans-serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
   margin: 2rem .2rem;
-  padding: 1.3rem 3.5rem;
+  padding: .8rem 1.5rem;
   text-decoration: none;
 }
 
@@ -273,7 +275,13 @@ section.hero {
 img {
   height: 240px;
   object-fit: contain;
+  transition: all 0.5s ease;
   width: 100%;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
 }
 
 .featured-project-copy, .project-copy {
@@ -282,22 +290,12 @@ img {
   z-index: 1;
 }
 
-
-.featured-project:hover, .project-one-image:hover {
-  background-color: white;
-  opacity: 0.7;
-}
-
 /*other projects*/
 
 .project-container-2, .project-container-3 {
   position: relative;
 }
 
-.project-image:hover, .project-one-image:hover, .project-container-2:hover, .project-container-3:hover {
-  background-color: white;
-  opacity: 0.7;
-}
 
 .hr-footer {
   border: none;
@@ -317,7 +315,7 @@ img {
 
 /*my design process*/
 #design-chart-image {
-  height: 38rem;
+  height: 28rem;
   object-fit: contain;
   padding-top: 3rem;
 }
@@ -517,10 +515,11 @@ p.footer-copy{
     color: black;
     cursor: pointer;
     display: block;
-    font-family: "work-sans",arial,sans-serif;
+    font-family: "roboto",arial,sans-serif;
     font-size: 1.6rem;
     text-decoration: none;
   }
+
 
   p {
     font-family: "roboto",Arial,sans-serif;
