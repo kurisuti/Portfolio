@@ -112,14 +112,13 @@ h1 {
 
 
 h2 {
-  font-family: "roboto",sans-serif;
-  font-size: 1.7rem;
-  font-weight: 200;
+  font-family: "work-sans",sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
   letter-spacing: -.5px;
   line-height: 1.7rem;
   margin-bottom: 1.5rem;
   order: -1;
-  text-align: left;
 }
 
 
@@ -284,11 +283,6 @@ img:hover {
   transition: all 0.5s ease;
 }
 
-.featured-project-copy, .project-copy {
-  padding-left: 4rem;
-  padding-top: 4rem;
-  z-index: 1;
-}
 
 /*other projects*/
 
@@ -314,10 +308,20 @@ img:hover {
 }
 
 /*my design process*/
-#design-chart-image {
+#steps {
+  height: 8rem;
+  margin-bottom: -2rem;
+  width: 10%;
+}
+
+.design-process-image {
+  background-image: url(../Images/Homepage/design-process-chart.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 28rem;
-  object-fit: contain;
-  padding-top: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
 }
 
 /*testimonial*/
@@ -394,8 +398,8 @@ p.footer-copy{
 }
 
 .footer-copy {
-  padding-right: 3rem;
-  padding-left: 3rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 
 .footer-icon a {
@@ -441,6 +445,10 @@ p.footer-copy{
     font-size: 1.7rem;
     margin-right: 40px;
   }
+  .featured-project {
+    display: flex;
+    flex-direction: row;
+  }
 
   .slideshow-container {
     background-color: #F9F7F3;
@@ -466,10 +474,10 @@ p.footer-copy{
 
   h1 {
     font-family: "work-sans",sans-serif;
-    font-weight: 300;
-    font-size: 4.5rem;
-    line-height: 4.8rem;
-    margin: 2rem 8rem;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 4.3rem;
+    float: left;
   }
 
   h2 {
@@ -483,7 +491,7 @@ p.footer-copy{
   h3 {
     color: black;
     font-family: "work-sans",sans-serif;
-    font-size: 2.3rem;
+    font-size: 2.8rem;
     font-weight: 400;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -529,8 +537,30 @@ p.footer-copy{
     margin-top: 1rem;
   }
 
+
   .featured-project-copy {
     z-index: 1;
+}
+
+.featured-project {
+  display: flex;
+  flex-direction: row;
+}
+
+.featured-project-copy {
+  width: 20%;
+}
+
+.featured-project-image {
+  width: 80%;
+}
+
+
+.featured-project-copy, .project-copy {
+  padding-left: 4rem;
+  padding-top: 4rem;
+  width: 100%;
+  z-index: 1;
 }
 
 .project-copy {
