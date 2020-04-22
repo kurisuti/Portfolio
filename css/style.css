@@ -102,30 +102,31 @@ b {
 h1 {
   font-family: "work-sans",sans-serif;
   font-weight: 400;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   line-height: 3.8rem;
   letter-spacing: -1px;
   padding-right: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: left;
 }
 
 
 h2 {
-  font-family: "work-sans",sans-serif;
-  font-size: 2rem;
-  font-weight: 400;
+  font-family: "roboto",sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
   letter-spacing: -.5px;
   line-height: 1.7rem;
   margin-bottom: 1.5rem;
   order: -1;
+  text-align: left;
 }
 
 
 h3 {
   color: black;
   font-family: "work-sans",sans-serif;
-  font-size: 2.3rem;
+  font-size: 2.4rem;
   letter-spacing: -.5px;
   padding-top: 1rem;
 }
@@ -142,16 +143,9 @@ h5 {
   font-family: "work-sans",sans-serif;
   font-size: 2rem;
   line-height: 1.8rem;
+  margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.hero {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  margin-left: 3rem;
-  margin-right: 3rem;
 }
 
 h6 {
@@ -162,11 +156,31 @@ h6 {
   margin-top: 1.5rem;
 }
 
+h7 {
+  font-family: "work-sans",sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -.5px;
+  line-height: 1.7rem;
+  margin-bottom: 1.5rem;
+  order: -1;
+  text-align: left;
+}
+
+
+.hero {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-right: 3rem;
+}
+
 
 p {
   font-family: "roboto",sans-serif;
-  font-size: 1.4rem;
-  font-weight: 100;
+  font-size: 1.5rem;
+  font-weight: 300;
   line-height: 2.4rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -187,10 +201,9 @@ p {
   background-color: rgb(255, 116, 79);
   color: white;
   display: inline-block;
-  font-family: "work-sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.6rem;
-  margin-top: 2rem;
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
   margin-bottom: 2.5rem;
   border-radius: 0.5rem;
   padding: 1.3rem 3.5rem;
@@ -203,7 +216,7 @@ p {
   color: white;
   display: inline-block;
   font-family: "roboto",sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 1.5rem;
   float: left;
   padding: .8rem 1.5rem;
@@ -216,10 +229,10 @@ p {
   color: #FF744F;
   display: inline-block;
   font-family: "roboto",arial,sans-serif;
-  font-weight: lighter;
+  font-weight: 400;
   font-size: 1.5rem;
   margin: 2rem .2rem;
-  padding: .8rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   text-decoration: none;
 }
 
@@ -270,6 +283,13 @@ section.hero {
   background-color: #F9F9FB;
 }
 
+.featured-project-copy, .project-copy {
+  margin-left: 4rem;
+  padding-top: 4rem;
+  width: 100%;
+  z-index: 1;
+}
+
 /*image styling*/
 img {
   height: 240px;
@@ -303,14 +323,15 @@ img:hover {
   background-size: cover;
   background-position: center;
   margin-bottom: 3rem;
+  margin: auto;
   width: 100%;
   height: 35rem;
 }
 
 /*my design process*/
 #steps {
-  height: 8rem;
-  margin-bottom: -2rem;
+  height: 10rem;
+  margin-bottom: -3rem;
   width: 10%;
 }
 
@@ -393,7 +414,7 @@ p.footer-copy{
 }
 
 .footer-icon {
-  margin-top: 1.5rem;
+  margin-top: 1.8rem;
   text-align: center;
 }
 
@@ -483,6 +504,7 @@ p.footer-copy{
   h2 {
     font-family: "work-sans",sans-serif;
     font-size: 2.2rem;
+    float: left;
     line-height: 1.3em;
     margin-bottom: 2rem;
     text-align: left;
@@ -537,18 +559,9 @@ p.footer-copy{
     margin-top: 1rem;
   }
 
-
-  .featured-project-copy {
-    z-index: 1;
-}
-
 .featured-project {
   display: flex;
   flex-direction: row;
-}
-
-.featured-project-copy {
-  width: 20%;
 }
 
 .featured-project-image {
@@ -557,10 +570,14 @@ p.footer-copy{
 
 
 .featured-project-copy, .project-copy {
-  padding-left: 4rem;
+  margin-left: 4rem;
   padding-top: 4rem;
   width: 100%;
   z-index: 1;
+}
+
+.featured-project-copy {
+  background-color: red;
 }
 
 .project-copy {
