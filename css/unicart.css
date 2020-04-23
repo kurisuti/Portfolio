@@ -79,13 +79,13 @@ b {
 h1 {
   font-family: "work-sans",sans-serif;
   font-weight: 300;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   line-height: 1.3em;
 }
 
 h2 {
   font-size: 2.3rem;
-  font-family: "work-sans",sans-serif;
+  font-family: "roboto",sans-serif;
   color: #FF744F;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -110,9 +110,9 @@ h4 {
 h5 {
   color: #FF744F;
   font-family: "work-sans",sans-serif;
-  font-size: 1.4rem;
-  line-height: 2.2rem;
-  padding-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-top: 2rem;
 }
 
 h6 {
@@ -126,8 +126,8 @@ h6 {
 
 p {
   font-family: "roboto",sans-serif;
-  font-size: 1.4rem;
-  font-weight: 100;
+  font-size: 1.6rem;
+  font-weight: 300;
   line-height: 2.6rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -139,8 +139,9 @@ p {
   border-radius: .5rem;
   color: white;
   display: inline-block;
-  font-family: "work-sans",arial,sans-serif;
+  font-family: "roboto",arial,sans-serif;
   font-size: 1.6rem;
+  font-weight: 300;
   margin-top: 1rem;
   margin-bottom: 2.5rem;
   padding: 1.5rem 3.5rem;
@@ -580,7 +581,7 @@ p.footer-copy{
 
   h2 {
     font-size: 2.6rem;
-    font-family: "work-sans",sans-serif;
+    font-family: "roboto",sans-serif;
     font-weight: 400;
     color: #FF744F;
     margin-top: 3rem;
@@ -608,8 +609,9 @@ p.footer-copy{
 
   p {
     font-family: "roboto",Arial,sans-serif;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.6rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
@@ -831,17 +833,16 @@ p.footer-copy{
     width: 45%;
   }
 
-
   h1 {
     font-family: "work-sans",sans-serif;
-    font-size: 4.5rem;
+    font-size: 4.8rem;
     line-height: 1.3em;
     padding-top: 3rem;
   }
 
   h2 {
     font-size: 3rem;
-    font-family: "work-sans", sans-serif;
+    font-family: "roboto", sans-serif;
     font-weight: 400;
     color: rgb(255, 116, 79);
     margin-top: 3rem;
@@ -858,13 +859,14 @@ p.footer-copy{
   h5 {
     font-family: "work-sans",sans-serif;
     font-size: 1.6rem;
-    line-height: 2.3rem;
-    padding-top: 1rem;
+    line-height: 2.1rem;
+    padding-top: 2rem;
   }
 
   p {
     font-family: "roboto",Arial,sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    font-weight: 300;
     line-height: 2.8rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -874,8 +876,8 @@ p.footer-copy{
     background-color: rgb(255, 116, 79);
     color: white;
     display: inline-block;
-    font-family: "work-sans", sans-serif;
-    font-weight: 400;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
     font-size: 1.6rem;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
