@@ -47,22 +47,21 @@ h3 {
   font-size: 1.9rem;
   letter-spacing: -.5px;
   padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 h4 {
   color: black;
   font-family: "work-sans",sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   letter-spacing: -.5px;
   padding-top: 1rem;
 }
 
 p {
   font-family: "roboto",sans-serif;
-  font-size: 1.4rem;
-  font-weight: 100;
-  line-height: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.6rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -354,7 +353,7 @@ p.footer-copy{
     color: black;
     cursor: pointer;
     display: block;
-    font-family: "work-sans",arial,sans-serif;
+    font-family: "roboto",arial,sans-serif;
     font-size: 1.6rem;
     text-decoration: none;
   }
@@ -362,6 +361,7 @@ p.footer-copy{
   p {
     font-family: "roboto",Arial,sans-serif;
     font-size: 1.6rem;
+    font-weight: 300;
     line-height: 2.4rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -372,12 +372,11 @@ p.footer-copy{
     font-family: "work-sans",sans-serif;
     font-size: 2.3rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 
   h4 {
     color: black;
-    font-family: "lato",sans-serif;
+    font-family: "work-sans",sans-serif;
     font-size: 2rem;
 }
 
@@ -402,13 +401,22 @@ p.footer-copy{
     margin: 0;
   }
 
-  .main-nav a {
+  .main-nav a {x
     font-size: 1.7rem;
+    font-family: "work-sans",sans-serif;
     margin-right: 40px;
   }
 
   .main-nav .current {
     color: #FF744F;
+  }
+
+  .nav-links {
+    color: black;
+    font-size: 1.7rem;
+    font-family: "work-sans",sans-serif;
+    margin-right: 40px;
+    text-decoration: none;
   }
 
   .logo:hover, .nav-links:hover {

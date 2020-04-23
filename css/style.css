@@ -159,7 +159,7 @@ h6 {
 p {
   font-family: "roboto",sans-serif;
   font-size: 1.4rem;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 2.4rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -176,8 +176,8 @@ p {
   background-color: rgb(255, 116, 79);
   color: white;
   display: inline-block;
-  font-family: "work-sans", sans-serif;
-  font-weight: 400;
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
   font-size: 1.6rem;
   margin-top: 2rem;
   margin-bottom: 2.5rem;
@@ -191,8 +191,8 @@ p {
   border-radius: .5rem;
   color: white;
   display: inline-block;
-  font-family: "work-sans",sans-serif;
-  font-weight:400;
+  font-family: "roboto",sans-serif;
+  font-weight: 300;
   font-size: 1.6rem;
   margin-top: 2rem;
   margin-bottom: 2.5rem;
@@ -205,7 +205,7 @@ p {
   border-radius: .5rem;
   color: #FF744F;
   display: inline-block;
-  font-family: "open-sans",arial,sans-serif;
+  font-family: "roboto",arial,sans-serif;
   font-size: 1.6rem;
   margin: 2rem .2rem;
   padding: 1.3rem 3.5rem;
@@ -233,7 +233,7 @@ p {
 
 .casestudy-link {
   color: #F06F54;
-  font-family: "open-sans",arial,sans-serif;
+  font-family: "roboto",arial,sans-serif;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
@@ -467,22 +467,21 @@ p.footer-copy{
 
   h2 {
     font-family: "work-sans",sans-serif;
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 1.3em;
   }
 
   h3 {
     color: black;
     font-family: "work-sans",sans-serif;
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 
   h4 {
     color: #FF744F;
     font-family: "work-sans",sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   h5 {
@@ -491,7 +490,7 @@ p.footer-copy{
     font-size: 2.5rem;
     line-height: 1.8rem;
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
   h6 {
@@ -505,7 +504,7 @@ p.footer-copy{
     color: black;
     cursor: pointer;
     display: block;
-    font-family: "work-sans",arial,sans-serif;
+    font-family: "roboto",arial,sans-serif;
     font-size: 1.6rem;
     text-decoration: none;
   }
@@ -663,7 +662,7 @@ p.footer-copy{
   h3 {
     color: black;
     font-family: "work-sans", Times, serif;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     padding-top: 1rem;
   }
 

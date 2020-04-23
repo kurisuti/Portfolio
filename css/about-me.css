@@ -40,14 +40,15 @@ h5 {
 h6 {
   font-family:  "roboto", sans-serif;
   font-size: 1.4rem;
+  font-weight: 300;
   line-height: 2.3rem;
 }
 
 p {
   font-family: "roboto",sans-serif;
-  font-size: 1.4rem;
-  font-weight: 100;
-  line-height: 2.4rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.6rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -61,7 +62,7 @@ p {
 }
 
 .work {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 /*navigation*/
@@ -151,8 +152,8 @@ ul {
   background-color: rgb(255, 116, 79);
   color: white;
   display: inline-block;
-  font-family: "work-sans", sans-serif;
-  font-weight: 400;
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
   font-size: 1.6rem;
   margin-top: 2rem;
   margin-bottom: 2.5rem;
@@ -244,6 +245,7 @@ p.footer-copy{
     font-size: 1.7rem;
     font-weight: 400;
     line-height: 2rem;
+    margin-top: 1rem;
   }
 
   h5 {
@@ -283,7 +285,7 @@ p.footer-copy{
   .about-me-container {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -371,7 +373,7 @@ p.footer-copy{
 /*desktop*/
 @media screen and (min-width: 1200px) {
   section {
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
   }
   img {
