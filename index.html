@@ -17,6 +17,7 @@
   <body>
   <!--nav-->
   <nav class="navbar">
+    <div id="top-loader" class=""></div>
     <span class="navbar-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>
     <a href="index.html"><img id="logo" src="Images/Homepage/Logo.png" alt="logo"></a>
     <ul class="main-nav" id="js-menu">
@@ -31,6 +32,7 @@
       </li>
     </ul>
   </nav>
+  <div class="withAnimation"></div>
   <!--header-->
   <section class="hero">
     <h1>Hi, I'm <span style="color:#FF744F">Christie</span>, a UX Designer from Los Angeles. I enjoy creating delightful human experiences.</h1>
@@ -170,6 +172,21 @@
 
         mainNav.classList.toggle('active');
         });
+    </script>
+    <!--top loading bar-->
+    <script>
+    $("#show").click(function() {
+      if ($("#progress").length === 0) {
+        // inject the bar..
+        $("body").append($("<div><b></b><i></i></div>").attr("id", "progress"));
+
+        // animate the progress..
+        $("#progress").width("101%").delay(800).fadeOut(1000, function() {
+          // ..then remove it.
+          $(this).remove();
+        });
+      }
+    });
     </script>
 
     <!-- Google Analytics -->
