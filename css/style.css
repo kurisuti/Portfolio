@@ -24,7 +24,7 @@ section {
 .navbar {
   background-color: white;
   border: 1px solid #EEEDE9;
-  font-family: "open-sans",sans-serif;
+  font-family: "roboto",sans-serif;
   font-size: 1.4rem;
   margin: auto;
   position: fixed;
@@ -431,14 +431,47 @@ p.footer-copy{
     padding: 2.2rem;
   }
 
-  .main-nav li {
-    margin: 0;
-  }
+    .main-nav li {
+      margin: 0;
+    }
 
-  .nav-links {
-    font-size: 1.7rem;
-    margin-right: 40px;
-  }
+    .main-nav a {
+      font-size: 1.7rem;
+      margin-right: 40px;
+    }
+
+
+    .main-nav .current {
+      color: #FF744F;
+    }
+
+    .nav-links {
+      color: black;
+      font-size: 1.7rem;
+      font-family: "work-sans",sans-serif;
+      margin-right: 40px;
+      text-decoration: none;
+    }
+
+    .logo:hover, .nav-links:hover {
+      color: #F06F54;
+    }
+
+    #logo {
+      margin-top: 1.2rem;
+      display: inline;
+      margin-left: 3rem;
+      object-fit: contain;
+    }
+
+    .navbar-toggle {
+      display: none;
+    }
+
+
+        .about {
+          display: flex;
+        }
 
   .slideshow-container {
     background-color: #F9F7F3;
@@ -449,13 +482,6 @@ p.footer-copy{
   .mySlides {
     margin: 0 auto;
     width: 90%;
-  }
-
-  #logo {
-    margin-top: 1.2rem;
-    display: inline;
-    margin-left: 3rem;
-    object-fit: contain;
   }
 
   .navbar-toggle {
@@ -572,9 +598,6 @@ p.footer-copy{
     justify-content: center;
 }
 
-  .logo:hover, .nav-links:hover {
-    color: #F06F54;
-  }
 
   .about {
     display: flex
